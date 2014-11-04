@@ -1,0 +1,16 @@
+body
+  margin: 0
+    
+.wrapper, .wrapper-full
+  max-width: 68em
+  margin-left: auto
+  margin-right: auto
+  padding: 1em
+  +clearfix
+  +outer-container
+  
++media($large-screen)  
+  .main-content
+    +span-columns(9)
+  .secondary-content
+    +span-columns(3)

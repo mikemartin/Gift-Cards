@@ -1,0 +1,55 @@
+.usermenu
+  $usermenu-background: $base-accent-color
+  $usermenu-color: white
+  $usermenu-link-color: $usermenu-color
+  $usermenu-disclaimer-color: transparentize($usermenu-color, .6)
+  $usermenu-height: 40px
+  background: $usermenu-background
+  line-height: $usermenu-height
+  width: 100%
+  height: $usermenu-height
+
+  .usermenu-wrapper 
+    max-width: 68em
+    margin-left: auto
+    margin-right: auto
+    padding-left: 1em
+    padding-right: 1em
+  
+  ul 
+    margin-bottom: 1em
+    +media($large-screen) 
+      float: left
+      margin-left: 1em
+      margin-bottom: 0
+    
+  ul li 
+    padding-right: 1em
+    font-weight: 800
+
+    +media($large-screen) 
+      display: inline
+      text-align: left
+
+  ul li a 
+    color: $usermenu-link-color
+
+    &:hover
+      color: transparentize($usermenu-color, 0)
+        
+  .cart 
+    color: white
+    padding: .65em $base-spacing
+    line-height: 1
+    border-radius: 0 0 6px 6px
+
+    +media($large-screen) 
+      float: right
+      
+    .button
+      text-transform: uppercase
+      border-radius: 8px
+      padding: .5em .75em
+    
+    
+  
