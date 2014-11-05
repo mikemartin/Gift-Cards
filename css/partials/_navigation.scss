@@ -16,7 +16,7 @@ header.navigation {
 
   width: 100%;
   z-index: 999;
-
+  @include clearfix;
   @include media ($horizontal-bar-mode) {
     height: $navigation-height;
   }
@@ -29,10 +29,14 @@ header.navigation {
   }
 
   .logo {
-    float: left;    
-    padding-left: $navigation-padding;
-    padding-right: 2em;
-
+    display: block;
+    text-align: center;
+    
+    clear: both;
+    @include media($large-screen) {
+      float: left;  
+    }
+    
     img {
       max-height: 110px;
       padding: .8em 0;
