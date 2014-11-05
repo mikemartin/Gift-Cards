@@ -380,8 +380,13 @@ header.navigation {
 
 // Utility Nav
 ul.utility-nav {
+  margin-top: 2.5em;
   font-weight: 800;
   float: right;
+  display: none;
+  @include media ($large-screen) {
+    display: block;
+  }
   .utility-nav-link {
     display: block;
     overflow: hidden;

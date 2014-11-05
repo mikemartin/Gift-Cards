@@ -18,34 +18,41 @@
   
   ul 
     margin-bottom: 1em
+    float: right
     +media($large-screen) 
-      float: left
       margin-left: 1em
       margin-bottom: 0
     
   ul li 
     padding-right: 1em
     font-weight: 800
-
-    +media($large-screen) 
-      display: inline
-      text-align: left
+    display: inline
+    text-align: left
+    
+    span
+      display: none
+      +media($large-screen)
+        display: inline
 
   ul li a 
     color: $usermenu-link-color
-
+    
     &:hover
       color: transparentize($usermenu-color, 0)
         
   .cart 
     color: white
-    padding: .65em $base-spacing
-    line-height: 1
-    border-radius: 0 0 6px 6px
-
+        
     +media($large-screen) 
       float: right
+      padding: .65em $base-spacing
+      background: $base-highlight-color
+      border-radius: 0 0 6px 6px
+      line-height: 1
       
+      .cart-wrapper
+        display: block
+
     .button
       text-transform: uppercase
       border-radius: 8px

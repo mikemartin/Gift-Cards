@@ -10,7 +10,25 @@
   
   margin: 2em 0;
   font-size: .8em;
+  line-height: 1.6em;
 
+  @include clearfix;
+
+  .pagination-count {
+    margin-right: 1.5em;
+    display: none;
+    @include media($large-screen) {
+      display: block;
+    }
+  }
+  
+  .pagination-count, .pagination-perpage {
+    float: left;
+  }
+  .pagination-pages {
+    float: right;
+  }
+ 
   ul {
     display: inline;
     text-align: center;
@@ -42,7 +60,6 @@
       border-color: transparent;
       color: $pagination-color;
       border-radius: 0.8em;
-      line-height: 1.6em;
       text-align: center;
       width: 1.6em; 
 

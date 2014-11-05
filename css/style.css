@@ -649,6 +649,9 @@ cite {
   cite:before {
     content: "\2014 \00A0"; }
 
+.page-title {
+  color: #9ACD35; }
+
 fieldset {
   background: #f7f7f7;
   border: 1px solid #DDD;
@@ -855,6 +858,9 @@ input[type="submit"], .button {
 
 .icon-cart:before {
   content: "H"; }
+
+.icon-contact:before {
+  content: "I"; }
 
 .icon-prev:before {
   content: "J"; }
@@ -1240,8 +1246,13 @@ header.navigation {
     vertical-align: middle; }
 
 ul.utility-nav {
+  margin-top: 2.5em;
   font-weight: 800;
-  float: right; }
+  float: right;
+  display: none; }
+  @media screen and (min-width: 53.75em) {
+    ul.utility-nav {
+      display: block; } }
   ul.utility-nav .utility-nav-link {
     display: block;
     overflow: hidden;
@@ -1274,31 +1285,37 @@ ul.utility-nav {
     padding-left: 1em;
     padding-right: 1em; }
   .usermenu ul {
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    float: right; }
     @media screen and (min-width: 53.75em) {
       .usermenu ul {
-        float: left;
         margin-left: 1em;
         margin-bottom: 0; } }
   .usermenu ul li {
     padding-right: 1em;
-    font-weight: 800; }
-    @media screen and (min-width: 53.75em) {
-      .usermenu ul li {
-        display: inline;
-        text-align: left; } }
+    font-weight: 800;
+    display: inline;
+    text-align: left; }
+    .usermenu ul li span {
+      display: none; }
+      @media screen and (min-width: 53.75em) {
+        .usermenu ul li span {
+          display: inline; } }
   .usermenu ul li a {
     color: white; }
     .usermenu ul li a:hover {
       color: white; }
   .usermenu .cart {
-    color: white;
-    padding: 0.65em 1.5em;
-    line-height: 1;
-    border-radius: 0 0 6px 6px; }
+    color: white; }
     @media screen and (min-width: 53.75em) {
       .usermenu .cart {
-        float: right; } }
+        float: right;
+        padding: 0.65em 1.5em;
+        background: #9ACD35;
+        border-radius: 0 0 6px 6px;
+        line-height: 1; }
+        .usermenu .cart .cart-wrapper {
+          display: block; } }
     .usermenu .cart .button {
       text-transform: uppercase;
       border-radius: 8px;
@@ -1372,9 +1389,6 @@ ul.utility-nav {
     .sidebar button:disabled {
       opacity: 0.5;
       cursor: not-allowed; }
-
-.cart {
-  background: #9ACD35; }
 
 .hero {
   background: url("../img/bokeh.png"), -webkit-linear-gradient(10deg, white, #9ACD35), no-repeat #9ACD35 scroll;
@@ -1577,7 +1591,22 @@ ul.utility-nav {
   border: 1px solid #DDD;
   padding: 0.375em 0.809em;
   margin: 2em 0;
-  font-size: .8em; }
+  font-size: .8em;
+  line-height: 1.6em; }
+  .pagination:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .pagination .pagination-count {
+    margin-right: 1.5em;
+    display: none; }
+    @media screen and (min-width: 53.75em) {
+      .pagination .pagination-count {
+        display: block; } }
+  .pagination .pagination-count, .pagination .pagination-perpage {
+    float: left; }
+  .pagination .pagination-pages {
+    float: right; }
   .pagination ul {
     display: inline;
     text-align: center; }
@@ -1600,7 +1629,6 @@ ul.utility-nav {
       border-color: transparent;
       color: #777;
       border-radius: 0.8em;
-      line-height: 1.6em;
       text-align: center;
       width: 1.6em; }
       .pagination ul li a:hover, .pagination ul li a:focus {
