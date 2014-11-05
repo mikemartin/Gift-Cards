@@ -3,8 +3,10 @@
   $pagination-border-color: $base-border-color;
   $pagination-border: 1px solid $pagination-border-color;
   $pagination-background: white;
-  $pagination-hover-background: lighten($pagination-background, 5);
+  $pagination-hover-background: lighten($pagination-border-color, 5);
   $pagination-color: $base-font-color;
+  border: $pagination-border;
+  padding: $base-spacing/4 $gutter/2;
   
   margin: 2em 0;
   font-size: .8em;
@@ -31,11 +33,13 @@
       }
     }
 
+    
     li a {
       @include transition (all 0.2s ease-in-out);
       display: inline-block;
       background: $pagination-background;
       border: $pagination-border;
+      border-color: transparent;
       color: $pagination-color;
       border-radius: 0.8em;
       line-height: 1.6em;
@@ -51,6 +55,14 @@
       &:active {
         background: $pagination-background;
       }
+    }
+    
+    li[class^="page-"] a {
+      border: $pagination-border;
+    }
+    
+    li.active a {
+      font-weight: bold;
     }
   }
   
