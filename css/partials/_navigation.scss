@@ -121,7 +121,6 @@ header.navigation {
       display: inline-block;
       color: $base-font-color;
       line-height: $navigation-height;
-
       @include media ($horizontal-bar-mode) {
         padding: .3em 1em;
         line-height: 1.2;

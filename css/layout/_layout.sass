@@ -1,3 +1,5 @@
+@import "media"
+
 body
   margin: 0
     
@@ -14,3 +16,17 @@ body
     +span-columns(9)
   .secondary-content
     +span-columns(3)
+    
+.field-group
+  +outer-container
+  
+  &.two-up
+    .field
+      +span-columns(6)
+  
+  +media($large-screen)  
+    &.three-up
+      .field
+        +span-columns(4)
+    
+    

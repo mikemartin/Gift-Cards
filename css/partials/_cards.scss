@@ -18,15 +18,15 @@
   cursor: pointer;
   position: relative;
   
-  @include media($large-screen-down) {
-    @include span-columns(2);
-    @include omega(2n);
-  }
-  
-  @include media($large-screen-up) {
-    @include span-columns(4);  
-    @include omega(3n);
-  }
+//  @include media($large-screen-down) {
+//    @include span-columns(2);
+//    @include omega(2n);
+//  }
+//  
+//  @include media($large-screen-up) {
+//    @include span-columns(4);  
+//    @include omega(3n);
+//  }
 
   .card-image {
     overflow: hidden;
