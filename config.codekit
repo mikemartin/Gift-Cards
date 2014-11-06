@@ -1944,6 +1944,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/partials\/_order.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/partials\/_order.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_order.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/partials\/_pagination.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2118,13 +2134,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/discover.png": {
+	"\/img\/Discover.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 373,
-		"inputAbbreviatedPath": "\/img\/discover.png",
-		"outputAbbreviatedPath": "\/img\/discover.png",
+		"inputAbbreviatedPath": "\/img\/Discover.png",
+		"outputAbbreviatedPath": "\/img\/Discover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2283,24 +2299,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mastercard.png": {
+	"\/img\/masterCard.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 458,
-		"inputAbbreviatedPath": "\/img\/mastercard.png",
-		"outputAbbreviatedPath": "\/img\/mastercard.png",
+		"inputAbbreviatedPath": "\/img\/masterCard.png",
+		"outputAbbreviatedPath": "\/img\/masterCard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/visa.png": {
+	"\/img\/Visa.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 179,
-		"inputAbbreviatedPath": "\/img\/visa.png",
-		"outputAbbreviatedPath": "\/img\/visa.png",
+		"inputAbbreviatedPath": "\/img\/Visa.png",
+		"outputAbbreviatedPath": "\/img\/Visa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2425,6 +2441,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_navigation.kit",
 		"outputAbbreviatedPath": "\/partials\/_navigation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_order-navigation.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_order-navigation.kit",
+		"outputAbbreviatedPath": "\/partials\/_order-navigation.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

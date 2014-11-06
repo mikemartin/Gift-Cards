@@ -13,7 +13,22 @@
     <script src="//use.typekit.net/jdj5eyc.js"></script>
     <script>try{Typekit.load();}catch(e){}</script></head>
 <body>
+  <div class="wrapper-full">
+  <header class="navigation order-navigation">
+      <div class="navigation-wrapper">
+        <a href="/" class="logo">
+          <img src="img/logo.png" alt="Logo Image">
+        </a>
 
+        <ul class="utility-nav">
+          <li class="utility-nav-link"><a href="javascript:void(0)" class="icon-signin icon--large">Sign In</a></li>
+          <li class="utility-nav-link active"><a href="javascript:void(0)" class="icon-payment icon--large">Payment</a></li>
+          <li class="utility-nav-link"><a href="javascript:void(0)" class="icon-order icon--large">Place Order</a></li>
+        </ul>
+
+      </div>
+  </header>
+</div>
   
   <main class="wrapper-full">
     <div class="main-content">
@@ -134,11 +149,26 @@
         
         
         <input type="submit" value="Add New Card" data-wait="Please wait...">
+        <h2 class="validation"></h2>
       </form>
     
     </div>
     <div class="secondary-content">
-       
+      <div class="order">
+        <div class="order-continue">
+          <a href="#" class="button order-button">Continue</a>
+          <p>You can review this order before it's final.</p>
+        </div>
+
+        <div class="order-tape">
+          <h4 class="order-tape-title">Order Total</h4>
+          <p>Subtotal: $258.50</p>
+          <p>Shipping: $250.00</p>
+
+          <p class="order-tape-total">Order Total: $522.34</p>
+        </div>
+      </div>
+      
     </div>
   </main>
   
@@ -178,17 +208,15 @@
       $('.cc-number').payment('formatCardNumber');
       $('.cc-exp').payment('formatCardExpiry');
       $('.cc-cvc').payment('formatCardCVC');
-      
+
       var $shippingCheckbox = $("#billing_is_shipping");
       toggleShippingAddressFields($shippingCheckbox.prop('checked'));
       $shippingCheckbox.on('change', function() {      
         toggleShippingAddressFields($(this).prop('checked')); 
       });
+      
     });
-    
-    
-
-  
   </script>
+  
 </body>
 </html>

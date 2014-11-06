@@ -6,6 +6,7 @@ $hero-background: darken(gray, 40);
 $hero-backside-background: darken($hero-background, 10);
 $hero-text-color: white;
 
+
 $hero-background-top: $base-highlight-color; 
 $hero-background-bottom: white;
 $gradient-angle: 10deg;
@@ -13,12 +14,9 @@ $hero-image: '../img/bokeh.png';
 $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg';
 
 .hero {
-  @include background(linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
-  background-image: url($hero-image);
-  background-repeat: no-repeat;
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), $hero-background-top scroll);
   background-size: cover;
   width: 100%;
-  min-height: 20em;
   border-bottom: $base-spacing/2 solid $base-highlight-color;
   overflow: hidden;
 
@@ -42,7 +40,7 @@ $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master
   padding: 2em;
   @include media($large-screen) {
     max-width: 50%;
-    padding: 4em;
+    //padding: 4em;
     float: left;
   }
 
@@ -68,5 +66,6 @@ $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master
   @include media($large-screen) {
     display: block;
     float: right;
+    width: $hero-image-width;
   }
 }

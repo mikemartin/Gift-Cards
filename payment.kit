@@ -4,6 +4,7 @@
   <!-- @include "partials/head" -->
 </head>
 <body>
+  <!-- @include "partials/order-navigation" -->
 
   
   <main class="wrapper-full">
@@ -125,11 +126,26 @@
         
         
         <input type="submit" value="Add New Card" data-wait="Please wait...">
+        <h2 class="validation"></h2>
       </form>
     
     </div>
     <div class="secondary-content">
-       
+      <div class="order">
+        <div class="order-continue">
+          <a href="#" class="button order-button">Continue</a>
+          <p>You can review this order before it's final.</p>
+        </div>
+
+        <div class="order-tape">
+          <h4 class="order-tape-title">Order Total</h4>
+          <p>Subtotal: $258.50</p>
+          <p>Shipping: $250.00</p>
+
+          <p class="order-tape-total">Order Total: $522.34</p>
+        </div>
+      </div>
+      
     </div>
   </main>
   
@@ -156,17 +172,15 @@
       $('.cc-number').payment('formatCardNumber');
       $('.cc-exp').payment('formatCardExpiry');
       $('.cc-cvc').payment('formatCardCVC');
-      
+
       var $shippingCheckbox = $("#billing_is_shipping");
       toggleShippingAddressFields($shippingCheckbox.prop('checked'));
       $shippingCheckbox.on('change', function() {      
         toggleShippingAddressFields($(this).prop('checked')); 
       });
+      
     });
-    
-    
-
-  
   </script>
+  
 </body>
 </html>

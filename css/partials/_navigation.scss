@@ -17,9 +17,9 @@ header.navigation {
   width: 100%;
   z-index: 999;
   @include clearfix;
-  @include media ($horizontal-bar-mode) {
-    height: $navigation-height;
-  }
+//  @include media ($horizontal-bar-mode) {
+//    height: $navigation-height;
+//  }
   
   .navigation-wrapper {
     @include clearfix;
@@ -332,6 +332,7 @@ header.navigation {
         color: $base-accent-color;
         line-height: 30px;
         display: none;
+        font-weight: bold;
         @include media($large-screen) {
           display: block;
           @include span-columns(1 of 6);
@@ -339,7 +340,10 @@ header.navigation {
       }
 
       button[type=submit] {
-        @include button(flat, $base-accent-color);
+        background-color: $base-accent-color;
+        &:hover {
+          background-color: lighten($base-accent-color,5);
+        }
         position: absolute;
         top: 0.3em;
         right: 0.3em;
@@ -409,14 +413,28 @@ ul.utility-nav {
       color: $base-accent-color;
 
       @include media ($large-screen) {
-        padding: .3em 1em;
+        padding: .3em;
+        margin: 0 1em;
         line-height: 1.2;
       }
 
       &:hover {
       }
     }
-    
-    
   }
+}
+
+header.order-navigation {
+  border-bottom: $base-border;
+  
+  .utility-nav-link a {
+    color: $base-border-color;
+    border-bottom: 3px transparent solid;
+  }
+  
+  .utility-nav-link.active a {
+    color: $base-accent-color;
+    border-bottom: 3px $base-accent-color solid;
+  }
+  
 }
