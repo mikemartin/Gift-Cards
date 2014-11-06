@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+    <title>Woolworths – the fresh food people</title>
+	<meta name="Author" content=""/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel=
+    "stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="//use.typekit.net/jdj5eyc.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script></head>
+<body>
+
+  
+  <main class="wrapper-full">
+    <div class="main-content">
+      
+      
+      <h1 class="page-title">Contact Us</h1>
+      <p>We're here to help. Please call us at <a href="tel:1-866-XXX-XXXX">1-866-XXX-XXXX</a> or fill out the form below.</p>
+      
+      
+      <form class="form-narrow">
+        <fieldset>
+          <h4>Select Payment</h4>
+          
+          <div class="button-group payment-types">
+            <label>
+              <input type="radio" name="button-group" value="item" checked>
+              <span class="button-group-item payment-item">
+                <div class="col col-type">
+                  <img src="img/visa.png"/> Visa ending 0734
+                </div>
+                <div class="col">Brian Winfield</div>
+                <div class="col">01/2018</div>                      
+              </span>
+            </label>
+            <label>
+              <input type="radio" name="button-group" value="other-item">
+              <span class="button-group-item payment-item">
+                <div class="col col-type">
+                  <img src="img/mastercard.png"/> Mastercard ending 0734
+                </div>
+                <div class="col">Brian Winfield</div>
+                <div class="col">01/2018</div>                      
+              </span>
+            </label>
+            <label>
+              <input type="radio" name="button-group" value="third">
+              <span class="button-group-item payment-item">
+                <div class="col col-type">
+                  <img src="img/amex.png"/> American Express ending 0734
+                </div>
+                <div class="col">Brian Winfield</div>
+                <div class="col">01/2018</div>                      
+              </span>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h4>Add a Credit Card</h4>
+          <label>Credit Card Number</label>
+          <input type="tel" data-stripe="number" x-autocompletetype="cc-number" autocompletetype="cc-number" class="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="Card Number" />
+
+          <div class="field-group two-up">
+            <div class="field">
+              <label>Expiry</label>
+              <input type="text" type="tel" size="7" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" class="cc-exp" placeholder="MM / YY" />
+            </div>
+            <div class="field">
+              <label>Security Code</label>
+              <input data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc" />
+              <div class="tooltip-item">
+                <a href="javascript:void(0)">What's this?</a>
+                <div class="tooltip">
+                  <h3>What is a Security Code?</h3>
+                  <p>A <strong>3 or 4 digit code</strong> on the back or front of your credit card.</p>
+                  <img src="img/csc.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h4>Billing address</h4>
+          <label>Name on Card</label>
+          <input type="text" name="first_name"/>
+          <label>Address Line 1</label>
+          <input type="text" name="billing_address_1"/>
+          <label>Address Line 2</label>
+          <input type="text" name="billing_address_2"/>
+
+          <div class="field-group three-up">
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="billing_city"/>
+            </div>
+            <div class="field">
+              <label>State</label>
+              <input type="text" name="billing_state"/>
+            </div>
+            <div class="field">
+              <label>Zip Code</label>
+              <input type="text" name="billing_zip"/>
+            </div>
+          </div>
+          
+          <label>
+            <input type="checkbox" id="billing_is_shipping" checked="checked"/>
+            Ship items to billing address
+          </label>
+        </fieldset>
+        
+        
+        <fieldset id="shipping-address">
+          <h4>Shipping address</h4>
+          <label>Address Line 1</label>
+          <input type="text" name="shipping_address_1"/>
+          <label>Address Line 2</label>
+          <input type="text" name="shipping_address_2"/>
+          <div class="field-group three-up">
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="shipping_city"/>
+            </div>
+            <div class="field">
+              <label>State</label>
+              <input type="text" name="shipping_state"/>
+            </div>
+            <div class="field">
+              <label>Zip Code</label>
+              <input type="text" name="shipping_zip"/>
+            </div>
+          </div>
+        </fieldset>
+        
+        
+        <input type="submit" value="Send" data-wait="Please wait...">
+      </form>
+    
+    </div>
+    <div class="secondary-content">
+              <div class="sidebar">
+        <ul>
+          <li class="nav-link active"><a href="javascript:void(0)">Contact Us</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">FAQs</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">Privacy Policy</a></li>
+        </ul>
+      </div>    </div>
+  </main>
+  
+  
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="js/main.js"></script>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=322477137904448&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <script src="//js.stripe.com/v2/"></script>
+  <script src="js/jquery.payment.js"></script>
+
+  <script>
+    function toggleShippingAddressFields(display) {
+      if (display) {
+        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
+        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
+        $("[name='shipping_city']").val($("[name='billing_city']").val());
+        $("[name='shipping_state']").val($("[name='billing_state']").val());
+        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
+        $("[name='shipping_country']").val($("[name='billing_country']").val());
+        $("#shipping-address").hide();
+      } else {
+          $("#shipping-address").show();
+      }
+    }
+    
+    $(function() {
+      $('.cc-number').payment('formatCardNumber');
+      $('.cc-exp').payment('formatCardExpiry');
+      $('.cc-cvc').payment('formatCardCVC');
+      
+      var $shippingCheckbox = $("#billing_is_shipping");
+      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
+      $shippingCheckbox.on('change', function() {      
+        toggleShippingAddressFields($(this).prop('checked')); 
+      });
+    });
+    
+    
+
+  
+  </script>
+</body>
+</html>
