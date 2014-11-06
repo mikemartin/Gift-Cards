@@ -18,6 +18,13 @@ body
   .secondary-content
     +span-columns(3)
     
+  .split-content
+    +span-columns(6, block-collapse)
+    padding: 0 $gutter
+    &:first-child
+      border-right: $base-border
+    
+
 .field-group
   +outer-container
   
@@ -34,4 +41,6 @@ body
 .form-narrow
   max-width: 34em
     
-    
+  
+.right
+  float: right

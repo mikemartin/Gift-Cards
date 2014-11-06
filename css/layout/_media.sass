@@ -13,14 +13,16 @@
   padding-bottom: 1em
   border-bottom: 1px solid transparentize($media-color, .9)
 
-  .media-image,
-  .media-content 
-    display: table-cell
-    vertical-align: $media-image-vert-alignment
+  +media($medium-screen)
+    .media-image,
+    .media-content 
+      display: table-cell
+      vertical-align: $media-image-vert-alignment
   
-  .media-image 
-    padding-right: $media-gutter
-  
+    .media-image
+      padding-right: $media-gutter
+      
+  .media-image   
     > [class^="icon-"]:before
       color: $base-highlight-color
       margin-right: 0

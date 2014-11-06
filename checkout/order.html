@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+    <title>Woolworths – the fresh food people</title>
+	<meta name="Author" content=""/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel=
+    "stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <script src="//use.typekit.net/jdj5eyc.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script></head>
+<body>
+  <div class="wrapper-full">
+  <header class="navigation checkout-navigation">
+      <div class="navigation-wrapper">
+        <a href="/" class="logo">
+          <img src="/img/logo.png" alt="Logo Image">
+        </a>
+
+        <ul class="utility-nav">
+          <li class="utility-nav-link"><a href="/checkout" class="icon-signin icon--large">Sign In</a></li>
+          <li class="utility-nav-link active"><a href="checkout/payment.html" class="icon-payment icon--large">Payment</a></li>
+          <li class="utility-nav-link"><a href="javascript:void(0)" class="icon-order icon--large">Place Order</a></li>
+        </ul>
+
+      </div>
+  </header>
+</div>
+  
+  <main class="wrapper-full">
+      <h3>Review Your Order</h3>
+      <p>By placing your order, you agree to the <a href="javascript:void(0);">cardholder terms and conditions</a></p>
+      
+      <table class="table-borders cart-table">
+          <thead class="cart-table-head">
+            <tr>
+              <th class="cart-table-title"><h4>E-Gift Card</h4></th>
+              <th>Card Value</th>
+              <th class="numeric">Card Price</th>
+              <th class="numeric">Quantity</th>
+              <th class="numeric">Total</th>
+              <th class="numeric">Action</th>
+           </tr>
+          </thead>
+          <tbody class="cart-table-body">
+            <tr>
+              <td>{{ title }}</td>
+              <td class="numeric">$25.00</td>
+              <td class="numeric">$0.99</td>
+              <td class="numeric">1</td>
+              <td class="numeric">$25.99</td>
+              <td><button>Edit</button><button>Remove</button></td>
+            </tr>
+            <tr>
+              <td>{{ title }}</td>
+              <td class="numeric">$25.00</td>
+              <td class="numeric">$0.99</td>
+              <td class="numeric">1</td>
+              <td class="numeric">$25.99</td>
+              <td><button>Edit</button><button>Remove</button></td>
+            </tr>
+          </tbody>
+          <tfoot class="cart-table-footer">
+            <tr>
+              <th colspan="5">Subtotal:</th>
+              <td>{{ subtotal }}</td>
+            </tr>
+            <tr>
+              <th colspan="5">Shipping:</th>
+              <td>{{ shipping }}</td>
+            </tr>
+            <tr>
+              <th colspan="5">Tax:</th>
+              <td>{{ tax }}</td>
+            </tr>
+            <tr>
+              <th colspan="5">Discount:</th>
+              <td>{{ discount }}</td>
+            </tr>
+            <tr>
+              <th colspan="5">Order Total:</th>
+              <td>{{ total }}</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+    
+    </div>
+<!--
+    <div class="secondary-content">
+      <div class="order">
+        <div class="order-continue">
+          <a href="#" class="button order-button">Place Your Order</a>
+        </div>
+
+        <div class="order-tape">
+          <h4 class="order-tape-title">Order Total</h4>
+          <p>Subtotal: $258.50</p>
+          <p>Shipping: $250.00</p>
+
+          <p class="order-tape-total">Order Total: $522.34</p>
+        </div>
+      </div>
+      
+    </div>
+-->
+  </main>
+  
+  
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="js/main.js"></script>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=322477137904448&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <script src="//js.stripe.com/v2/"></script>
+  <script src="js/jquery.payment.js"></script>
+
+  <script>
+    function toggleShippingAddressFields(display) {
+      if (display) {
+        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
+        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
+        $("[name='shipping_city']").val($("[name='billing_city']").val());
+        $("[name='shipping_state']").val($("[name='billing_state']").val());
+        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
+        $("[name='shipping_country']").val($("[name='billing_country']").val());
+        $("#shipping-address").hide();
+      } else {
+          $("#shipping-address").show();
+      }
+    }
+    
+    $(function() {
+      $('.cc-number').payment('formatCardNumber');
+      $('.cc-exp').payment('formatCardExpiry');
+      $('.cc-cvc').payment('formatCardCVC');
+
+      var $shippingCheckbox = $("#billing_is_shipping");
+      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
+      $shippingCheckbox.on('change', function() {      
+        toggleShippingAddressFields($(this).prop('checked')); 
+      });
+      
+    });
+  </script>
+  
+</body>
+</html>

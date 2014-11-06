@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <!-- @include "../partials/head" -->
+</head>
+<body>
+  <!-- @include "../partials/checkout-navigation" -->
+
+  
+  <main class="wrapper-full">
+    <div class="main-content">
+      <!-- @include "../partials/payment-cards" -->
+    </div>
+    <div class="secondary-content">
+      <div class="order">
+        <div class="order-continue">
+          <a href="#" class="button order-button">Continue</a>
+          <p>You can review this order before it's final.</p>
+        </div>
+
+        <div class="order-tape">
+          <h4 class="order-tape-title">Order Total</h4>
+          <p>Subtotal: $258.50</p>
+          <p>Shipping: $250.00</p>
+
+          <p class="order-tape-total">Order Total: $522.34</p>
+        </div>
+      </div>
+      
+    </div>
+  </main>
+  
+  <!-- @include "../partials/scripts" -->
+  <script src="//js.stripe.com/v2/"></script>
+  <script src="js/jquery.payment.js"></script>
+
+  <script>
+    function toggleShippingAddressFields(display) {
+      if (display) {
+        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
+        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
+        $("[name='shipping_city']").val($("[name='billing_city']").val());
+        $("[name='shipping_state']").val($("[name='billing_state']").val());
+        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
+        $("[name='shipping_country']").val($("[name='billing_country']").val());
+        $("#shipping-address").hide();
+      } else {
+          $("#shipping-address").show();
+      }
+    }
+    
+    $(function() {
+      $('.cc-number').payment('formatCardNumber');
+      $('.cc-exp').payment('formatCardExpiry');
+      $('.cc-cvc').payment('formatCardCVC');
+
+      var $shippingCheckbox = $("#billing_is_shipping");
+      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
+      $shippingCheckbox.on('change', function() {      
+        toggleShippingAddressFields($(this).prop('checked')); 
+      });
+      
+    });
+  </script>
+  
+</body>
+</html>

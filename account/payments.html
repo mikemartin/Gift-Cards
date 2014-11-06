@@ -71,13 +71,136 @@
   </header>
 </div>
   <main class="wrapper-full">
-    <h1 class="page-title">Buying for a Business</h1>
-    <img src="img/hero-graphic.jpg"/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Vestibulum</strong> vitae auctor dolor. Mauris maximus suscipit tellus, sit amet tempus nibh pellentesque consectetur. Proin fringilla massa vitae nibh semper pharetra. Sed lobortis est elementum eros ornare, vel pellentesque risus feugiat. Sed quis pharetra leo. Aenean magna purus, dignissim a magna malesuada, porttitor egestas tellus. Donec convallis diam quis metus aliquam tincidunt.</p>
+    <h1 class="page-title">Payments</h1>
+    
+    <div class="secondary-content">
+      <div class="sidebar">
+        <ul>
+          <li class="nav-link"><a href="javascript:void(0)">Home</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">Settings</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">Order History</a></li>
+          <li class="nav-link active"><a href="javascript:void(0)">Payments</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content">      
+      <form class="form-narrow">
+        <fieldset>
+          <h4>Select a Payment</h4>
+          
+          <div class="button-group payment-types">
+            <label>
+              <input type="radio" name="button-group" value="item" checked>
+              <span class="button-group-item payment-item">
+                <div class="col col-type">
+                  <img src="/img/visa.png"/> Visa ending 0734
+                </div>
+                <div class="col">Brian Winfield</div>
+                <div class="col">01/2018</div>                      
+              </span>
+            </label>
+            <label>
+              <input type="radio" name="button-group" value="other-item">
+              <span class="button-group-item payment-item">
+                <div class="col col-type">
+                  <img src="/img/mastercard.png"/> Mastercard ending 0734
+                </div>
+                <div class="col">Brian Winfield</div>
+                <div class="col">01/2018</div>                      
+              </span>
+            </label>
+            <label>
+              <input type="radio" name="button-group" value="third">
+              <span class="button-group-item payment-item">
+                <div class="col col-type">
+                  <img src="/img/amex.png"/> American Express ending 0734
+                </div>
+                <div class="col">Brian Winfield</div>
+                <div class="col">01/2018</div>                      
+              </span>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h4>Add a Credit Card</h4>
+          <label>Credit Card Number</label>
+          <input type="tel" data-stripe="number" x-autocompletetype="cc-number" autocompletetype="cc-number" class="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="Card Number" />
 
-    <p><strong>Pellentesque</strong> a augue elit. In fermentum condimentum nisi id eleifend. Curabitur nulla massa, vulputate at tellus non, tincidunt imperdiet odio. Sed accumsan urna vel risus volutpat pretium. Suspendisse potenti.</p>
+          <div class="field-group two-up">
+            <div class="field">
+              <label>Expiry</label>
+              <input type="text" type="tel" size="7" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" class="cc-exp" placeholder="MM / YY" />
+            </div>
+            <div class="field">
+              <label>Security Code</label>
+              <input data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc" />
+              <div class="tooltip-item">
+                <a href="javascript:void(0)">What's this?</a>
+                <div class="tooltip">
+                  <h3>What is a Security Code?</h3>
+                  <p>A <strong>3 or 4 digit code</strong> on the back or front of your credit card.</p>
+                  <img src="img/csc.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h4>Billing address</h4>
+          <label>Name on Card</label>
+          <input type="text" name="first_name"/>
+          <label>Address Line 1</label>
+          <input type="text" name="billing_address_1"/>
+          <label>Address Line 2</label>
+          <input type="text" name="billing_address_2"/>
 
-    <p>Suspendisse ultricies lobortis sem ut bibendum. <a href="#">Fusce bibendum</a> justo arcu, eget placerat nunc efficitur eu. Etiam ex nunc, facilisis sed nisi molestie, scelerisque aliquet augue. Cras varius tortor eget lacus pharetra pulvinar. Fusce sagittis, metus nec hendrerit lacinia, dui lacus feugiat mauris, non elementum risus tortor a orci. Sed volutpat fermentum felis. Nam eros magna, gravida sit amet venenatis et, sodales et est.</p>
+          <div class="field-group three-up">
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="billing_city"/>
+            </div>
+            <div class="field">
+              <label>State</label>
+              <input type="text" name="billing_state"/>
+            </div>
+            <div class="field">
+              <label>Zip Code</label>
+              <input type="text" name="billing_zip"/>
+            </div>
+          </div>
+          
+          <label>
+            <input type="checkbox" id="billing_is_shipping" checked="checked"/>
+            Ship items to billing address
+          </label>
+        </fieldset>
+        
+        
+        <fieldset id="shipping-address">
+          <h4>Shipping address</h4>
+          <label>Address Line 1</label>
+          <input type="text" name="shipping_address_1"/>
+          <label>Address Line 2</label>
+          <input type="text" name="shipping_address_2"/>
+          <div class="field-group three-up">
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="shipping_city"/>
+            </div>
+            <div class="field">
+              <label>State</label>
+              <input type="text" name="shipping_state"/>
+            </div>
+            <div class="field">
+              <label>Zip Code</label>
+              <input type="text" name="shipping_zip"/>
+            </div>
+          </div>
+        </fieldset>
+        
+        
+        <input type="submit" value="Add New Card" data-wait="Please wait...">
+      </form>    </div>
   </main>
 
   <section class="companies">

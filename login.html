@@ -70,16 +70,60 @@
       </div>
   </header>
 </div>
+  
   <main class="wrapper-full">
-    <h1 class="page-title">Buying for a Business</h1>
-    <img src="img/hero-graphic.jpg"/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Vestibulum</strong> vitae auctor dolor. Mauris maximus suscipit tellus, sit amet tempus nibh pellentesque consectetur. Proin fringilla massa vitae nibh semper pharetra. Sed lobortis est elementum eros ornare, vel pellentesque risus feugiat. Sed quis pharetra leo. Aenean magna purus, dignissim a magna malesuada, porttitor egestas tellus. Donec convallis diam quis metus aliquam tincidunt.</p>
-
-    <p><strong>Pellentesque</strong> a augue elit. In fermentum condimentum nisi id eleifend. Curabitur nulla massa, vulputate at tellus non, tincidunt imperdiet odio. Sed accumsan urna vel risus volutpat pretium. Suspendisse potenti.</p>
-
-    <p>Suspendisse ultricies lobortis sem ut bibendum. <a href="#">Fusce bibendum</a> justo arcu, eget placerat nunc efficitur eu. Etiam ex nunc, facilisis sed nisi molestie, scelerisque aliquet augue. Cras varius tortor eget lacus pharetra pulvinar. Fusce sagittis, metus nec hendrerit lacinia, dui lacus feugiat mauris, non elementum risus tortor a orci. Sed volutpat fermentum felis. Nam eros magna, gravida sit amet venenatis et, sodales et est.</p>
+    <h1 class="page-title">Login or Create Account</h1>
+    <div class="split-content">
+      
+      <form class="form-login">
+        <fieldset>
+          <h3>Returning Customer</h3>
+          <label for="email">Email Address</label>
+          <input type="email" value="" name="email" id="email" placeholder="Email">
+          <label for="password">Password</label>
+          <input type="password" value="" name="password" id="password" placeholder="Password">      
+          <input type="submit" class="right" value="Sign In" data-wait="Please wait...">
+          </fieldset>
+      </form>
+        
+      <form clas="form-password">
+        <fieldset>
+          <h4>Forgot Your Password</h4>
+          <label for="email">Email Address</label>
+          <input type="email" value="" name="email" id="email" placeholder="Email">
+          <input type="submit" class="right" value="Send Password" data-wait="Please wait...">
+          </fieldset>
+      </form>
+    
+    </div>
+    <div class="split-content">
+      <form class="form-create">
+        <fieldset>
+          <h3>New Customer</h3>
+          <label for="first-name">First Name</label>
+          <input type="text" value="" name="first-name" id="first-name">
+          <label for="last-name">Last Name</label>
+          <input type="text" value="" name="last-name" id="last-name">
+          <label for="email">Email</label>
+          <input type="email" value="" name="email" id="email">
+          <label for="email">Confirm Email</label>
+          <input type="email" value="" name="email-confirm" id="email-confirm">
+          <label for="password">Password</label>
+          <input type="password" value="" name="password" id="password">
+          <p class="instructions">Minimum of 6 characters with at least one number</p>
+          <label for="password-confirm">Confirm Password</label>
+          <input type="password" value="" name="password-confirm" id="password-confirm">  
+          
+          <label class="checkbox-small">
+            <input type="checkbox" class="checkbox" name="special-offers"> Woolworths may email me about special offers and promotions
+          </label>
+          
+          <input type="submit" class="right" value="Create Account" data-wait="Please wait...">
+          </fieldset>
+      </form>
+    </div>
   </main>
-
+  
   <section class="companies">
   <div class="wrapper-full">
     <ul>
@@ -136,5 +180,6 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
+  
 </body>
 </html>

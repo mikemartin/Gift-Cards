@@ -66,18 +66,104 @@
       border-bottom: 0px;
 
       button {
-        @include button(simple, $table-background);
-        margin-right: 0.5em;
+        padding: 0 .5em;
+        border-radius: 0;
+        background: transparent !important;
         display: inline-block;
         width: 100%;
         margin-bottom: .3em;
         outline: none;
+        color: $base-link-color;
+        font-weight: normal;
 
         @include media($medium-screen) {
           width: auto;
           margin-bottom: 0;
+          border-right: $base-border;
+          &:last-child {
+            border-right: 0;
+          }
+          &:hover {
+            color: $hover-link-color;
+          }
         }
       }
     }
   }
 }
+
+
+
+
+.cart-table {
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 0;
+  
+  .cart-table-title {
+    padding-left: 0;
+    width: 24em;
+  }
+  
+  .cart-table-actions {
+    width: 8em;
+  }
+  .cart-table-head th {
+    border: 0;
+  }
+  
+  .cart-table-body {
+    font-size: em(14);
+    td {
+      vertical-align: top;
+    }
+    td:last-child {
+      border-right: $base-border;
+    }
+  }
+  
+  .media {
+    border-bottom: 0;
+    padding: 0;
+    margin: 0;
+    .media-image > img {
+      width: 8em;
+    }
+  }
+  
+  .cart-table-footer {
+    td,th {
+      border: 0;
+      padding-bottom: 0;
+      text-align: right;
+    }
+    td {
+      padding-right: .5em;
+    }
+  }
+  
+  .numeric {
+    text-align: right;
+  }
+  
+  
+  @include media(max-width $large-screen) {
+
+    .optional {
+      display: none;
+    }
+    
+    .cart-table-title {
+      width: 75%;
+    }
+    
+    .cart-table-actions {
+      width: 25%;
+    }
+  }
+    
+
+}
+
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <!-- @include "../partials/head" -->
+</head>
+<body>
+  <!-- @include "../partials/checkout-navigation" -->
+
+  
+  <main class="wrapper-full">
+    <div class="split-content">
+      
+      <form class="form-login">
+        <fieldset>
+          <h3>Returning Customer</h3>
+          <label for="email">Email Address</label>
+          <input type="email" value="" name="email" id="email" placeholder="Email">
+          <label for="password">Password</label>
+          <input type="password" value="" name="password" id="password" placeholder="Password">      
+          <input type="submit" class="right" value="Sign In" data-wait="Please wait...">
+          </fieldset>
+      </form>
+        
+      <form clas="form-password">
+        <fieldset>
+          <h4>Forgot Your Password</h4>
+          <label for="email">Email Address</label>
+          <input type="email" value="" name="email" id="email" placeholder="Email">
+          <input type="submit" class="right" value="Send Password" data-wait="Please wait...">
+          </fieldset>
+      </form>
+    
+    </div>
+    <div class="split-content split-content-border">
+      <h3>New Customer</h3>
+      <section>
+        <h4>Save Time Now</h4>
+        <p>Check out now without creating an account. You can register for faster checkout later.</p>
+        <a href="javascript:void(0)" class="button">Continue as Guest</a>
+      </section>
+      <section>
+        <h4>Save Time Later</h4>
+        <p>Create a Woolworths account for fast checkout. Manager your order history and access saved card designs.</p>
+        <a href="javascript:void(0)" class="button">Continue as Guest</a>
+      </section>
+    </div>
+  </main>
+  
+  <!-- @include "../partials/scripts" -->
+  <script src="//js.stripe.com/v2/"></script>
+  <script src="js/jquery.payment.js"></script>
+
+  <script>
+    function toggleShippingAddressFields(display) {
+      if (display) {
+        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
+        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
+        $("[name='shipping_city']").val($("[name='billing_city']").val());
+        $("[name='shipping_state']").val($("[name='billing_state']").val());
+        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
+        $("[name='shipping_country']").val($("[name='billing_country']").val());
+        $("#shipping-address").hide();
+      } else {
+          $("#shipping-address").show();
+      }
+    }
+    
+    $(function() {
+      $('.cc-number').payment('formatCardNumber');
+      $('.cc-exp').payment('formatCardExpiry');
+      $('.cc-cvc').payment('formatCardCVC');
+
+      var $shippingCheckbox = $("#billing_is_shipping");
+      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
+      $shippingCheckbox.on('change', function() {      
+        toggleShippingAddressFields($(this).prop('checked')); 
+      });
+      
+    });
+  </script>
+  
+</body>
+</html>

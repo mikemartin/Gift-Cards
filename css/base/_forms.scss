@@ -75,3 +75,9 @@ select {
   max-width: 100%;
   width: auto;
 }
+
+
+.instructions, .checkbox-small {
+  font-size: em(12);
+  font-style: italic;
+}
