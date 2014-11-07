@@ -5,29 +5,38 @@
   $pagination-background: white;
   $pagination-hover-background: lighten($pagination-border-color, 5);
   $pagination-color: $base-font-color;
-  border: $pagination-border;
   padding: $base-spacing/4 $gutter/2;
-  
-  margin: 2em 0;
+  margin: 1em 0;
   font-size: .8em;
   line-height: 1.6em;
-
+  text-align: center;
   @include clearfix;
-
+  
+  .pagination-pages {
+    display: inline-block;
+  }
+  
+  @include media($large-screen) {
+    margin: 2em 0;
+    border: $pagination-border;
+    
+    .pagination-pages {
+      float: right;
+    }
+  }
+  
   .pagination-count {
     margin-right: 1.5em;
+  }
+  
+  .pagination-count, .pagination-perpage {
+    float: left;
     display: none;
     @include media($large-screen) {
       display: block;
     }
   }
-  
-  .pagination-count, .pagination-perpage {
-    float: left;
-  }
-  .pagination-pages {
-    float: right;
-  }
+
  
   ul {
     display: inline;

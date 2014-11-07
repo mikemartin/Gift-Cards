@@ -318,7 +318,7 @@ header.navigation {
         font-size: .9em;
         font-style: italic;
         color: $navigation-color;
-        border-radius: $base-border-radius * 2;
+        border-radius: $base-border-radius;
         margin: 0;
         
         @include media($large-screen) {
@@ -344,6 +344,7 @@ header.navigation {
         &:hover {
           background-color: lighten($base-accent-color,5);
         }
+        border-radius: 4px;
         position: absolute;
         top: 0.3em;
         right: 0.3em;

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <!-- @include "../partials/head" -->
+</head>
+<body>
+  <!-- @include "../partials/navigation" -->
+
+  <main class="wrapper-full">
+    <h1 class="page-title">Store Gift Cards</h1>
+    <!-- @include "../partials/card" -->
+
+    <form class="form-gift row">
+      <fieldset class="split-content">
+        <label for="gift-date">Delivery Date:</label>
+        <input type="text" value="" name="gift-date" id="gift-date">
+        <label for="gift-quantity">Quantity:</label>
+        <select name="gift-quantity" id="gift-quantity">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <label for="gift-amount">Card Amount:</label>
+        <input type="text" value="" name="gift-amount" id="gift-amount">
+      </fieldset>
+      <fieldset class="split-content">
+        <label for="gift-from">From:</label>
+        <input type="text" value="" name="gift-from" id="gift-from">
+        <label for="gift-to">To:</label>
+        <input type="text" value="" name="gift-to" id="gift-to">
+        <label for="gift-email">Recepient Email:</label>
+        <input type="email" value="" name="gift-email" id="gift-email">
+        <label for="gift-message">Message</label>
+        <textarea id="gift-message" name="gift-message"></textarea>
+        <button type="submit" class="icon-cart right">Add to Cart</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <!-- @include "../partials/footer" -->
+</body>
+</html>

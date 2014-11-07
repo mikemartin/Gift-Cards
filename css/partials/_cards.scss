@@ -14,7 +14,7 @@
   $card-stats-color: lighten($base-accent-color, 10);
 
   @include transition (all 0.2s ease-in-out);
-  margin-bottom: $base-spacing;
+  margin-bottom: 0;
   cursor: pointer;
   position: relative;
   

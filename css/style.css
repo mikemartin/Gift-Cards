@@ -1315,6 +1315,23 @@ body {
   .wrapper:after, .wrapper-full:after {
     clear: both; }
 
+.row {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+  .row:last-child {
+    margin-right: 0; }
+
 @media screen and (min-width: 53.75em) {
   .main-content {
     float: left;
@@ -1640,7 +1657,7 @@ header.navigation {
         font-size: .9em;
         font-style: italic;
         color: #0B9341;
-        border-radius: 12px;
+        border-radius: 6px;
         margin: 0; }
         @media screen and (min-width: 53.75em) {
           header.navigation .search-bar .search-and-submit input[type=search] {
@@ -1668,6 +1685,7 @@ header.navigation {
               margin-right: 0; } }
       header.navigation .search-bar .search-and-submit button[type=submit] {
         background-color: #0B9341;
+        border-radius: 4px;
         position: absolute;
         top: 0.3em;
         right: 0.3em;
@@ -1794,12 +1812,10 @@ header.checkout-navigation {
     display: table; }
   .sidebar:after {
     clear: both; }
-  @media screen and (min-width: 53.75em) {
-    .sidebar {
-      min-height: 420px; } }
   .sidebar .sidebar-title {
     font-size: 1em;
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    font-weight: bold; }
   .sidebar .nav-link a {
     color: #777;
     display: block;
@@ -1813,6 +1829,8 @@ header.checkout-navigation {
     font-weight: bold; }
   .sidebar .filter {
     margin-bottom: 1em; }
+    .sidebar .filter label {
+      font-weight: bold; }
   .sidebar button {
     font-size: .8em;
     width: 100%;
@@ -1820,6 +1838,44 @@ header.checkout-navigation {
     .sidebar button:disabled {
       opacity: 0.5;
       cursor: not-allowed; }
+
+@media screen and (max-width: 53.75em) {
+  .sidebar.expander:not(.expanded) .expander-toggle {
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+    padding-bottom: 0; }
+  .sidebar.expander .expander-toggle {
+    color: #0B9341; }
+    .sidebar.expander .expander-toggle:hover {
+      color: #064c22; } }
+@media screen and (min-width: 53.75em) {
+  .sidebar.expander .expander-content {
+    display: block !important; }
+  .sidebar.expander .expander-toggle {
+    color: inherit;
+    pointer-events: none; }
+    .sidebar.expander .expander-toggle:before {
+      display: none; } }
+
+.expander .expander-toggle {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom: 1px solid #DDD;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 0.25em; }
+  .expander .expander-toggle:before {
+    content: '\25BA';
+    font-size: 0.75em;
+    margin-right: 1em; }
+
+.expander.expanded .expander-toggle:before {
+  content: '\25BC';
+  margin-right: .95em; }
 
 .payment-item {
   *zoom: 1;
@@ -2006,7 +2062,7 @@ input.cc-number {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
   cursor: pointer;
   position: relative; }
   @media screen and (max-width: 53.75em) {
@@ -2083,27 +2139,33 @@ input.cc-number {
     text-align: center; }
 
 .pagination {
-  border: 1px solid #DDD;
   padding: 0.375em 0.809em;
-  margin: 2em 0;
+  margin: 1em 0;
   font-size: .8em;
   line-height: 1.6em;
+  text-align: center;
   *zoom: 1; }
   .pagination:before, .pagination:after {
     content: " ";
     display: table; }
   .pagination:after {
     clear: both; }
+  .pagination .pagination-pages {
+    display: inline-block; }
+  @media screen and (min-width: 53.75em) {
+    .pagination {
+      margin: 2em 0;
+      border: 1px solid #DDD; }
+      .pagination .pagination-pages {
+        float: right; } }
   .pagination .pagination-count {
-    margin-right: 1.5em;
+    margin-right: 1.5em; }
+  .pagination .pagination-count, .pagination .pagination-perpage {
+    float: left;
     display: none; }
     @media screen and (min-width: 53.75em) {
-      .pagination .pagination-count {
+      .pagination .pagination-count, .pagination .pagination-perpage {
         display: block; } }
-  .pagination .pagination-count, .pagination .pagination-perpage {
-    float: left; }
-  .pagination .pagination-pages {
-    float: right; }
   .pagination ul {
     display: inline;
     text-align: center; }
