@@ -277,26 +277,15 @@ header.navigation {
     }
   }
 
-  a.sign-up {
+  .sign-up {
+    @extend button;
     margin-top: 1.2em;
     float: right;
-    @include transition (all 0.2s ease-in-out);
     display: inline;
     background: $navigation-nav-button-background;
-    border-radius: $base-border-radius; 
-    color: white;
     font-size: .8em;  
-    font-weight: 800;
     text-transform: uppercase;
-    padding: .4em .5em;
-
-    @include media($large-screen) {
-      padding: .5em 1em;
-    }
-
-    &:hover {
-      background: lighten($navigation-nav-button-background, 10);
-    }
+    padding: .75em 1em;
   }
 
   // Search bar
@@ -306,6 +295,9 @@ header.navigation {
     $search-bar-border: 1px solid $search-bar-border-color;
     $search-bar-background: lighten($search-bar-border-color, 10);
     padding: .85em .6em; 
+    width: 100%;
+    margin: 0 auto;
+    //float: left;
     
     .search-and-submit {
       position: relative;
@@ -340,10 +332,7 @@ header.navigation {
       }
 
       button[type=submit] {
-        background-color: $base-accent-color;
-        &:hover {
-          background-color: lighten($base-accent-color,5);
-        }
+        @include button(flat, $base-accent-color);
         border-radius: 4px;
         position: absolute;
         top: 0.3em;
@@ -363,6 +352,7 @@ header.navigation {
     @include media($horizontal-bar-mode) {
       position: relative; 
       display: inline-block;
+      width: 60%;
 
       input {
         @include box-sizing(border-box);

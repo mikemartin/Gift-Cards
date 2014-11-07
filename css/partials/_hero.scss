@@ -14,18 +14,13 @@ $hero-image: '../img/bokeh.jpg';
 $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg';
 
 .hero {
-  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), $hero-background-top scroll);
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+
   background-size: cover;
   width: 100%;
   border-bottom: $base-spacing/2 solid $base-highlight-color;
   overflow: hidden;
-  
-  button {
-    @include button(simple, $base-background-color);
-    font-size: $base-font-size;
-    outline: none;
-  }
-  
+    
   .hero-wrapper {
     max-width: 68em;
     margin-left: auto;

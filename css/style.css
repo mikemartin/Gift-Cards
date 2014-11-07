@@ -200,7 +200,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-button,
+button, header.navigation .sign-up,
 input,
 optgroup,
 select,
@@ -215,7 +215,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-button {
+button, header.navigation .sign-up {
   overflow: visible; }
 
 /**
@@ -224,7 +224,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-button,
+button, header.navigation .sign-up,
 select {
   text-transform: none; }
 
@@ -235,7 +235,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button,
+button, header.navigation .sign-up,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -247,14 +247,14 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled],
+button[disabled], header.navigation [disabled].sign-up,
 html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner,
+button::-moz-focus-inner, header.navigation .sign-up::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -453,108 +453,10 @@ th {
  *
  * @type Bool
  */
-/* Neat 1.7.0.pre
+/* Neat 1.7.0
  * http://neat.bourbon.io
  * Copyright 2012-2014 thoughtbot, inc.
  * MIT License */
-/**
- * Returns a media context (media query / grid context) that can be stored in a variable and passed to `media()` as a single-keyword argument. Media contexts defined using `new-breakpoint` are used by the visual grid, as long as they are defined before importing Neat.
- *
- * @param {List} $query
- *   - A list of media query features and values. Each `$feature` should have a corresponding `$value`. If there is only a single `$value` in `$query`, `$default-feature` is going to be used. The number of total columns in the grid can be set by passing `$columns` at the end of the list (overrides `$total-columns`). For a list of valid values for `$feature`, click [here](http://www.w3.org/TR/css3-mediaqueries/#media1).
- *
- * @param {Number (unitless)} $total-columns ($grid-columns)
- *   - Number of columns to use in the new grid context. Can be set as a shorthand in the first parameter.
- *
- * @example scss - Usage
- *   $mobile: new-breakpoint(max-width 480px 4);
- *
- *   .element {
- *     @include media($mobile) {
- *       @include span-columns(4);
- *     }
- *   }
- *
- * @example css - CSS Output
- *   @media screen and (max-width: 480px) {
- *     .element {
- *       display: block;
- *       float: left;
- *       margin-right: 7.42297%;
- *       width: 100%;
- *     }
- *     .element:last-child {
- *       margin-right: 0;
- *     }
- *   }
- */
-/**
- * Sets the relative width of a single grid column. The unit used should be the same one used to define `$gutter`. To learn more about golden-ratio() see [Bourbon docs](http://bourbon.io/docs/#golden-ratio). Set with a `!global` flag.
- *
- * @type Number (Unit)
- */
-/**
- * Sets the relative width of a single grid gutter. The unit used should be the same one used to define `$column`. To learn more about golden-ratio() see [Bourbon docs](http://bourbon.io/docs/#golden-ratio). Set with the `!global` flag.
- *
- * @type Number (Unit)
- */
-/**
- * Sets the total number of columns in the grid. Its value can be overridden inside a media query using the `media()` mixin. Set with the `!global` flag.
- *
- * @type Number (Unitless)
- */
-/**
- * Sets the max-width property of the element that includes `outer-container()`. To learn more about `em()` see [Bourbon docs](http://bourbon.io/docs/#px-to-em). Set with the `!global` flag.
- *
- * @type Number (Unit)
- */
-/**
- * When set to true, it sets the box-sizing property of all elements to `border-box`. Set with a `!global` flag.
- *
- * @type Bool
- *
- * @example css - CSS Output
- *   * {
- *     -webkit-box-sizing: border-box;
- *     -moz-box-sizing: border-box;
- *     box-sizing: border-box;
- *   }
- */
-/**
- * Sets the default [media feature](http://www.w3.org/TR/css3-mediaqueries/#media) that `media()` and `new-breakpoint()` revert to when only a breakpoint value is passed. Set with a `!global` flag.
- *
- * @type String
- */
-/**
- * Sets the default layout direction of the grid. Can be `LTR` or `RTL`. Set with a `!global` flag.
- *
- * @type String
- */
-/**
- * Displays the visual grid when set to true. The overlaid grid may be few pixels off depending on the browser's rendering engine and pixel rounding algorithm. Set with the `!global` flag.
- *
- * @type Bool
- */
-/**
- * Sets the visual grid color. Set with `!global` flag.
- *
- * @type Color
- */
-/**
- * Sets the `z-index` property of the visual grid. Can be `back` (behind content) or `front` (in front of content). Set with `!global` flag.
- *
- * @type String
- */
-/**
- * Sets the opacity property of the visual grid. Set with `!global` flag.
- *
- * @type Number (unitless)
- */
-/**
- * Disable all deprecation warnings. Defaults to `false`. Set with a `!global` flag.
- *
- * @type Bool
- */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -565,345 +467,11 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
-/**
- * Removes the element's gutter margin, regardless of its position in the grid hierarchy or display property. It can target a specific element, or every `nth-child` occurrence. Works only with `block` layouts.
- *
- * @param {List} $query (block)
- *   List of arguments. Supported arguments are `nth-child` selectors (targets a specific pseudo element) and `auto` (targets `last-child`).
- *
- *   When passed an `nth-child` argument of type `*n` with `block` display, the omega mixin automatically adds a clear to the `*n+1` th element. Note that composite arguments such as `2n+1` do not support this feature.
- *
- *   **Deprecation warning**: The omega mixin will no longer take a `$direction` argument. To change the layout direction, use `row($direction)` or set `$default-layout-direction` instead.
- *
- * @example scss - Usage
- *   .element {
- *     @include omega;
- *   }
- *
- *   .nth-element {
- *     @include omega(4n);
- *   }
- *
- * @example css - CSS Output
- *   .element {
- *     margin-right: 0;
- *   }
- *
- *   .nth-element:nth-child(4n) {
- *     margin-right: 0;
- *   }
- *
- *   .nth-element:nth-child(4n+1) {
- *     clear: left;
- *   }
- */
-/**
- * Makes an element a outer container by centring it in the viewport, clearing its floats, and setting its `max-width`.
- * Although optional, using `outer-container` is recommended. The mixin can be called on more than one element per page, as long as they are not nested.
- *
- * @param {Number (unit)} $local-max-width ($max-width)
- *   Max width to be applied to the element. Can be a percentage or a measure.
- *
- * @example scss - Usage
- *   .element {
- *     @include outer-container(100%);
- *   }
- *
- * @example css - CSS Output
- *   .element {
- *     *zoom: 1;
- *     max-width: 100%;
- *     margin-left: auto;
- *     margin-right: auto;
- *   }
- *
- *   .element:before, .element:after {
- *     content: " ";
- *     display: table;
- *   }
- *
- *   .element:after {
- *     clear: both;
- *   }
- */
-/**
- * Specifies the number of columns an element should span. If the selector is nested the number of columns of its parent element should be passed as an argument as well.
- *
- * @param {List} $span
- *   A list containing `$columns`, the unitless number of columns the element spans (required), and `$container-columns`, the number of columns the parent element spans (optional).
- *
- *   If only one value is passed, it is assumed that it's `$columns` and that that `$container-columns` is equal to `$grid-columns`, the total number of columns in the grid.
- *
- *   The values can be separated with any string such as `of`, `/`, etc.
- *
- * @param {String} $display (block)
- *   Sets the display property of the element. By default it sets the display propert of the element to `block`.
- *
- *   If passed `block-collapse`, it also removes the margin gutter by adding it to the element width.
- *
- *   If passed `table`, it sets the display property to `table-cell` and calculates the width of the element without taking gutters into consideration. The result does not align with the block-based grid.
- *
- * @example scss - Usage
- *   .element {
- *     @include span-columns(6);
-
- *    .nested-element {
- *      @include span-columns(2 of 6);
- *    }
- *  }
- *
- * @example css - CSS Output
- *   .element {
- *     display: block;
- *     float: left;
- *     margin-right: 2.35765%;
- *     width: 48.82117%;
- *   }
- *
- *   .element:last-child {
- *     margin-right: 0;
- *   }
- *
- *   .element .nested-element {
- *     display: block;
- *     float: left;
- *     margin-right: 4.82916%;
- *     width: 30.11389%;
- *   }
- *
- *   .element .nested-element:last-child {
- *     margin-right: 0;
- *   }
- */
-/**
- * Designates the element as a row of columns in the grid layout. It clears the floats on the element and sets its display property. Rows can't be nested, but there can be more than one row element—with different display properties—per layout.
- *
- * @param {String} $display (default)
- *   Sets the display property of the element and the display context that will be used by its children. Can be `block` or `table`.
- *
- * @param {String} $direction ($default-layout-direction)
- *   Sets the layout direction. Can be `LTR` (left-to-right) or `RTL` (right-to-left).
- *
- * @example scss - Usage
- *   .element {
- *     @include row();
- *   }
- *
- * @example css - CSS Output
- *   .element {
- *     *zoom: 1;
- *     display: block;
- *   }
- *
- *  .element:before, .element:after {
- *    content: " ";
- *    display: table;
- *  }
- *
- *  .element:after {
- *    clear: both;
- *  }
- */
-/**
- * Translates an element horizontally by a number of columns. Positive arguments shift the element to the active layout direction, while negative ones shift it to the opposite direction.
- *
- * @param {Number (unitless)} $n-columns (1)
- *   Number of columns by which the element shifts.
- *
- * @example scss - Usage
- *   .element {
- *     @include shift(-3);
- *   }
- *
- * @example css - CSS output
- *   .element {
- *     margin-left: -25.58941%;
- *   }
- */
-/**
- * Translates an element horizontally by a number of columns, in a specific nesting context.
- *
- * @param {List} $shift
- *   A list containing the number of columns to shift (`$columns`) and the number of columns of the parent element (`$container-columns`).
- *
- *   The two values can be separated with any string such as `of`, `/`, etc.
- *
- * @example scss - Usage
- *   .element {
- *     @include shift(-3 of 6);
- *   }
- *
- * @example css - CSS output
- *   .element {
- *     margin-left: -52.41458%;
- *   }
- */
-/**
- * Adds padding to the element.
- *
- * @param {List} $padding (flex-gutter())
- *   A list of padding value(s) to use. Passing `default` in the list will result in using the gutter width as a padding value.
- *
- * @example scss - Usage
- *   .element {
- *     @include pad(30px -20px 10px default);
- *   }
- *
- * @example css - CSS Output
- *   .element {
- *     padding: 30px -20px 10px 2.35765%;
- *   }
- */
-/**
- * Forces the element to fill its parent container.
- *
- * @example scss - Usage
- *   .element {
- *     @include fill-parent;
- *   }
- *
- * @example css - CSS Output
- *   .element {
- *     width: 100%;
- *     -webkit-box-sizing: border-box;
- *     -moz-box-sizing: border-box;
- *     box-sizing: border-box;
- *   }
- */
-/**
- * Outputs a media-query block with an optional grid context (the total number of columns used in the grid).
- *
- * @param {List} $query
- *   A list of media query features and values, where each `$feature` should have a corresponding `$value`.
- *   For a list of valid values for `$feature`, click [here](http://www.w3.org/TR/css3-mediaqueries/#media1).
- *
- *   If there is only a single `$value` in `$query`, `$default-feature` is going to be used.
- *
- *   The number of total columns in the grid can be set by passing `$columns` at the end of the list (overrides `$total-columns`).
- *
- *
- * @param {Number (unitless)} $total-columns ($grid-columns)
- *   - Number of columns to use in the new grid context. Can be set as a shorthand in the first parameter.
- *
- * @example scss - Usage
- *   .responsive-element {
- *      @include media(769px) {
- *        @include span-columns(6);
- *      }
- *   }
- *
- *  .new-context-element {
- *    @include media(min-width 320px max-width 480px, 6) {
- *      @include span-columns(6);
- *    }
- *  }
- *
- * @example css - CSS Output
- *  @media screen and (min-width: 769px) {
- *    .responsive-element {
- *      display: block;
- *      float: left;
- *      margin-right: 2.35765%;
- *      width: 48.82117%;
- *    }
- *
- *    .responsive-element:last-child {
- *      margin-right: 0;
- *    }
- *  }
- *
- *  @media screen and (min-width: 320px) and (max-width: 480px) {
- *    .new-context-element {
- *      display: block;
- *      float: left;
- *      margin-right: 4.82916%;
- *      width: 100%;
- *    }
- *
- *    .new-context-element:last-child {
- *      margin-right: 0;
- *    }
- *  }
- */
-/**
- * Resets the active display property to `block`. Particularly useful when changing the display property in a single row.
- *
- * @example scss - Usage
- *   .element {
- *     @include row(table);
- *     // Context changed to table display
- *   }
- *
- *   @include reset-display;
- *   // Context is reset to block display
- */
-/**
- * Resets the active layout direction to the default value set in `$default-layout-direction`. Particularly useful when changing the layout direction in a single row.
- *
- * @example scss - Usage
- *   .element {
- *     @include row($direction: RTL);
- *     // Context changed to right-to-left
- *   }
- *
- *   @include reset-layout-direction;
- *   // Context is reset to left-to-right
- */
-/**
- * Resets both the active layout direction and the active display property.
- *
- * @example scss - Usage
- *   .element {
- *     @include row(table, RTL);
- *     // Context changed to table table and right-to-left
- *   }
- *
- *   @include reset-all;
- *   // Context is reset to block display and left-to-right
- */
-/**
- * Changes the display property used by other mixins called in the code block argument.
- *
- * @param {String} $display (block)
- *   Display value to be used within the block. Can be `table` or `block`.
- *
- * @example scss
- *   @include display(table) {
- *    .display-table {
- *      @include span-columns(6);
- *     }
- *   }
- *
- * @example css
- *   .display-table {
- *      display: table-cell;
- *      ...
- *   }
- */
-/**
- * Changes the direction property used by other mixins called in the code block argument.
- *
- * @param {String} $direction (left-to-right)
- *   Layout direction to be used within the block. Can be `left-to-right` or `right-to-left`.
- *
- * @example scss - Usage
- *   @include direction(right-to-left) {
- *    .right-to-left-block {
- *      @include span-columns(6);
- *     }
- *   }
- *
- * @example css - CSS Output
- *   .right-to-left-block {
- *     float: right;
- *      ...
- *   }
- */
 /* Bitters 0.10.0
  * http://bitters.bourbon.io
  * Copyright 2013–2014 thoughtbot, inc.
  * MIT License */
-button,
+button, header.navigation .sign-up,
 input[type="submit"], .button {
   -webkit-font-smoothing: antialiased;
   background-color: #ed5c04;
@@ -915,11 +483,11 @@ input[type="submit"], .button {
   line-height: 1;
   padding: 0.5em 1em;
   text-decoration: none; }
-  button:hover,
+  button:hover, header.navigation .sign-up:hover,
   input[type="submit"]:hover, .button:hover {
     background-color: #fb7829;
     color: white; }
-  button:disabled,
+  button:disabled, header.navigation .sign-up:disabled,
   input[type="submit"]:disabled, .button:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
@@ -933,7 +501,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: white;
   color: #777;
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -943,7 +511,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: 1.25;
   margin: 0;
   text-rendering: optimizeLegibility; }
@@ -1017,7 +585,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em; }
 
 label {
@@ -1040,7 +608,7 @@ select[multiple=multiple] {
   border-radius: 6px;
   border: 1px solid #DDD;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
@@ -1119,7 +687,7 @@ dl {
   dl dd {
     margin: 0; }
 
-button,
+button, header.navigation .sign-up,
 input[type="submit"], .button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1299,24 +867,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-  *zoom: 1;
-  *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .wrapper:before, .wrapper:after, .wrapper-full:before, .wrapper-full:after {
-    content: " ";
-    display: table; }
   .wrapper:after, .wrapper-full:after {
+    content: "";
+    display: table;
     clear: both; }
-  .wrapper:before, .wrapper:after, .wrapper-full:before, .wrapper-full:after {
-    content: " ";
-    display: table; }
   .wrapper:after, .wrapper-full:after {
+    content: "";
+    display: table;
     clear: both; }
 
 .row {
-  *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
@@ -1324,10 +887,9 @@ body {
   display: block;
   margin-right: 2.3576515979%;
   width: 100%; }
-  .row:before, .row:after {
-    content: " ";
-    display: table; }
   .row:after {
+    content: "";
+    display: table;
     clear: both; }
   .row:last-child {
     margin-right: 0; }
@@ -1359,14 +921,12 @@ body {
     .split-content:first-child {
       border-right: 1px solid #DDD; } }
 .field-group {
-  *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .field-group:before, .field-group:after {
-    content: " ";
-    display: table; }
   .field-group:after {
+    content: "";
+    display: table;
     clear: both; }
   .field-group.two-up .field {
     float: left;
@@ -1392,30 +952,24 @@ body {
 
 header.navigation {
   width: 100%;
-  z-index: 999;
-  *zoom: 1; }
-  header.navigation:before, header.navigation:after {
-    content: " ";
-    display: table; }
+  z-index: 999; }
   header.navigation:after {
+    content: "";
+    display: table;
     clear: both; }
   header.navigation .navigation-wrapper {
-    *zoom: 1;
-    *zoom: 1;
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     z-index: 9999; }
-    header.navigation .navigation-wrapper:before, header.navigation .navigation-wrapper:after {
-      content: " ";
-      display: table; }
     header.navigation .navigation-wrapper:after {
+      content: "";
+      display: table;
       clear: both; }
-    header.navigation .navigation-wrapper:before, header.navigation .navigation-wrapper:after {
-      content: " ";
-      display: table; }
     header.navigation .navigation-wrapper:after {
+      content: "";
+      display: table;
       clear: both; }
   header.navigation .logo {
     display: block;
@@ -1431,7 +985,7 @@ header.navigation {
     color: #0B9341;
     display: block;
     float: right;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 700;
     line-height: 60px;
     margin: 0;
@@ -1475,9 +1029,8 @@ header.navigation {
         flex-direction: row;
         -ms-flex-direction: row;
         min-height: 60px;
-        background-color: #DDD;
-        background: -webkit-linear-gradient( white, #DDD), no-repeat #DDD scroll;
-        background: linear-gradient( white, #DDD), no-repeat #DDD scroll;
+        background: -webkit-linear-gradient(white, #DDD), no-repeat #DDD scroll;
+        background: linear-gradient(white, #DDD), no-repeat #DDD scroll;
         border: 1px solid #e6e6e6;
         border-radius: 6px; } }
   header.navigation ul li.nav-link {
@@ -1613,43 +1166,30 @@ header.navigation {
         display: block; }
         header.navigation .navigation-tools .social-bar:last-child {
           margin-right: 0; } }
-  header.navigation a.sign-up {
+  header.navigation .sign-up {
     margin-top: 1.2em;
     float: right;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
     display: inline;
     background: #0B9341;
-    border-radius: 6px;
-    color: white;
     font-size: .8em;
-    font-weight: 800;
     text-transform: uppercase;
-    padding: .4em .5em; }
-    @media screen and (min-width: 53.75em) {
-      header.navigation a.sign-up {
-        padding: .5em 1em; } }
-    header.navigation a.sign-up:hover {
-      background: #0fc256; }
+    padding: .75em 1em; }
   header.navigation .search-bar {
-    padding: .85em .6em; }
+    padding: .85em .6em;
+    width: 100%;
+    margin: 0 auto; }
     header.navigation .search-bar .search-and-submit {
       position: relative;
-      *zoom: 1;
-      *zoom: 1;
       max-width: 68em;
       margin-left: auto;
       margin-right: auto; }
-      header.navigation .search-bar .search-and-submit:before, header.navigation .search-bar .search-and-submit:after {
-        content: " ";
-        display: table; }
       header.navigation .search-bar .search-and-submit:after {
+        content: "";
+        display: table;
         clear: both; }
-      header.navigation .search-bar .search-and-submit:before, header.navigation .search-bar .search-and-submit:after {
-        content: " ";
-        display: table; }
       header.navigation .search-bar .search-and-submit:after {
+        content: "";
+        display: table;
         clear: both; }
       header.navigation .search-bar .search-and-submit input[type=search] {
         border: 1px solid #DDD;
@@ -1683,8 +1223,17 @@ header.navigation {
             width: 12.6423684045%; }
             header.navigation .search-bar .search-and-submit label:last-child {
               margin-right: 0; } }
-      header.navigation .search-bar .search-and-submit button[type=submit] {
+      header.navigation .search-bar .search-and-submit button[type=submit], header.navigation .search-bar .search-and-submit [type=submit].sign-up {
         background-color: #0B9341;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        display: inline-block;
+        font-size: inherit;
+        font-weight: bold;
+        padding: 7px 18px;
+        text-decoration: none;
+        background-clip: padding-box;
         border-radius: 4px;
         position: absolute;
         top: 0.3em;
@@ -1693,15 +1242,23 @@ header.navigation {
         left: auto;
         outline: none;
         padding: 0 15px; }
-        header.navigation .search-bar .search-and-submit button[type=submit]:hover {
-          background-color: #0dab4b; }
-        header.navigation .search-bar .search-and-submit button[type=submit] img {
+        header.navigation .search-bar .search-and-submit button[type=submit]:hover:not(:disabled), header.navigation .search-bar .search-and-submit [type=submit].sign-up:hover:not(:disabled) {
+          background-color: #09ae4b;
+          cursor: pointer; }
+        header.navigation .search-bar .search-and-submit button[type=submit]:active:not(:disabled), header.navigation .search-bar .search-and-submit [type=submit].sign-up:active:not(:disabled), header.navigation .search-bar .search-and-submit button[type=submit]:focus:not(:disabled), header.navigation .search-bar .search-and-submit [type=submit].sign-up:focus:not(:disabled) {
+          background-color: #0c7937;
+          cursor: pointer; }
+        header.navigation .search-bar .search-and-submit button[type=submit]:disabled, header.navigation .search-bar .search-and-submit [type=submit].sign-up:disabled {
+          opacity: 0.5;
+          cursor: not-allowed; }
+        header.navigation .search-bar .search-and-submit button[type=submit] img, header.navigation .search-bar .search-and-submit [type=submit].sign-up img {
           height: 12px;
           opacity: .7; }
     @media screen and (min-width: 53.75em) {
       header.navigation .search-bar {
         position: relative;
-        display: inline-block; }
+        display: inline-block;
+        width: 60%; }
         header.navigation .search-bar input {
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
@@ -1801,16 +1358,14 @@ header.checkout-navigation {
       padding: 0.5em 0.75em; }
 
 .sidebar {
-  *zoom: 1;
   border: 1px solid #DDD;
   background: #f7f7f7;
   padding: 0.809em;
   border-radius: 6px;
   margin-bottom: 1em; }
-  .sidebar:before, .sidebar:after {
-    content: " ";
-    display: table; }
   .sidebar:after {
+    content: "";
+    display: table;
     clear: both; }
   .sidebar .sidebar-title {
     font-size: 1em;
@@ -1831,11 +1386,43 @@ header.checkout-navigation {
     margin-bottom: 1em; }
     .sidebar .filter label {
       font-weight: bold; }
-  .sidebar button {
+  .sidebar button, .sidebar header.navigation .sign-up, header.navigation .sidebar .sign-up {
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    border: none;
+    color: #333333;
+    display: inline-block;
+    font-size: inherit;
+    font-weight: bold;
+    padding: 7px 18px;
+    text-decoration: none;
+    background-clip: padding-box;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    border: none;
+    color: #333333;
+    display: inline-block;
+    font-size: inherit;
+    font-weight: bold;
+    padding: 7px 18px;
+    text-decoration: none;
+    background-clip: padding-box;
     font-size: .8em;
     width: 100%;
     color: #777; }
-    .sidebar button:disabled {
+    .sidebar button:hover:not(:disabled), .sidebar header.navigation .sign-up:hover:not(:disabled), header.navigation .sidebar .sign-up:hover:not(:disabled) {
+      background-color: white;
+      cursor: pointer; }
+    .sidebar button:active:not(:disabled), .sidebar header.navigation .sign-up:active:not(:disabled), header.navigation .sidebar .sign-up:active:not(:disabled), .sidebar button:focus:not(:disabled), .sidebar header.navigation .sign-up:focus:not(:disabled), header.navigation .sidebar .sign-up:focus:not(:disabled) {
+      background-color: #eaeaea;
+      cursor: pointer; }
+    .sidebar button:hover:not(:disabled), .sidebar header.navigation .sign-up:hover:not(:disabled), header.navigation .sidebar .sign-up:hover:not(:disabled) {
+      background-color: white;
+      cursor: pointer; }
+    .sidebar button:active:not(:disabled), .sidebar header.navigation .sign-up:active:not(:disabled), header.navigation .sidebar .sign-up:active:not(:disabled), .sidebar button:focus:not(:disabled), .sidebar header.navigation .sign-up:focus:not(:disabled), header.navigation .sidebar .sign-up:focus:not(:disabled) {
+      background-color: #eaeaea;
+      cursor: pointer; }
+    .sidebar button:disabled, .sidebar header.navigation .sign-up:disabled, header.navigation .sidebar .sign-up:disabled {
       opacity: 0.5;
       cursor: not-allowed; }
 
@@ -1878,15 +1465,13 @@ header.checkout-navigation {
   margin-right: .95em; }
 
 .payment-item {
-  *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
   padding: 0 0.5em !important; }
-  .payment-item:before, .payment-item:after {
-    content: " ";
-    display: table; }
   .payment-item:after {
+    content: "";
+    display: table;
     clear: both; }
   .payment-item .col {
     line-height: 40px;
@@ -1965,44 +1550,12 @@ input.cc-number {
     padding-top: 0.75em; }
 
 .hero {
-  background-color: #9ACD35;
-  background: url("../img/bokeh.jpg"), -webkit-linear-gradient(-280deg, white, #9ACD35), #9ACD35 scroll;
-  background: url("../img/bokeh.jpg"), linear-gradient(10deg, white, #9ACD35), #9ACD35 scroll;
+  background: url("../img/bokeh.jpg"), -webkit-linear-gradient(10deg, white, #9ACD35), no-repeat #9ACD35 scroll;
+  background: url("../img/bokeh.jpg"), linear-gradient(10deg, white, #9ACD35), no-repeat #9ACD35 scroll;
   background-size: cover;
   width: 100%;
   border-bottom: 0.75em solid #9ACD35;
   overflow: hidden; }
-  .hero button {
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    box-shadow: inset 0 1px 0 0 white;
-    color: #333333;
-    display: inline-block;
-    font-size: 11px;
-    font-weight: bold;
-    background-color: white;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #e3e3e3));
-    background-image: -webkit-linear-gradient(white, #e3e3e3);
-    background-image: linear-gradient(white, #e3e3e3);
-    padding: 7px 18px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 white;
-    background-clip: padding-box;
-    font-size: 1em;
-    outline: none; }
-    .hero button:hover:not(:disabled) {
-      box-shadow: inset 0 1px 0 0 white;
-      cursor: pointer;
-      background-color: #f2f2f2;
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #dbdbdb));
-      background-image: -webkit-linear-gradient(#f2f2f2, #dbdbdb);
-      background-image: linear-gradient(#f2f2f2, #dbdbdb); }
-    .hero button:active:not(:disabled) {
-      border: 1px solid #dbdbdb;
-      box-shadow: inset 0 0 8px 4px #d4d4d4, inset 0 0 8px 4px #d4d4d4, 0 1px 1px 0 #eee; }
-    .hero button:disabled {
-      opacity: 0.5;
-      cursor: not-allowed; }
   .hero .hero-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -2050,13 +1603,10 @@ input.cc-number {
       bottom: 0;
       right: 0; } }
 
-.cards {
-  *zoom: 1; }
-  .cards:before, .cards:after {
-    content: " ";
-    display: table; }
-  .cards:after {
-    clear: both; }
+.cards:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 .card {
   -webkit-transition: all 0.2s ease-in-out;
@@ -2100,8 +1650,8 @@ input.cc-number {
       border: 1px solid #DDD;
       background-color: #f7f7f7; }
   .card .ribbon-wrapper {
-    width: 85px;
     height: 85px;
+    width: 85px;
     overflow: hidden;
     position: absolute;
     top: -1px;
@@ -2143,12 +1693,10 @@ input.cc-number {
   margin: 1em 0;
   font-size: .8em;
   line-height: 1.6em;
-  text-align: center;
-  *zoom: 1; }
-  .pagination:before, .pagination:after {
-    content: " ";
-    display: table; }
+  text-align: center; }
   .pagination:after {
+    content: "";
+    display: table;
     clear: both; }
   .pagination .pagination-pages {
     display: inline-block; }
@@ -2230,12 +1778,10 @@ input.cc-number {
   background: #0B9341;
   border-top: 0.75em solid #9ACD35;
   padding: 1.5em;
-  width: 100%;
-  *zoom: 1; }
-  .footer:before, .footer:after {
-    content: " ";
-    display: table; }
+  width: 100%; }
   .footer:after {
+    content: "";
+    display: table;
     clear: both; }
   .footer .footer-wrapper {
     max-width: 68em;
@@ -2298,8 +1844,6 @@ input.cc-number {
 .tooltip-item {
   display: inline-block;
   position: relative; }
-  .tooltip-item > a {
-    cursor: help; }
   .tooltip-item:hover .tooltip {
     opacity: 1;
     visibility: visible; }
@@ -2313,15 +1857,16 @@ input.cc-number {
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     bottom: 140%;
-    background-color: #f7f7f7;
+    background-color: #fcfcfc;
     border-radius: 6px;
     color: #777;
     font-size: .9em;
+    line-height: 1.5em;
     margin-left: -8em;
     opacity: 0;
     padding: 1em;
     box-shadow: 0 2px 2px silver;
-    text-align: left;
+    text-align: center;
     visibility: hidden;
     min-width: 16em;
     z-index: 10; }
@@ -2336,12 +1881,12 @@ input.cc-number {
       left: 46%;
       margin-left: -8px;
       border: 8px solid transparent;
-      color: #f7f7f7;
+      color: #fcfcfc;
       content: '▼';
       text-shadow: 0 2px 2px silver;
       font-size: 1.4em;
       pointer-events: none;
-      bottom: -27.2px; }
+      bottom: -25.6px; }
 
 .table-borders {
   border: 1px solid #DDD;
@@ -2367,35 +1912,33 @@ input.cc-number {
     border-bottom-right-radius: 6px; }
   .table-borders thead th {
     background-color: white;
-    padding: 0.5em;
+    padding: 0.75em 1em;
     border-left: 1px solid #DDD;
     border-bottom: 0px; }
   .table-borders tbody {
     background-color: #f7f7f7; }
     .table-borders tbody td {
-      padding: 0.5em;
+      padding: 0.75em 1em;
       border-left: 1px solid #DDD;
       border-top: 1px solid #DDD;
       border-bottom: 0px; }
-      .table-borders tbody td button {
-        padding: 0 .5em;
-        border-radius: 0;
-        background: transparent !important;
+      .table-borders tbody td button, .table-borders tbody td header.navigation .sign-up, header.navigation .table-borders tbody td .sign-up {
+        padding: .3em .6em .3em;
+        font-size: .9em;
         display: inline-block;
         width: 100%;
         margin-bottom: .3em;
         outline: none;
+        background: transparent;
         color: #0B9341;
         font-weight: normal; }
         @media screen and (min-width: 40em) {
-          .table-borders tbody td button {
+          .table-borders tbody td button, .table-borders tbody td header.navigation .sign-up, header.navigation .table-borders tbody td .sign-up {
             width: auto;
-            margin-bottom: 0;
-            border-right: 1px solid #DDD; }
-            .table-borders tbody td button:last-child {
-              border-right: 0; }
-            .table-borders tbody td button:hover {
-              color: #064c22; } }
+            margin-bottom: 0; } }
+        @media screen and (min-width: 53.75em) {
+          .table-borders tbody td button, .table-borders tbody td header.navigation .sign-up, header.navigation .table-borders tbody td .sign-up {
+            font-size: .9em; } }
 
 .cart-table {
   border-bottom: 0;
@@ -2405,7 +1948,7 @@ input.cc-number {
     padding-left: 0;
     width: 24em; }
   .cart-table .cart-table-actions {
-    width: 8em; }
+    width: 9.25em; }
   .cart-table .cart-table-head th {
     border: 0; }
   .cart-table .cart-table-body {
@@ -2432,9 +1975,9 @@ input.cc-number {
     .cart-table .optional {
       display: none; }
     .cart-table .cart-table-title {
-      width: 75%; }
+      width: 70%; }
     .cart-table .cart-table-actions {
-      width: 25%; } }
+      width: 30%; } }
 
 .button-group {
   margin-top: 1em;

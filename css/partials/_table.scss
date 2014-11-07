@@ -6,7 +6,7 @@
   $table-hover-color: darken($table-background, 5);
   $table-stripe-color: darken($table-background, 4);
   $table-stripe-color-hover: darken($table-stripe-color, 5);
-  $table-padding: 0.5em;
+  $table-padding: 0.75em 1em;
 
   border: $table-border;
   border-left: 0px;
@@ -66,28 +66,28 @@
       border-bottom: 0px;
 
       button {
-        padding: 0 .5em;
-        border-radius: 0;
-        background: transparent !important;
+        padding: .3em .6em .3em;
+        font-size: .9em;
         display: inline-block;
         width: 100%;
         margin-bottom: .3em;
         outline: none;
-        color: $base-link-color;
+        background: transparent;
+        color: $base-accent-color;
         font-weight: normal;
 
         @include media($medium-screen) {
           width: auto;
           margin-bottom: 0;
-          border-right: $base-border;
-          &:last-child {
-            border-right: 0;
-          }
-          &:hover {
-            color: $hover-link-color;
-          }
         }
+
+        @include media($large-screen) {
+          font-size: .9em;
+        }
+        
       }
+      
+      
     }
   }
 }
@@ -106,7 +106,7 @@
   }
   
   .cart-table-actions {
-    width: 8em;
+    width: 9.25em;
   }
   .cart-table-head th {
     border: 0;
@@ -154,11 +154,11 @@
     }
     
     .cart-table-title {
-      width: 75%;
+      width: 70%;
     }
     
     .cart-table-actions {
-      width: 25%;
+      width: 30%;
     }
   }
     
