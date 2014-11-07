@@ -2216,24 +2216,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/amex.png": {
+	"\/img\/Amex.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 245,
-		"inputAbbreviatedPath": "\/img\/amex.png",
-		"outputAbbreviatedPath": "\/img\/amex.png",
+		"inputAbbreviatedPath": "\/img\/Amex.png",
+		"outputAbbreviatedPath": "\/img\/Amex.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/bokeh.png": {
-		"fileType": 32768,
+	"\/img\/bokeh.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/bokeh.png",
-		"outputAbbreviatedPath": "\/img\/bokeh.png",
+		"initialSize": 53452,
+		"inputAbbreviatedPath": "\/img\/bokeh.jpg",
+		"outputAbbreviatedPath": "\/img\/bokeh.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

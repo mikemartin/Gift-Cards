@@ -1,6 +1,6 @@
 $hero-padding-vertical: 5em;
 $hero-padding-horizontal: .4em;
-$hero-image-width: 25em;
+$hero-image-width: 30em;
 $hero-screen-height: 25em;
 $hero-background: darken(gray, 40);
 $hero-backside-background: darken($hero-background, 10);
@@ -10,7 +10,7 @@ $hero-text-color: white;
 $hero-background-top: $base-highlight-color; 
 $hero-background-bottom: white;
 $gradient-angle: 10deg;
-$hero-image: '../img/bokeh.png';
+$hero-image: '../img/bokeh.jpg';
 $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg';
 
 .hero {
@@ -19,7 +19,7 @@ $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master
   width: 100%;
   border-bottom: $base-spacing/2 solid $base-highlight-color;
   overflow: hidden;
-
+  
   button {
     @include button(simple, $base-background-color);
     font-size: $base-font-size;
@@ -32,16 +32,24 @@ $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master
     margin-right: auto;
     padding-left: 1em;
     padding-right: 1em;
+    position: relative;
+    overflow: hidden;
+    
+    @include media($large-screen) {
+      min-height: 22em;
+    }
   }
 }
 
 .hero-text {
   color: $hero-text-color;
-  padding: 2em;
+  padding-top: 2em;
+  font-size: em(12);
   @include media($large-screen) {
     max-width: 50%;
-    //padding: 4em;
+    padding-top: 4em;
     float: left;
+    font-size: 1em;
   }
 
   h1 {
@@ -52,7 +60,7 @@ $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master
   }
 
   p {
-    color: $base-font-color;
+    color: darken($base-font-color,20);
     margin-bottom: 1.5em;
     font-size: 1.2em;
     line-height: 1.3;
@@ -62,10 +70,18 @@ $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master
 .hero-image {
   display: none;
   position: relative;
+  bottom: 0;
+  
+  img {
+    display: block;
+  }
 
   @include media($large-screen) {
     display: block;
-    float: right;
+    //float: right;
     width: $hero-image-width;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
