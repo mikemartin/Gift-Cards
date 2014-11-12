@@ -12,6 +12,9 @@
   padding: 1em 0
   border-bottom: 1px solid transparentize($media-color, .9)
   
+  &:last-child
+    border-bottom: none
+      
   +media($medium-screen)
     .media-image,
     .media-content 
@@ -29,12 +32,13 @@
       &:before
         color: darken($base-highlight-color,10)
 
-    > img 
+    img 
       //width: $media-image-width
       height: auto
       border-radius: $base-border-radius
       display: block
       max-width: none
+      margin-bottom: 1em
     
     .media-reverse-order & 
       padding-right: 0

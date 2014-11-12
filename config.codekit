@@ -191,15 +191,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/checkout\/order.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/checkout\/order.kit",
-		"outputAbbreviatedPath": "\/checkout\/order.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/checkout\/payment.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -215,6 +206,24 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/checkout\/payment.kit",
 		"outputAbbreviatedPath": "\/checkout\/payment.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/checkout\/place-order.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/checkout\/place-order.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/checkout\/place-order.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/checkout\/place-order.kit",
+		"outputAbbreviatedPath": "\/checkout\/place-order.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

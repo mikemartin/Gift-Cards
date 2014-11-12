@@ -6,7 +6,6 @@
   $button-group-background-checked: $base-accent-color;
   $button-group-color-checked: white;
   $button-group-border-checked: darken($button-group-background-checked, 15);
-  margin-top: 1em;
   margin-bottom: 1em;
   @include clearfix;
 

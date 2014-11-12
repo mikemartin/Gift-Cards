@@ -22,8 +22,8 @@
 
         <ul class="utility-nav">
           <li class="utility-nav-link"><a href="/checkout" class="icon-signin icon--large">Sign In</a></li>
-          <li class="utility-nav-link active"><a href="checkout/payment.html" class="icon-payment icon--large">Payment</a></li>
-          <li class="utility-nav-link"><a href="javascript:void(0)" class="icon-order icon--large">Place Order</a></li>
+          <li class="utility-nav-link active"><a href="/checkout/payment.html" class="icon-payment icon--large">Payment</a></li>
+          <li class="utility-nav-link"><a href="/checkout/place-order.html" class="icon-order icon--large">Place Order</a></li>
         </ul>
 
       </div>
@@ -34,7 +34,7 @@
     <div class="main-content">
       <form class="form-narrow">
         <fieldset>
-          <h4>Select a Payment</h4>
+          <legend>Select a Payment</legend>
           
           <div class="button-group button-group--vertical payment-types">
             <label>
@@ -70,7 +70,7 @@
           </div>
         </fieldset>
         <fieldset>
-          <h4>Add a Credit Card</h4>
+          <legend>Add a Credit Card</legend>
           <label>Credit Card Number</label>
           <input type="tel" data-stripe="number" x-autocompletetype="cc-number" autocompletetype="cc-number" class="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="Card Number" />
 
@@ -94,7 +94,7 @@
           </div>
         </fieldset>
         <fieldset>
-          <h4>Billing address</h4>
+          <legend>Billing address</legend>
           <label>Name on Card</label>
           <input type="text" name="first_name"/>
           <label>Address Line 1</label>
@@ -152,7 +152,7 @@
     <div class="secondary-content">
       <div class="checkout-order">
         <div class="order-continue">
-          <a href="#" class="button order-button">Continue</a>
+          <a href="/checkout/place-order.html" class="button order-button">Continue</a>
           <p>You can review this order before it's final.</p>
         </div>
 

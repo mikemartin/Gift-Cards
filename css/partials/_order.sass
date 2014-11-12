@@ -68,44 +68,42 @@
 
 // Order Details
 
-.order-details
+.order-details, .order-items
   font-size: em(13)
   
-  .order-details-payment, .order-details-invoice
-    margin-bottom: $base-spacing
-    
+.order-details
+  
   .order-details-title
     border-bottom: $base-border
     font-size: 1rem
     margin-bottom: $base-spacing
-    
-  .order-details-items
-    border-top: $base-border
-    padding-top: $base-spacing
-    margin: $base-spacing 0
-    
-    .media-image img
-      width: 20em
-      margin-bottom: $base-spacing
-    
+        
   .order-payment-card 
     margin-bottom: $base-spacing
-    font-weight: bold
     img
       vertical-align: middle
       margin-right: .25em
+        
+  .col
+    margin-bottom: $base-spacing 
     
   +media($medium-screen)
-    .order-details-payment, .order-details-invoice
+    +outer-container
+    
+    .col
       +span-columns(6)
     
-    .order-details-invoice
+    .col:last-child
       +omega
       
-    .order-details-items
-      +span-columns(12)
-      
-  
+.order-items
+  border-top: $base-border
+  padding-top: $base-spacing
+  margin: $base-spacing 0
+
+  .media-image img
+    width: 20em
+    margin-bottom: $base-spacing    
     
 // Order listing         
 .order 
@@ -134,10 +132,8 @@
   .order-content
     +media($medium-screen)
       +span-columns(7 of 9)
-    .card 
-      +span-columns(3 of 6)
-      float: none
-    
+    .media-image, .media-content      
+      display: block
     
 // Checkout Order Details
 .checkout-order 

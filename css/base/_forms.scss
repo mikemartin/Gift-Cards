@@ -149,3 +149,30 @@ form {
 .right {
   float: right
 }
+
+.form-confirm {
+  margin-top: 1em;
+  border: $base-border;
+  background: lighten($base-border-color, 10);
+  padding: $base-spacing/2 $gutter/2;
+  position: relative;
+  .tooltip-item {
+    position: absolute;
+    top: $base-spacing/2;
+    right: $gutter/2;
+  }
+}
+
+
+.form-password h6 {
+  color: $base-accent-color;
+  margin-bottom: 1em;
+}
+
+.form-title {
+  margin-bottom: 1em;
+}
+
+.new-customer {
+  margin-bottom: $base-spacing;
+}
