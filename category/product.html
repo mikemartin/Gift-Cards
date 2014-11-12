@@ -71,8 +71,10 @@
   </header>
 </div>
   <main class="wrapper-full">
-    <h1 class="page-title">Store Gift Cards</h1>
-    <div class="card">
+    <form class="product">
+      <h1 class="page-title product-title">iTunes Gift Card</h1>
+      <div class="product-image">
+        <div class="card">
   <div class="ribbon-wrapper"><div class="ribbon">RIBBON</div></div>
   <div class="card-image">
       <a href="javascript:void(0)">
@@ -82,39 +84,65 @@
   <div class="card-copy">
       <p><a href="javascript:void(0)">Card Title / Description</a></p>
   </div>
-</div>
-    <form class="form-gift row">
-      <fieldset class="split-content">
+</div>      </div>
+      <fieldset class="product-custom">
+        <label for="gift-type">Type:</label>
+        <div class="button-group button-group--horizontal">
+          <label>
+            <input type="radio" name="button-group" value="Plastic Card" checked>
+            <span class="button-group-item">Plastic Card</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="eGift">
+            <span class="button-group-item">eGift Card</span>
+          </label>
+        </div>
         <label for="gift-date">Delivery Date:</label>
-        <input type="text" value="" name="gift-date" id="gift-date">
-        <label for="gift-quantity">Quantity:</label>
-        <select name="gift-quantity" id="gift-quantity">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-        <label for="gift-amount">Card Amount:</label>
-        <input type="text" value="" name="gift-amount" id="gift-amount">
+        <input type="text" value="" name="gift-date" class="datepicker">
+        <div class="field-group two-up">
+          <div class="field">
+            <label for="gift-quantity">Quantity:</label>
+            <select name="gift-quantity" class="product-quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="gift-amount">Card Amount:</label>
+            <input type="text" value="" name="gift-amount" class="product-amount">
+          </div>
+        </div>
       </fieldset>
-      <fieldset class="split-content">
+      <fieldset class="product-message">
         <label for="gift-from">From:</label>
-        <input type="text" value="" name="gift-from" id="gift-from">
+        <input type="text" value="" name="gift-from">
         <label for="gift-to">To:</label>
-        <input type="text" value="" name="gift-to" id="gift-to">
+        <input type="text" value="" name="gift-to">
         <label for="gift-email">Recepient Email:</label>
-        <input type="email" value="" name="gift-email" id="gift-email">
+        <input type="email" value="" name="gift-email">
         <label for="gift-message">Message</label>
-        <textarea id="gift-message" name="gift-message"></textarea>
+        <textarea name="gift-message"></textarea>
         <button type="submit" class="icon-cart right">Add to Cart</button>
       </fieldset>
     </form>
+      
+    <div class="product-details">
+      <h4>Description</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae auctor dolor. Mauris maximus suscipit tellus, sit amet tempus nibh pellentesque consectetur. Proin fringilla massa vitae nibh semper pharetra. Sed lobortis est elementum eros ornare, vel pellentesque risus feugiat. Sed quis pharetra leo. Aenean magna purus, dignissim a magna malesuada, porttitor egestas tellus. Donec convallis diam quis metus aliquam tincidunt.</p>
+      <h4>Disclaimers</h4>
+      <p>Pellentesque a augue elit. In fermentum condimentum nisi id eleifend. Curabitur nulla massa, vulputate at tellus non, tincidunt imperdiet odio. Sed accumsan urna vel risus volutpat pretium. Suspendisse potenti.</p>
+      <h4>Terms &amp; Conditions</h4>
+    <p>Suspendisse ultricies lobortis sem ut bibendum. <a href="#">Fusce bibendum</a> justo arcu, eget placerat nunc efficitur eu. Etiam ex nunc, facilisis sed nisi molestie, scelerisque aliquet augue. Cras varius tortor eget lacus pharetra pulvinar. Fusce sagittis, metus nec hendrerit lacinia, dui lacus feugiat mauris, non elementum risus tortor a orci. Sed volutpat fermentum felis. Nam eros magna, gravida sit amet venenatis et, sodales et est.</p>
+    </div>
+    
   </main>
 
   <section class="companies">
@@ -123,7 +151,7 @@
       <li><a href="javascript:void(0)"><img src="/img/logos/woolworths.png"></a></li>
       <li><a href="javascript:void(0)"><img src="/img/logos/bigw.png"></a></li>
       <li><a href="javascript:void(0)"><img src="/img/logos/caltex.png"></a></li>
-      <li><a href="javascript:void(0)"><img src="img/logos/bws.png"></a></li>
+      <li><a href="javascript:void(0)"><img src="/img/logos/bws.png"></a></li>
       <li><a href="javascript:void(0)"><img src="/img/logos/danmurphys.png"></a></li>
       <li><a href="javascript:void(0)"><img src="/img/logos/masters.png"></a></li>
       <li><a href="javascript:void(0)"><img src="/img/logos/cellarmasters.png"></a></li>
@@ -160,7 +188,9 @@
 
 
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
-  <script src="/js/main.js"></script>
+<script src="/js/picker.js"></script>
+<script src="/js/picker.date.js"></script>
+<script src="/js/main.js"></script>
 
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 

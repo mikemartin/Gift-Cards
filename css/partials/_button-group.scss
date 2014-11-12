@@ -7,7 +7,8 @@
   $button-group-color-checked: white;
   $button-group-border-checked: darken($button-group-background-checked, 15);
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  @include clearfix;
 
   input {
     display: none;
@@ -15,7 +16,6 @@
   
   label {
     margin-bottom: 0;
-
     .button-group-item {
       background: $button-group-background;
       border-left: $button-group-border;
@@ -57,11 +57,9 @@
   }
   
 
-
-
   @include media($large-screen) {
 
-    &.button-group--horizontal label {
+    &:not(.button-group--vertical) label {
       float: left;
 
       .button-group-item {

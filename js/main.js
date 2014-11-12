@@ -49,6 +49,7 @@ Expander = (function() {
 
 
 
+
 $(function() {
   var menu = $('#navigation-menu');
   var menuToggle = $('#js-mobile-menu');
@@ -71,6 +72,9 @@ $(function() {
     $(this).addClass("active-nav-item");
     $(".nav .more").removeClass("active-nav-item");
   });
+  
+  
+  $('.datepicker').pickadate();
   
   return Expander.enhance();
 });

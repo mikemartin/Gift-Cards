@@ -1,0 +1,21 @@
+//
+// Base colors overrides
+//
+$blue: $base-accent-color;
+$blue-hover: lighten($light-gray,10);
+$blue-tag: $base-accent-color;
+$black: $dark-gray;
+
+//
+// Backgrounds overrides
+//
+$bg-white: $base-background-color;
+$bg-grey-light: #f2f2f2;
+
+//
+// Borders overrides
+//
+$border-grey: $base-border-color;
+$border-grey-light: $light-gray;
+$border-select: darken( $border-grey-light, 15% );
+

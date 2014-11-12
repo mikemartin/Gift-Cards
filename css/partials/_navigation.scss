@@ -312,6 +312,7 @@ header.navigation {
         color: $navigation-color;
         border-radius: $base-border-radius;
         margin: 0;
+        max-width: 100%;
         
         @include media($large-screen) {
           @include span-columns(5 of 6);

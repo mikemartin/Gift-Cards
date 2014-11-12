@@ -2,7 +2,7 @@
         <fieldset>
           <h4>Select a Payment</h4>
           
-          <div class="button-group payment-types">
+          <div class="button-group button-group--vertical payment-types">
             <label>
               <input type="radio" name="button-group" value="item" checked>
               <span class="button-group-item payment-item">
@@ -40,14 +40,14 @@
           <label>Credit Card Number</label>
           <input type="tel" data-stripe="number" x-autocompletetype="cc-number" autocompletetype="cc-number" class="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="Card Number" />
 
-          <div class="field-group two-up">
+          <div class="field-half">
             <div class="field">
               <label>Expiry</label>
               <input type="text" type="tel" size="7" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" class="cc-exp" placeholder="MM / YY" />
             </div>
             <div class="field">
               <label>Security Code</label>
-              <input data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc" />
+              <input data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc input-small" />
               <div class="tooltip-item">
                 <a href="javascript:void(0)">What's this?</a>
                 <div class="tooltip">
@@ -68,7 +68,7 @@
           <label>Address Line 2</label>
           <input type="text" name="billing_address_2"/>
 
-          <div class="field-group three-up">
+          <div class="field-third">
             <div class="field">
               <label>City</label>
               <input type="text" name="billing_city"/>
@@ -96,7 +96,7 @@
           <input type="text" name="shipping_address_1"/>
           <label>Address Line 2</label>
           <input type="text" name="shipping_address_2"/>
-          <div class="field-group three-up">
+          <div class="field-third">
             <div class="field">
               <label>City</label>
               <input type="text" name="shipping_city"/>

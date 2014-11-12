@@ -4,6 +4,7 @@ $serif: 'news-gothic-std', $helvetica;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
 
+
 // Font Sizes
 $base-font-size: 1em;
 $h1-font-size: $base-font-size * 2.25;
@@ -23,35 +24,36 @@ $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
 // Colors
-$blue: #477DCA;
 $green: #0B9341;
+$orange: #ed5c04;
 $dark-gray: #777;
 $medium-gray: #999;
 $light-gray: #DDD;
-$light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
+
+$light-red: #f2826c;
+$light-yellow: #fcc170;
 $light-green: #9ACD35;
+$light-blue: #4bbccb;
 
 // Background Color
 $base-background-color: white;
 
 // Font Colors
 $base-font-color: $dark-gray;
-
 $base-accent-color: $green;
 $base-highlight-color: $light-green;
+$base-button-color: $orange;
 
 
 // Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
-$base-button-color: #ed5c04;
-$hover-button-color: lighten(#ed5c04, 10);
+$hover-button-color: lighten($base-button-color, 10);
 
 // Flash Colors
 $alert-color: $light-yellow;
 $error-color: $light-red;
-$notice-color: lighten($base-accent-color, 40);
+$notice-color: $light-blue;
 $success-color: $light-green;
 
 // Border color
