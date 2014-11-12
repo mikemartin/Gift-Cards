@@ -22,6 +22,16 @@
   font-style: normal;
   font-weight: normal !important;
   -webkit-font-smoothing: antialiased;
+  
+}
+
+
+button,
+input[type="submit"], .button {
+  &:before,
+  &:before {
+    line-height: 0;
+  }
 }
 
 .icon--large:before {

@@ -2,16 +2,25 @@
   +clearfix
 
   border-bottom: 1px solid $base-border-color
-    
-  .order-actions
-    float: right
+  padding: $base-spacing 0
+  margin-bottom: $base-spacing
+ 
+  +media($large-screen)
+    .order-status
+      float: left
 
+    .order-actions
+      float: right
+  .order-actions
+    text-align: center
+    +media($large-screen)
+      text-align: right
   .order-status
     border-top: 1px solid $base-border-color
     margin-top: 20px
     margin-bottom: $base-spacing
-    float: left
     height: 30px
+    text-align: center
       
     .status
       display: inline-block
@@ -57,10 +66,33 @@
 // Order Details
 
 .order-details
+  font-size: em(13)
+  
+  .order-details-payment, .order-details-invoice
+    margin-bottom: $base-spacing
+    
   .order-details-title
     border-bottom: $base-border
+    font-size: 1rem
+    margin-bottom: $base-spacing
     
-  +media($large-screen)
+  .order-details-items
+    border-top: $base-border
+    padding-top: $base-spacing
+    margin: $base-spacing 0
+    
+    .media-image img
+      width: 20em
+      margin-bottom: $base-spacing
+    
+  .order-payment-card 
+    margin-bottom: $base-spacing
+    font-weight: bold
+    img
+      vertical-align: middle
+      margin-right: .25em
+    
+  +media($medium-screen)
     .order-details-payment, .order-details-invoice
       +span-columns(6)
     
@@ -69,6 +101,7 @@
       
     .order-details-items
       +span-columns(12)
+      
   
     
 // Order listing         

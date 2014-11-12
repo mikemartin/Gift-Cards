@@ -790,6 +790,11 @@ input[type="submit"], .button {
   font-weight: normal !important;
   -webkit-font-smoothing: antialiased; }
 
+button:before, header.navigation .sign-up:before, button:before, header.navigation .sign-up:before,
+input[type="submit"]:before,
+input[type="submit"]:before, .button:before, .button:before {
+  line-height: 0; }
+
 .icon--large:before {
   font-size: 2.5em;
   line-height: 1; }
@@ -1541,19 +1546,29 @@ input.cc-number {
     background-image: url(../img/amex.png); }
 
 .order-tools {
-  border-bottom: 1px solid #DDD; }
+  border-bottom: 1px solid #DDD;
+  padding: 1.5em 0;
+  margin-bottom: 1.5em; }
   .order-tools:after {
     content: "";
     display: table;
     clear: both; }
+  @media screen and (min-width: 53.75em) {
+    .order-tools .order-status {
+      float: left; }
+    .order-tools .order-actions {
+      float: right; } }
   .order-tools .order-actions {
-    float: right; }
+    text-align: center; }
+    @media screen and (min-width: 53.75em) {
+      .order-tools .order-actions {
+        text-align: right; } }
   .order-tools .order-status {
     border-top: 1px solid #DDD;
     margin-top: 20px;
     margin-bottom: 1.5em;
-    float: left;
-    height: 30px; }
+    height: 30px;
+    text-align: center; }
     .order-tools .order-status .status {
       display: inline-block;
       text-align: center;
@@ -1588,25 +1603,44 @@ input.cc-number {
       .order-tools .order-status .status.completed.status-out:before {
         color: #f2826c; }
 
-.order-details .order-details-title {
-  border-bottom: 1px solid #DDD; }
-@media screen and (min-width: 53.75em) {
+.order-details {
+  font-size: 0.8125em; }
   .order-details .order-details-payment, .order-details .order-details-invoice {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 48.821174201%; }
-    .order-details .order-details-payment:last-child, .order-details .order-details-invoice:last-child {
-      margin-right: 0; }
-  .order-details .order-details-invoice {
-    margin-right: 0; }
+    margin-bottom: 1.5em; }
+  .order-details .order-details-title {
+    border-bottom: 1px solid #DDD;
+    font-size: 1rem;
+    margin-bottom: 1.5em; }
   .order-details .order-details-items {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 100%; }
-    .order-details .order-details-items:last-child {
-      margin-right: 0; } }
+    border-top: 1px solid #DDD;
+    padding-top: 1.5em;
+    margin: 1.5em 0; }
+    .order-details .order-details-items .media-image img {
+      width: 20em;
+      margin-bottom: 1.5em; }
+  .order-details .order-payment-card {
+    margin-bottom: 1.5em;
+    font-weight: bold; }
+    .order-details .order-payment-card img {
+      vertical-align: middle;
+      margin-right: 0.25em; }
+  @media screen and (min-width: 40em) {
+    .order-details .order-details-payment, .order-details .order-details-invoice {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 48.821174201%; }
+      .order-details .order-details-payment:last-child, .order-details .order-details-invoice:last-child {
+        margin-right: 0; }
+    .order-details .order-details-invoice {
+      margin-right: 0; }
+    .order-details .order-details-items {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .order-details .order-details-items:last-child {
+        margin-right: 0; } }
 
 .order {
   font-size: 0.8125em;
