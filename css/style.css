@@ -874,8 +874,7 @@ input[type="submit"]:before, .button:before, .button:before {
 .media {
   display: table;
   width: 100%;
-  margin-bottom: 1.5em;
-  padding-bottom: 1em;
+  padding: 1em 0;
   border-bottom: 1px solid rgba(119, 119, 119, 0.1); }
   @media screen and (min-width: 40em) {
     .media .media-image,
@@ -912,6 +911,19 @@ input[type="submit"]:before, .button:before, .button:before {
       font-style: italic;
       font-size: 0.9em;
       color: rgba(119, 119, 119, 0.5); }
+
+.media-links .media {
+  color: #777; }
+  @media screen and (min-width: 40em) {
+    .media-links .media {
+      padding: 1em; } }
+  .media-links .media .media-image, .media-links .media .media-content {
+    display: table-cell;
+    vertical-align: top; }
+  .media-links .media .media-image {
+    padding-right: 1.4em; }
+  .media-links .media:hover {
+    background: #fcfcfc; }
 
 body {
   margin: 0; }

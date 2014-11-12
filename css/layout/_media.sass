@@ -9,10 +9,9 @@
 
   display: table
   width: 100%
-  margin-bottom: $base-spacing
-  padding-bottom: 1em
+  padding: 1em 0
   border-bottom: 1px solid transparentize($media-color, .9)
-
+  
   +media($medium-screen)
     .media-image,
     .media-content 
@@ -60,6 +59,22 @@
       font-size: .9em
       color: $media-detail-color
     
-  
+
+
+.media-links .media
+  color: $base-font-color
+  +media($medium-screen)
+    padding: 1em
+  .media-image, .media-content 
+    display: table-cell
+    vertical-align: top
+
+  .media-image
+    padding-right: 1.4em
+  &:hover
+    background: darken($base-background-color,1)
+      
+
+
 
 
