@@ -1837,7 +1837,7 @@ input.cc-number {
       width: 31.7615656014%; }
       .product .product-image:last-child, .product .product-custom:last-child, .product .product-message:last-child {
         margin-right: 0; }
-    .product .product-custom .two-up .field {
+    .product .product-custom .field-half .field {
       float: none; }
     .product .datepicker {
       max-width: 16em; } }
