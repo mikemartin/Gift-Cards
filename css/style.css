@@ -1553,16 +1553,14 @@ input.cc-number {
     content: "";
     display: table;
     clear: both; }
-  @media screen and (min-width: 53.75em) {
+  .order-tools .order-actions {
+    text-align: center; }
+  @media screen and (min-width: 40em) {
     .order-tools .order-status {
       float: left; }
     .order-tools .order-actions {
-      float: right; } }
-  .order-tools .order-actions {
-    text-align: center; }
-    @media screen and (min-width: 53.75em) {
-      .order-tools .order-actions {
-        text-align: right; } }
+      float: right;
+      text-align: right; } }
   .order-tools .order-status {
     border-top: 1px solid #DDD;
     margin-top: 20px;
@@ -1654,21 +1652,21 @@ input.cc-number {
     display: table;
     clear: both; }
   @media screen and (min-width: 40em) {
-    .order .order-details {
+    .order .order-info {
       float: left;
       display: block;
       margin-right: 3.1684356888%;
       width: 19.7578833532%; }
-      .order .order-details:last-child {
+      .order .order-info:last-child {
         margin-right: 0; } }
-  .order .order-details label {
+  .order .order-info label {
     margin-bottom: 0; }
-  .order .order-details .order-detail {
+  .order .order-info > div {
     margin-bottom: 1em; }
-  .order .order-details .order-date, .order .order-details .order-total {
+  .order .order-info .order-date, .order .order-info .order-total {
     font-size: 1rem;
     color: #5e5e5e; }
-  .order .order-details .links li {
+  .order .order-info .links li {
     font-size: 1em; }
   @media screen and (min-width: 40em) {
     .order .order-content {

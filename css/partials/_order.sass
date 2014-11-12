@@ -5,16 +5,19 @@
   padding: $base-spacing 0
   margin-bottom: $base-spacing
  
-  +media($large-screen)
+          
+  .order-actions
+    text-align: center
+      
+  +media($medium-screen)
     .order-status
       float: left
 
     .order-actions
       float: right
-  .order-actions
-    text-align: center
-    +media($large-screen)
       text-align: right
+
+      
   .order-status
     border-top: 1px solid $base-border-color
     margin-top: 20px
@@ -111,14 +114,14 @@
   padding: $base-spacing 0
   +outer-container
     
-  .order-details
+  .order-info
     +media($medium-screen)
       +span-columns(2 of 9)
     
     label
       margin-bottom: 0
       
-    .order-detail
+    > div
       margin-bottom: 1em
       
     .order-date, .order-total
