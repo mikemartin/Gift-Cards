@@ -2,16 +2,53 @@ body
   margin: 0
   -webkit-backface-visibility: hidden
     
-.wrapper, .wrapper-full
+.wrapper
   +outer-container
-  padding: 1em
+  +pad(1em)
+  
+.wrapper-medium
+  +outer-container($medium-screen)
+  +pad(1em)
+  
+.wrapper-large
+  +outer-container($large-screen)
+  +pad(1em)
 
 .row
   +outer-container
-  +span-columns(12)
   
-    
+div.omega
+  +omega
+  
+  
+// Adds vertical divider to all columns  
 
++media($medium-screen)
+  .vertical-divider
+    clear: both
+    position: relative
+    margin-bottom: $base-spacing
+
+  .vertical-divider:after
+    clear: both
+    content: " "
+    display: block
+    height: 0
+    visibility: hidden
+
+
+  .vertical-divider .column:not(:first-child):after
+    background: $base-border-color
+    +position(0 null 0 null)
+    content: " "
+    margin-left: -$gutter
+    position: absolute
+    width: 1px
     
+  .vertical-divider .column.split-content
+    +pad(0 default)
+
+
+
 
 
