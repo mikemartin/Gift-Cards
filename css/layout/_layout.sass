@@ -1,33 +1,17 @@
-@import "media"
-
 body
   margin: 0
   -webkit-backface-visibility: hidden
     
 .wrapper, .wrapper-full
-  max-width: 68em
-  margin-left: auto
-  margin-right: auto
-  padding: 1em
-  +clearfix
   +outer-container
+  padding: 1em
 
 .row
   +outer-container
   +span-columns(12)
   
-+media($large-screen)  
-  .main-content
-    +span-columns(9)
-  
-  .secondary-content
-    +span-columns(3)
     
-  .split-content
-    +span-columns(6, block-collapse)
-    padding: 0 $gutter
-    &:first-child
-      border-right: $base-border
+
     
 
 

@@ -1,33 +1,102 @@
-@import "normalize"
-@import "bourbon/bourbon"
+/**
+ * CONTENTS
+ *
+ * BASE
+ * Normalize.css........Makes browsers render all elements consistently.
+ * Bourbon..............Mixin library.
+ * Neat.................Semantic grid framework.
+ * Typography...........All type is based on 1em (16px).
+ * Lists................All lists have stripped out styles.
+ * Buttons..............Basic style for buttons and submits inputs.
+ * Forms................Adds basic styles all form elements.
+ * Flashes..............Form notification messages.
+ * Tables...............Basic style for tables.
+ * Grid Settings........Variables for Neat resets and breakpoints.
+ * Variables............All variables
+ *
+ * LAYOUTS
+ * Layouts..............Layout wrappers.
+ * Two Column...........Main column with narrow secondary column.
+ * Split Content........Two columns divided evenly.
+ * Media................Image to the left, with content to the right.
+ * 
+ * COMPONENTS
+ * Button Group.........Horizontal and Vertical button groups.
+ * Expander.............Expand and collapse content.
+ * Flashes..............Form notification messages.
+ * Pagination...........Pagination for listings.
+ * Tooltip..............Tooltip bubble with arrow.
+ * Links................Inline links.
+ * 
+ * PATTERNS
+ * Navigation...........Navigation and checkout navigation.
+ * User menu............Global user menu.
+ * Footer...............Page footer.
+ * Table................Tables with borders and shading.
+ * Hero.................Hero banner with text and image.
+ * Cards................Product cards and card listing.
+ * Product..............Product details and form.
+ * Cart.................Shopping cart table.
+ * Companies............Company logo listing.
+ * Payment..............Payment form.
+ * Search Tools.........Search and Filters.
+ * Sidebar..............Sidebar navigation and categories.
+ * Order................Order status, history and details.
+ * 
+ * PLUGINS
+ * Pickadate............Responsive date picker.
+ *
+ */
+
+/**
+ * BASE
+ */
+@import "base/normalize"
+@import "base/bourbon/bourbon"
 @import "base/grid-settings"
-@import "neat/neat"
+@import "base/neat/neat"
 @import "base/base"
 
-
+/**
+ * LAYOUT
+ */
 @import "layout/layout"
+@import "layout/two-column"
+@import "layout/split-content"
+@import "layout/media"
 
-@import "partials/navigation"
-@import "partials/usermenu"
-@import "partials/sidebar"
-@import "partials/expander"
-@import "partials/cart"
-@import "partials/payment"
-@import "partials/order"
-@import "partials/hero"
-@import "partials/cards"
-@import "partials/product"
-@import "partials/pagination"
-@import "partials/companies"
-@import "partials/footer"
-@import "partials/tooltip"
-@import "partials/table"
-@import "partials/button-group"
-@import "partials/search-tools"
-@import "partials/links"
+/**
+ * COMPONENTS
+ */
+@import "components/button-group"
+@import "components/expander"
+@import "components/pagination"
+@import "components/links"
+@import "components/tooltip"
 
+/**
+ * PATTERNS
+ */
+@import "patterns/navigation"
+@import "patterns/usermenu"
+@import "patterns/footer"
+@import "patterns/table"
+@import "patterns/hero"
+@import "patterns/cards"
+@import "patterns/product"
+@import "patterns/cart"
+@import "patterns/companies"
+@import "patterns/payment"
+@import "patterns/search-tools"
+@import "patterns/sidebar"
+@import "patterns/order"
+
+/**
+ * PLUGINS
+ */
 @import "plugins/pickadate/default"
 @import "plugins/pickadate/default.date"
+
 
 
 
