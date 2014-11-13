@@ -178,7 +178,7 @@
         
         
         <fieldset id="shipping-address">
-          <h4>Shipping address</h4>
+          <legend>Shipping address</legend>
           <label>Address Line 1</label>
           <input type="text" name="shipping_address_1"/>
           <label>Address Line 2</label>
@@ -247,8 +247,8 @@
 
 
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
-<script src="/js/picker.js"></script>
-<script src="/js/picker.date.js"></script>
+<script src="/js/plugins/picker.js"></script>
+<script src="/js/plugins/picker.date.js"></script>
 <script src="/js/main.js"></script>
 
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -262,5 +262,36 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
+    <script src="//js.stripe.com/v2/"></script>
+  <script src="/js/plugins/jquery.payment.js"></script>
+
+  <script>
+    function toggleShippingAddressFields(display) {
+      if (display) {
+        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
+        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
+        $("[name='shipping_city']").val($("[name='billing_city']").val());
+        $("[name='shipping_state']").val($("[name='billing_state']").val());
+        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
+        $("[name='shipping_country']").val($("[name='billing_country']").val());
+        $("#shipping-address").hide();
+      } else {
+          $("#shipping-address").show();
+      }
+    }
+    
+    $(function() {
+      $('.cc-number').payment('formatCardNumber');
+      $('.cc-exp').payment('formatCardExpiry');
+      $('.cc-cvc').payment('formatCardCVC');
+
+      var $shippingCheckbox = $("#billing_is_shipping");
+      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
+      $shippingCheckbox.on('change', function() {      
+        toggleShippingAddressFields($(this).prop('checked')); 
+      });
+      
+    });
+  </script>
 </body>
 </html>
