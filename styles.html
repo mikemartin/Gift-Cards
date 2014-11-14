@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+    <title>Woolworths – the fresh food people</title>
+	<meta name="Author" content=""/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <script src="//use.typekit.net/jdj5eyc.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script></head>
+<body>
+  <main class="wrapper">
+    <h1>Style Guide</h1>
+    <hr/>
+    <div class="secondary-content">
+      <div class="sidebar" id="style-nav">
+        <div class="expander filter">
+          <a href="javascript:void(0)" class="expander-toggle">Base</a>
+          <div class="expander-content">
+            <ul>
+              <li class="nav-link"><a data-scroll href="#colors">Colors</a></li>
+              <li class="nav-link"><a data-scroll href="#typography">Typography</a></li>
+              <li class="nav-link"><a data-scroll href="#buttons">Buttons</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="expander filter">
+          <a href="javascript:void(0)" class="expander-toggle">Components</a>
+          <div class="expander-content">
+            <ul>
+              <li class="nav-link"><a data-scroll href="#button-group">Button Group</a></li>
+              <li class="nav-link"><a data-scroll href="#expander">Expander</a></li>
+              <li class="nav-link"><a data-scroll href="#flashes">Flashes</a></li>
+              <li class="nav-link"><a data-scroll href="#order-status">Order Status</a></li>
+              <li class="nav-link"><a data-scroll href="#pagination">Pagination</a></li>
+              <li class="nav-link"><a data-scroll href="#tooltip">Tooltip</a></li>
+              <li class="nav-link"><a data-scroll href="#links">Links</a></li>
+              <li class="nav-link"><a data-scroll href="#datepicker">Date Picker</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="expander filter">
+          <a href="javascript:void(0)" class="expander-toggle">Patterns</a>
+          <div class="expander-content">
+            <ul>
+              <li class="nav-link"><a data-scroll href="#user-menu">User Menu</a></li>
+              <li class="nav-link active"><a data-scroll href="#navigation">Navigation</a></li>
+              <li class="nav-link active"><a data-scroll href="#utility-nav">Utility Nav</a></li>
+
+              <li class="nav-link"><a data-scroll href="#footer">Footer</a></li>
+              <li class="nav-link"><a data-scroll href="#table">Table</a></li>
+              <li class="nav-link"><a data-scroll href="#hero">Hero</a></li>
+              <li class="nav-link"><a data-scroll href="#cards">Cards</a></li>
+              <li class="nav-link"><a data-scroll href="#product">Product</a></li>
+              <li class="nav-link"><a data-scroll href="#cart">Cart</a></li>
+              <li class="nav-link"><a data-scroll href="#companies">Companies</a></li>
+              <li class="nav-link"><a data-scroll href="#payment">Payment</a></li>
+              <li class="nav-link"><a data-scroll href="#search-tools">Seach Tools</a></li>
+              <li class="nav-link"><a data-scroll href="#sidebar">Sidebar</a></li>
+              <li class="nav-link"><a data-scroll href="#order">Order</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content style-guide">
+      
+      <h1 class="page-title">Base</h1>
+      <section id="colors"> 
+        <h3>Colors</h3>
+        <p>All colors can be set in <strong>/base/variables.scss</strong></p>
+        <div class="swatches">
+          <div class="swatch"></div>
+          <div class="swatch"></div>
+          <div class="swatch"></div>
+          <div class="swatch"></div>
+          <div class="swatch"></div>
+        </div>
+      </section>
+      
+      <section id="typography">
+        <h3>Typography</h3>
+        <p>All type is based on 1em (16px). All sizes are scaled up or down by a factor of 0.25.</p>
+        <h1>h1. Heading</h1>
+        <h2>h2. Heading</h2>
+        <h3>h3. Heading</h3>
+        <h4>h4. Heading</h4>
+        <h5>h5. Heading</h5>
+        <h6>h6. Heading</h6>
+        <hr/>
+        <p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+        <ul class="default">
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ul>
+        <ol class="default">
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ol>
+      </section>
+      
+      <section id="buttons"> 
+        <h3>Buttons</h3>
+        <p>Basic style for buttons and submits inputs.</p>
+        <button>Button</button>
+        <button class="icon-notice">Icon Button</button>
+      </section>
+      
+      
+      <h1 class="page-title">Components</h1>
+      <section id="button-group">
+        <h3>Button Group</h3>
+        <p>Horizontal and Vertical radio button groups.</p>
+
+        <div class="button-group">
+          <label>
+            <input type="radio" name="button-group" value="item" checked>
+            <span class="button-group-item">Item</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="other-item">
+            <span class="button-group-item">Other But Longer Item</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="other-item">
+            <span class="button-group-item">Third</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="third">
+            <span class="button-group-item">Last Item</span>
+          </label>
+        </div>
+
+        <div class="button-group button-group--vertical">
+          <label>
+            <input type="radio" name="button-group-2" value="item">
+            <span class="button-group-item">Item</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group-2" value="other-item" checked>
+            <span class="button-group-item">Other But Longer Item</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group-2" value="other-item">
+            <span class="button-group-item">Third</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group-2" value="third">
+            <span class="button-group-item">Last Item</span>
+          </label>
+        </div>
+      </section>
+      <section id="expander">
+        <h3>Expander</h3>
+        <p>Expand and collapse content.</p>
+        <div class="expander">
+          <a href="javascript:void(0)" class="expander-toggle">Expandable section</a>
+          <div class="expander-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia fugiat facilis enim accusamus quisquam aut, repellendus incidunt quod optio facere labore illo numquam ipsum beatae vero debitis, fugit excepturi.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="flashes">
+        <h3>Flashes</h3>
+        <p>Form notification messages.</p>
+        <div class="flash-success">
+          <span>This is a success message <a href="#">with a link</a></span>
+        </div>
+
+        <div class="flash-error">
+          <span>This is an error message <a href="#">with a link</a></span>
+        </div>
+
+        <div class="flash-notice">
+          <span>This is an notice message <a href="#">with a link</a></span>
+        </div>
+
+        <div class="flash-alert">
+          <span>This is an alert message <a href="#">with a link</a></span>
+        </div>
+      </section>
+      
+      <section id="order-status">
+        <h3>Order Status</h3>
+        <p>Status timeline with colored <strong>completed</strong> states.</p>
+
+        <div class="row">
+          <div class="order-status">
+            <div class="status status-purchased completed">Purchased</div>
+            <div class="status status-shipped completed">Shipped</div>
+            <div class="status status-out">Out for Delivery</div>
+            <div class="status status-delivered">Delivered</div>
+          </div>
+        </div>
+        
+                <div class="order-status">
+          <div class="status status-purchased completed">Purchased</div>
+          <div class="status status-shipped completed">Shipped</div>
+          <div class="status status-out completed">Out for Delivery</div>
+          <div class="status status-delivered completed">Delivered</div>
+        </div>        
+      </section>
+
+      <section id="pagination">
+        <h3>Pagination</h3>
+        <p>Pagination for listings.</p>
+        <div class="pagination">
+  <div class="pagination-count">
+    Items <span class="item-first">1</span> to <span class="item-last">9</span> of <span class="total_posts">50</span> total
+  </div>  
+  
+  <div class="pagination-perpage">
+    <ul>
+      <li class="active"><a href="javascript:void(0)">9</a></li>
+      <li><a href="javascript:void(0)">18</a></li>
+      <li><a href="javascript:void(0)">36</a></li>
+      <li><a href="javascript:void(0)">All</a></li>
+    </ul>
+    Per Page
+  </div>
+  
+  <div class="pagination-pages">
+    <ul>
+      <li class="page-first"><a href="javascript:void(0)" class="icon-first"></a></li>
+      <li class="page-prev"><a href="javascript:void(0)" class="icon-prev"></a></li>
+      <li>
+        <ul>
+          <li class="active"><a href="javascript:void(0)">1</a></li>
+          <li><a href="javascript:void(0)">2</a></li>
+          <li><a href="javascript:void(0)">3</a></li>
+          <li><a href="javascript:void(0)">4</a></li>
+          <li><a href="javascript:void(0)">5</a></li>
+          <li><a href="javascript:void(0)">6</a></li>
+          <li><a href="javascript:void(0)">7</a></li>
+        </ul>
+      </li>
+      <li class="page-next"><a href="javascript:void(0)" class="icon-next"></a></li>
+      <li class="page-last"><a href="javascript:void(0)" class="icon-last"></a></li>
+    </ul>
+  </div>
+</div>
+      </section>
+  
+      <section id="tooltip">
+        <h3>Tooltip</h3>
+        <p>Tooltip bubble with arrow. Hover for tooltip.</p>
+        <div class="tooltip-item">
+          <button>Now you don't</button>
+          <div class="tooltip">
+            <h3>Now you see me!</h3>
+            <p>Lorem ipsum doloandae oluptate aperiam unde voluptates quas.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="links">
+        <h3>Links</h3>
+        <p>Inline links.</p>
+        <ul class="links">
+          <li><a href="/account/orders/order-details.html">First</a></li>
+          <li><a href="/account/orders/order-details.html">Second</a></li>
+          <li><a href="/account/orders/order-details.html">Third</a></li>
+        </ul>
+      </section>
+      
+      <section id="datepicker">
+        <h3>Datepicker</h3>
+        <p>Responsive date picker.</p>
+        <input type="text" value="" name="gift-date" class="datepicker">
+      </section>
+      
+      
+      <h1 class="page-title">Patterns</h1>
+      <section id="user-menu">
+        <h3>User menu</h3>
+        <p>Global user menu.</p>
+        <div class="usermenu">
+  <div class="usermenu-wrapper">
+    <ul>
+      <li class="nav-link">
+        <a href="/login.html" class="icon-account"><span class="text">Sign In</span></a>
+      </li>
+      <li class="nav-link"><a href="/contact-us.html" class="icon-contact"><span class="text">Contact Us</span></a></li>
+      <li class="nav-link cart">
+        <a href="cart.html" class="icon-cart"><span class="text">Cart</span></a> <span class="text">Items ($0.00) <a href="/cart.html" class="button">Checkout</a></span>
+      </li>
+    </ul>
+  </div>
+</div>
+      </section>
+      
+      <section id="navigation">
+      <h3>Navigation</h3>
+      <p>Navigation and checkout navigation.</p> 
+        <header class="navigation">
+            <div class="navigation-wrapper">
+                <div class="nav">
+                    <ul id="navigation-menu">
+                      <li class="nav-link"><a href="/category"><span class="nav-link-title">WISH</span> Gift Cards</a></li>
+                      <li class="nav-link active"><a href="/category"><span class="nav-link-title">Store</span> Gift Cards</a></li>
+                      <li class="nav-link"><a href="/category"><span class="nav-link-title">Essentials</span> Gift Cards</a></li>
+                      <li class="nav-link"><a href="/category"><span class="nav-link-title">Groceries</span> Gift Cards</a></li>
+                      <li class="nav-link"><a href="javascript:void(0)"><span class="nav-link-title">Learn More</span> About Gift Cards</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+      </section>
+      
+      <section id="utility-nav">
+        <h3>Utility Nav</h3>
+        <p>Utility and checkout navigation.</p>
+        <div class="row">
+          <div class="utility-nav utility-nav--steps" style="float: left">
+            <a href="/checkout" class="utility-nav-link icon-signin icon--large"><span>Sign In</span></a>
+            <a href="/checkout/payment.html" class="utility-nav-link active icon-payment icon--large"><span>Payment</span></a>
+            <a href="/checkout/place-order.html" class="utility-nav-link icon-order icon--large"><span>Place Order</span></a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="footer">
+        <h3>Footer</h3>
+        <p>Page footer.</p>
+        <footer class="footer">
+          <div class="footer-wrapper">
+              <ul>
+                <li><a href="javascript:void(0)">WOOLWORTHS Limited</a></li>
+                <li><a href="javascript:void(0)">ABN 88 000 014 675</a></li>
+              </ul>
+
+              <div class="footer-secondary-links">
+                <ul>
+                  <li><a href="javascript:void(0)">Terms &amp; Conditions</a></li>
+                  <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+              </div>
+          </div>
+        </footer>
+      </section>
+      
+      <section id="table">
+        <h3>Table</h3>
+        <p>Tables with borders and shading.</p>
+        <table class="table-borders">
+          <thead>
+            <tr>
+              <th>Header Cell 1</th>
+              <th>Header Cell 2</th>
+              <th>Header Cell 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Row 1 Cell 1</td>
+              <td>Row 1 Cell 2</td>
+              <td><button>Confirm</button><button>Reject</button></td>
+            </tr>
+            <tr>
+              <td>Row 2 Cell 1</td>
+              <td>Row 2 Cell 2</td>
+              <td><button>Confirm</button><button>Reject</button></td>
+            </tr>
+            <tr>
+              <td>Row 3 Cell 1</td>
+              <td>Row 3 Cell 2</td>
+              <td><button>Confirm</button><button>Reject</button></td>
+            </tr>
+            <tr>
+              <td>Row 4 Cell 1</td>
+              <td>Row 4 Cell 2</td>
+              <td><button>Confirm</button><button>Reject</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      
+      <section id="hero">
+        <h3>Hero</h3>
+        <p>Hero banner with text and image.</p>
+        <div class="hero">
+    <div class="hero-wrapper">
+      <div class="hero-text">
+          <h1>The card you need for the gift they want</h1>
+          <p>From the freshest food at Woolworths Supermarkets 
+and the big brands at Big W to a huge range of beer, 
+wine and spirits from Dan Murphy's, BWS, and Cellarmasters, you're covered. We also have petrol gift cards to keep your family and friends on the move.</p>
+      </div>
+      <div class="hero-image">
+          <img src="img/flowers.png"/>
+      </div>
+    </div>
+</div>      </section>
+      
+      <section id="cards">
+        <h3>Cards</h3>
+        <p>Product cards and card listing.</p>
+        <!-- #@include "partials/cards" -->
+      </section>
+      
+      <section id="product">
+        <h3>Product</h3>
+        <p>Product details and form.</p>
+        <form class="product">
+      <h1 class="page-title product-title">iTunes Gift Card</h1>
+      <div class="product-image">
+        <div class="card">
+  <div class="ribbon-wrapper"><div class="ribbon">RIBBON</div></div>
+  <div class="card-image">
+      <a href="javascript:void(0)">
+        <img src="/img/giftcard.png"/>
+      </a>
+  </div>
+  <div class="card-copy">
+      <p><a href="javascript:void(0)">Card Title / Description</a></p>
+  </div>
+</div>      </div>
+      <fieldset class="product-custom">
+        <label for="gift-type">Type:</label>
+        <div class="button-group button-group--horizontal">
+          <label>
+            <input type="radio" name="button-group" value="Plastic Card" checked>
+            <span class="button-group-item">Plastic Card</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="eGift">
+            <span class="button-group-item">eGift Card</span>
+          </label>
+        </div>
+        <label for="gift-date">Delivery Date:</label>
+        <input type="text" value="" name="gift-date" class="datepicker">
+        <div class="field-half">
+          <div class="field">
+            <label for="gift-quantity">Quantity:</label>
+            <select name="gift-quantity" class="product-quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="gift-amount">Card Amount:</label>
+            <input type="text" value="" name="gift-amount" class="product-amount">
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="product-message">
+        <label for="gift-from">From:</label>
+        <input type="text" value="" name="gift-from">
+        <label for="gift-to">To:</label>
+        <input type="text" value="" name="gift-to">
+        <label for="gift-email">Recepient Email:</label>
+        <input type="email" value="" name="gift-email">
+        <label for="gift-message">Message</label>
+        <textarea name="gift-message"></textarea>
+        <button type="submit" class="icon-cart right">Add to Cart</button>
+      </fieldset>
+    </form>      </section>
+    
+      </section>
+      
+      <section id="cart">
+        <h3>Cart Table</h3>
+        <p>Shopping cart table.</p>
+        <a href="javascript:void(0)" class="button right">Checkout</a>
+
+      <table class="table-borders cart-table">
+          <thead class="cart-table-head">
+            <tr>
+              <th class="cart-table-title"><h4>E-Gift Card</h4></th>
+              <th class="optional">Card Value</th>
+              <th class="optional">Card Price</th>
+              <th class="optional">Quantity</th>
+              <th class="optional">Total</th>
+              <th class="cart-table-actions">Action</th>
+           </tr>
+          </thead>
+          <tbody class="cart-table-body">
+            <tr>
+              <td class="cart-table-product">
+                <div class="media">
+                  <div class="media-image">
+                    <img src="/img/giftcard.png"/>
+                    <p>SKU: WW-345APL</p>
+                  </div>
+                  <div class="media-content">
+                    <p>Message: Happy Birthday<br/>
+                    Recipient: david@cardlabcorp.com<br/>
+                    From: Brian<br/>
+                    To: David<br/>
+                    Delivery Date: 10/22/2014</p>
+                  </div>
+                </div>
+              </td>
+              <td class="optional numeric">$25.00</td>
+              <td class="optional numeric">$0.99</td>
+              <td class="optional numeric">1</td>
+              <td class="optional numeric">$25.99</td>
+              <td><button>Edit</button><button>Remove</button></td>
+            </tr>
+            <tr>
+              <td class="cart-table-product">
+                <div class="media">
+                  <div class="media-image">
+                    <img src="/img/giftcard.png"/>
+                    <p>SKU: WW-345APL</p>
+                  </div>
+                  <div class="media-content">
+                    <p>Message: Happy Birthday<br/>
+                    Recipient: david@cardlabcorp.com<br/>
+                    From: Brian<br/>
+                    To: David<br/>
+                    Delivery Date: 10/22/2014</p>
+                  </div>
+                </div>
+              </td>
+              <td class="optional numeric">$25.00</td>
+              <td class="optional numeric">$0.99</td>
+              <td class="optional numeric">1</td>
+              <td class="optional numeric">$25.99</td>
+              <td><button>Edit</button><button>Remove</button></td>
+            </tr>
+          </tbody>
+          <tfoot class="cart-table-footer">
+            <tr>
+              <td colspan="4" class="optional"></td>
+              <td>Subtotal:</td>
+              <td>$25.99</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="optional"></td>
+              <td>*Shipping will be calculated at checkout:</td>
+              <td>$0.00</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="optional"></td>
+              <th>Estimated Total:</th>
+              <td><strong>$25.99</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+        <a href="javascript:void(0)" class="button right">Checkout</a>      </section>
+      
+      <section id="companies">
+        <h3>Companies</h3>
+        <p>Company logo listing.</p>
+        <div class="companies">
+  <div class="wrapper">
+    <ul>
+      <li><a href="javascript:void(0)"><img src="/img/logos/woolworths.png"></a></li>
+      <li><a href="javascript:void(0)"><img src="/img/logos/bigw.png"></a></li>
+      <li><a href="javascript:void(0)"><img src="/img/logos/caltex.png"></a></li>
+      <li><a href="javascript:void(0)"><img src="/img/logos/bws.png"></a></li>
+      <li><a href="javascript:void(0)"><img src="/img/logos/danmurphys.png"></a></li>
+      <li><a href="javascript:void(0)"><img src="/img/logos/masters.png"></a></li>
+      <li><a href="javascript:void(0)"><img src="/img/logos/cellarmasters.png"></a></li>
+      <li><a href="javascript:void(0)"><img src="/img/logos/thomasdux.png"></a></li>
+    </ul>
+  </div>
+</div>      </section>
+      
+      <section id="payment">
+        <h3>Payment</h3>
+        <p>Payment form.</p>
+        <form class="form-narrow">
+        <fieldset>
+          <legend>Select a Payment</legend>
+          <div class="button-group button-group--vertical payment-types">
+  <label>
+    <input type="radio" name="button-group" value="item" checked>
+    <span class="button-group-item payment-item">
+      <div class="col col-type">
+        <img src="/img/visa.png"/> Visa ending 0734
+      </div>
+      <div class="col">Brian Winfield</div>
+      <div class="col">01/2018</div>                      
+    </span>
+  </label>
+  <label>
+    <input type="radio" name="button-group" value="other-item">
+    <span class="button-group-item payment-item">
+      <div class="col col-type">
+        <img src="/img/mastercard.png"/> Mastercard ending 0734
+      </div>
+      <div class="col">Brian Winfield</div>
+      <div class="col">01/2018</div>                      
+    </span>
+  </label>
+  <label>
+    <input type="radio" name="button-group" value="third">
+    <span class="button-group-item payment-item">
+      <div class="col col-type">
+        <img src="/img/amex.png"/> American Express ending 0734
+      </div>
+      <div class="col">Brian Winfield</div>
+      <div class="col">01/2018</div>                      
+    </span>
+  </label>
+</div>
+        </fieldset>
+        <fieldset>
+          <legend>Add a Credit Card</legend>
+          <label>Credit Card Number</label>
+          <input type="tel" data-stripe="number" x-autocompletetype="cc-number" autocompletetype="cc-number" class="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="Card Number" />
+
+          <div class="field-half">
+            <div class="field">
+              <label>Expiry</label>
+              <input type="text" type="tel" size="7" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" class="cc-exp" placeholder="MM / YY" />
+            </div>
+            <div class="field">
+              <label>Security Code</label>
+              <input data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc input-small" />
+              <div class="tooltip-item">
+                <a href="javascript:void(0)">What's this?</a>
+                <div class="tooltip">
+                  <h3>What is a Security Code?</h3>
+                  <p>A <strong>3 or 4 digit code</strong> on the back or front of your credit card.</p>
+                  <img src="/img/csc.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Billing address</legend>
+          <label>Name on Card</label>
+          <input type="text" name="first_name"/>
+          <label>Address Line 1</label>
+          <input type="text" name="billing_address_1"/>
+          <label>Address Line 2</label>
+          <input type="text" name="billing_address_2"/>
+
+          <div class="field-third">
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="billing_city"/>
+            </div>
+            <div class="field">
+              <label>State</label>
+              <input type="text" name="billing_state"/>
+            </div>
+            <div class="field">
+              <label>Zip Code</label>
+              <input type="text" name="billing_zip"/>
+            </div>
+          </div>
+          
+          <label>
+            <input type="checkbox" id="billing_is_shipping" checked="checked"/>
+            Ship items to billing address
+          </label>
+        </fieldset>
+        
+        
+        <fieldset id="shipping-address">
+          <legend>Shipping address</legend>
+          <label>Address Line 1</label>
+          <input type="text" name="shipping_address_1"/>
+          <label>Address Line 2</label>
+          <input type="text" name="shipping_address_2"/>
+          <div class="field-third">
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="shipping_city"/>
+            </div>
+            <div class="field">
+              <label>State</label>
+              <input type="text" name="shipping_state"/>
+            </div>
+            <div class="field">
+              <label>Zip Code</label>
+              <input type="text" name="shipping_zip"/>
+            </div>
+          </div>
+        </fieldset>
+        
+        
+        <input type="submit" value="Add New Card" data-wait="Please wait...">
+      </form>      </section>
+      
+      <section id="search-tools">
+        <h3>Search Tools</h3>
+        <p>Search and Filters.</p>
+        <div class="search-tools">
+  <div class="filter filter-invoice">
+    <label>Invoice Number</label>
+    <input type="text" name="invoice-number"/>
+  </div>
+  <div class="filter filter-dates">
+    <label>Orders placed in</label>
+    <select>
+      <option>This Week</option>
+      <option>Last 30 days</option>
+      <option>Last 60 days</option>
+      <option>Last 90 days</option>
+      <option>Last 6 months</option>
+      <option>This Year</option>
+      <option>All dates</option>
+    </select>
+  </div>
+</div>      </section>
+
+      <section id="sidebar">
+        <h3>Sidebar</h3>
+        <p>Sidebar navigation and categories.</p>
+              <div class="sidebar">
+        <ul>
+          <li class="nav-link active"><a href="javascript:void(0)">Contact Us</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">FAQs</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">Privacy Policy</a></li>
+        </ul>
+      </div>      </section>
+      
+      <section id="order">
+        <h3>Order</h3>
+        <p>Order status, history and details.</p>
+         <div class="order">
+   <div class="order-info">
+      <div>
+        <label>Order Placed</label>
+        <div class="order-date">Feb 7, 2014</div>
+        <ul class="links">
+          <li><a href="/account/orders/order-details.html">Order Details</a></li>
+          <li><a href="/account/orders/order-details.html">Invoice</a></li>
+        </ul>
+      </div>
+      <div>
+        <label>Invoice Number</label>
+        <a href="#">03-234444-22323232</a>
+      </div>
+      <div>
+        <label>Order Total</label>
+        <div class="order-total">$250.00</div>
+      </div>
+    </div>
+    <div class="order-content">
+      
+       <div class="media">
+        <div class="media-image">
+          <a href="/account/orders/order-details.html"><img src="/img/giftcard.png"/></a>
+        </div>
+        <div class="media-content">
+          <p>AVB12343<br/>
+        Recipient Name: David<br/>
+        Card Message: Good Job<br/>
+        Greeting Card Message: This is a test of the greeting card message that is very long</p>
+        </div>
+      </div>
+      
+      <div class="media">
+        <div class="media-image">
+          <a href="/account/orders/order-details.html"><img src="/img/giftcard.png"/></a>
+        </div>
+        <div class="media-content">
+          <p>AVB12343<br/>
+        Recipient Name: David<br/>
+        Card Message: Good Job<br/>
+        Greeting Card Message: This is a test of the greeting card message that is very long</p>
+        </div>
+      </div>
+      
+      
+      
+    
+   </div>
+</div>      </section>
+    </div>
+  </main>
+  
+  
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script src="/js/plugins/picker.js"></script>
+<script src="/js/plugins/picker.date.js"></script>
+<script src='/js/plugins/smooth-scroll.min.js'></script>
+<script src='/js/plugins/waypoints.min.js'></script>
+<script src='/js/plugins/waypoints-sticky.min.js'></script>
+
+<script src="/js/main.js"></script>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=322477137904448&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+    <script src="//js.stripe.com/v2/"></script>
+  <script src="/js/plugins/jquery.payment.js"></script>
+
+  <script>
+    function toggleShippingAddressFields(display) {
+      if (display) {
+        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
+        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
+        $("[name='shipping_city']").val($("[name='billing_city']").val());
+        $("[name='shipping_state']").val($("[name='billing_state']").val());
+        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
+        $("[name='shipping_country']").val($("[name='billing_country']").val());
+        $("#shipping-address").hide();
+      } else {
+          $("#shipping-address").show();
+      }
+    }
+    
+    $(function() {
+      $('.cc-number').payment('formatCardNumber');
+      $('.cc-exp').payment('formatCardExpiry');
+      $('.cc-cvc').payment('formatCardCVC');
+
+      var $shippingCheckbox = $("#billing_is_shipping");
+      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
+      $shippingCheckbox.on('change', function() {      
+        toggleShippingAddressFields($(this).prop('checked')); 
+      });
+      
+    });
+  </script>
+</body>
+</html>

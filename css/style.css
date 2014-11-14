@@ -20,6 +20,8 @@
  * Two Column...........Main column with narrow secondary column.
  * Split Content........Two columns divided evenly.
  * Media................Image to the left, with content to the right.
+ * Block List...........Block list with automatic rows.
+ *
  * 
  * COMPONENTS
  * Button Group.........Horizontal and Vertical button groups.
@@ -734,6 +736,15 @@ ol {
   margin: 0;
   padding: 0;
   list-style-type: none; }
+  ul.default {
+    list-style-type: disc;
+    margin-bottom: 0.75em;
+    padding-left: 1.5em; }
+  ol.default {
+    list-style-type: decimal;
+    margin-bottom: 0.75em;
+    padding-left: 1.5em; }
+
 dl {
   margin-bottom: 0.75em; }
   dl dt {
@@ -949,6 +960,114 @@ input[type="submit"]:before, .button:before, .button:before {
 .icon-notice:before {
   content: "X"; }
 
+.swatches {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  box-align: stretch;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  -ms-align-items: stretch;
+  -o-align-items: stretch;
+  align-items: stretch;
+  -ms-flex-align: stretch;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center; }
+  .swatches:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.swatch {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: stretch;
+  -moz-align-self: stretch;
+  align-self: stretch;
+  -ms-flex-item-align: stretch;
+  box-shadow: inset 0 0 1px #999, 0 2px 4px #e6e6e6;
+  border-radius: 6px;
+  margin: 0.4em;
+  padding: 2em 2em 3em 2em;
+  background: #f7f7f7; }
+  .swatch:nth-child(1) {
+    border-top: 6px solid #09843a;
+    background: #0B9341; }
+    .swatch:nth-child(1):hover {
+      background-color: rgba(11, 147, 65, 0.9); }
+  .swatch:nth-child(2) {
+    border-top: 6px solid #8ab82f;
+    background: #9ACD35; }
+    .swatch:nth-child(2):hover {
+      background-color: rgba(154, 205, 53, 0.9); }
+  .swatch:nth-child(3) {
+    border-top: 6px solid #d55203;
+    background: #ed5c04; }
+    .swatch:nth-child(3):hover {
+      background-color: rgba(237, 92, 4, 0.9); }
+  .swatch:nth-child(4) {
+    border-top: 6px solid #6b6b6b;
+    background: #777; }
+    .swatch:nth-child(4):hover {
+      background-color: rgba(119, 119, 119, 0.9); }
+
+.swatch img {
+  display: block;
+  opacity: .4;
+  height: 3em;
+  margin: auto;
+  margin-bottom: 2em; }
+
+.swatch .flex-title {
+  color: rgba(119, 119, 119, 0.7);
+  font-family: "news-gothic-std", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-bottom: .5em; }
+
+.swatch p {
+  margin: auto;
+  line-height: 1.5em;
+  color: rgba(119, 119, 119, 0.6); }
+
+.swatch-big {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 40em;
+  -moz-flex: 1 1 40em;
+  -ms-flex: 1 1 40em;
+  flex: 1 1 40em; }
+
 /**
  * LAYOUT
  */
@@ -1001,14 +1120,9 @@ section {
   border-bottom: 1px solid rgba(119, 119, 119, 0.1); }
 
 /* Fixed-Sticky CSS */
-.sticky-sidebar {
-  width: 245px; }
-
-.top {
-  top: 0; }
-
-.bottom {
-  bottom: 0; }
+.stuck {
+  position: fixed;
+  top: 1.5em; }
 
 @media screen and (min-width: 40em) {
   .vertical-divider {
@@ -1117,6 +1231,18 @@ section {
     padding-right: 1.4em; }
   .media-links .media:hover {
     background: #fcfcfc; }
+
+li.block {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  li.block:last-child {
+    margin-right: 0; }
+  li.block:nth-child(4n) {
+    margin-right: 0; }
+  li.block:nth-child(4n+1) {
+    clear: left; }
 
 /**
  * COMPONENTS
@@ -1459,6 +1585,15 @@ header.navigation {
         -moz-flex-grow: 1;
         flex-grow: 1;
         -ms-flex-positive: 1; } }
+    header.navigation ul li.nav-link.active a {
+      background: #0B9341;
+      color: white; }
+      header.navigation ul li.nav-link.active a span {
+        color: white; }
+    header.navigation ul li.nav-link.active:hover a {
+      background: #0dab4b; }
+    header.navigation ul li.nav-link.active-nav-item a {
+      background: rgba(221, 221, 221, 0.3); }
     header.navigation ul li.nav-link a {
       display: block;
       border-top: 1px solid #DDD;
@@ -1487,9 +1622,6 @@ header.navigation {
         @media screen and (min-width: 53.75em) {
           header.navigation ul li.nav-link a:after {
             display: none; } }
-  header.navigation .active-nav-item a {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    padding-bottom: 3px; }
   header.navigation li.more.nav-link {
     padding-right: 0; }
     @media screen and (min-width: 53.75em) {
@@ -1961,6 +2093,7 @@ header.checkout-navigation {
 .hero {
   background: url("../img/bokeh.jpg"), -webkit-linear-gradient(10deg, white, #9ACD35), no-repeat #9ACD35 scroll;
   background: url("../img/bokeh.jpg"), linear-gradient(10deg, white, #9ACD35), no-repeat #9ACD35 scroll;
+  margin-bottom: 1.5em;
   background-size: cover;
   width: 100%;
   border-bottom: 0.75em solid #9ACD35;
@@ -2350,7 +2483,8 @@ input.cc-number {
   background: #f7f7f7;
   padding: 0.809em;
   border-radius: 6px;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  width: 15.3125em; }
   .sidebar:after {
     content: "";
     display: table;
@@ -2363,9 +2497,13 @@ input.cc-number {
     color: #777;
     display: block;
     margin: 0 -0.809em;
-    padding: 0.25em 0.809em; }
+    padding: 0.25em 0.809em;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none; }
     .sidebar .nav-link a:hover {
-      color: #515151; }
+      color: #515151;
+      background: white; }
   .sidebar .nav-link a.active {
     background: #9ACD35;
     color: white;

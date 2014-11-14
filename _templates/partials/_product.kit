@@ -1,0 +1,53 @@
+<form class="product">
+      <h1 class="page-title product-title">iTunes Gift Card</h1>
+      <div class="product-image">
+        <!-- @include "../partials/card" -->
+      </div>
+      <fieldset class="product-custom">
+        <label for="gift-type">Type:</label>
+        <div class="button-group button-group--horizontal">
+          <label>
+            <input type="radio" name="button-group" value="Plastic Card" checked>
+            <span class="button-group-item">Plastic Card</span>
+          </label>
+          <label>
+            <input type="radio" name="button-group" value="eGift">
+            <span class="button-group-item">eGift Card</span>
+          </label>
+        </div>
+        <label for="gift-date">Delivery Date:</label>
+        <input type="text" value="" name="gift-date" class="datepicker">
+        <div class="field-half">
+          <div class="field">
+            <label for="gift-quantity">Quantity:</label>
+            <select name="gift-quantity" class="product-quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="gift-amount">Card Amount:</label>
+            <input type="text" value="" name="gift-amount" class="product-amount">
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="product-message">
+        <label for="gift-from">From:</label>
+        <input type="text" value="" name="gift-from">
+        <label for="gift-to">To:</label>
+        <input type="text" value="" name="gift-to">
+        <label for="gift-email">Recepient Email:</label>
+        <input type="email" value="" name="gift-email">
+        <label for="gift-message">Message</label>
+        <textarea name="gift-message"></textarea>
+        <button type="submit" class="icon-cart right">Add to Cart</button>
+      </fieldset>
+    </form>

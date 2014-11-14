@@ -115,6 +115,20 @@ header.navigation {
       @include flex-grow(1);
     }
 
+    &.active a {
+      background: $base-accent-color;
+      color: white;
+      span { color: white }
+    }
+    
+    &.active:hover a {
+      background: lighten($base-accent-color,5);
+    }
+    
+    &.active-nav-item a {
+      background: transparentize($base-border-color,.7);
+    }
+    
     a {
       display: block;
       border-top: $base-border;
@@ -155,10 +169,9 @@ header.navigation {
     }
   }
 
-  .active-nav-item a {
-    border-bottom: 1px solid $navigation-active-link-color;
-    padding-bottom: 3px;
-  }
+
+  
+
 
   // Sub menus
 

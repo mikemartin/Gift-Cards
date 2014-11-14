@@ -75,7 +75,7 @@ $(function() {
   
   
   $('.datepicker').pickadate();
-  
+
   smoothScroll.init({
       speed: 500,
       easing: 'easeInOutCubic',
@@ -84,12 +84,12 @@ $(function() {
   });
   
   // Highlight active letter in Word Menu
-  $('.style-guide')
+  $('.style-guide section')
     .waypoint(function(direction) {
       var $links = $('a[href="#' + this.id + '"]');
       $links.toggleClass('active', direction === 'down');
     }, {
-      offset: '0px'
+      offset: '48px'
     })
     .waypoint(function(direction) {
       var $links = $('a[href="#' + this.id + '"]');
@@ -99,6 +99,8 @@ $(function() {
         return -$(this).height();
       }
     });
+  
+  $('#style-nav').waypoint('sticky');
   
   
   

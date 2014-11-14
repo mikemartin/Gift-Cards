@@ -17,6 +17,14 @@ ol {
   }
 }
 
+ul.default {
+  @extend %default-ul;
+}
+
+ol.default {
+  @extend %default-ol;
+}
+
 dl {
   margin-bottom: $base-spacing / 2;
 

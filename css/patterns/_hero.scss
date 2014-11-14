@@ -15,7 +15,7 @@ $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master
 
 .hero {
   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
-
+  margin-bottom: $base-spacing;
   background-size: cover;
   width: 100%;
   border-bottom: $base-spacing/2 solid $base-highlight-color;
