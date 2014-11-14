@@ -84,16 +84,20 @@ $(function() {
   });
   
   // Highlight active letter in Word Menu
-  $('.style-guide section')
+  $('.style-guide section, .style-guide .style-type')
     .waypoint(function(direction) {
       var $links = $('a[href="#' + this.id + '"]');
       $links.toggleClass('active', direction === 'down');
+      $links.parent().toggleClass('expanded', direction === 'down');
+      $links.siblings('.expander-content').toggle();
     }, {
       offset: '48px'
     })
     .waypoint(function(direction) {
       var $links = $('a[href="#' + this.id + '"]');
       $links.toggleClass('active', direction === 'up');
+      $links.parent().toggleClass('expanded', direction === 'up');
+      $links.siblings('.expander-content').toggle();
     }, {
       offset: function() {
         return -$(this).height();
@@ -102,7 +106,7 @@ $(function() {
   
   $('#style-nav').waypoint('sticky');
   
-  
+
   
   return Expander.enhance();
 });

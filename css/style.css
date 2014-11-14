@@ -1163,8 +1163,7 @@ section {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 23.2317613015%;
-    overflow: visible !important; }
+    width: 23.2317613015%; }
     .secondary-content:last-child {
       margin-right: 0; } }
 @media screen and (min-width: 40em) {
@@ -2483,12 +2482,13 @@ input.cc-number {
   background: #f7f7f7;
   padding: 0.809em;
   border-radius: 6px;
-  margin-bottom: 1em;
-  width: 15.3125em; }
+  margin-bottom: 1em; }
   .sidebar:after {
     content: "";
     display: table;
     clear: both; }
+  .sidebar.stuck {
+    width: 15.3125em; }
   .sidebar .sidebar-title {
     font-size: 1em;
     margin-bottom: 1.5em;

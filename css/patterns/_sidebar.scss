@@ -8,7 +8,10 @@
   padding: $gutter / 2;
   border-radius: $base-border-radius;
   margin-bottom: 1em;
-  width: em(245px);
+  
+  &.stuck {
+    width: em(245px);
+  }
   .sidebar-title {
     font-size: 1em;
     margin-bottom: 1.5em;
