@@ -30,8 +30,9 @@
  * Links................Inline links.
  * 
  * PATTERNS
- * Navigation...........Navigation and checkout navigation.
+ * Navigation...........Main Navigation.
  * User menu............Global user menu.
+ * Utility Nav..........Utility and checkout navigation.
  * Footer...............Page footer.
  * Table................Tables with borders and shading.
  * Hero.................Hero banner with text and image.
@@ -46,6 +47,7 @@
  * 
  * PLUGINS
  * Pickadate............Responsive date picker.
+ * Fixedsticky..........A CSS position:sticky polyfill.
  *
  */
 /**
@@ -57,6 +59,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(plugins/fixedsticky.css);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -468,7 +471,8 @@ h6 {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: 1.25;
   margin: 0;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  color: #5e5e5e; }
 
 h1 {
   font-size: 2.25em; }
@@ -853,7 +857,7 @@ input[type="submit"], .button {
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"]:before,
-[class*=" icon-"]:before, header.navigation ul li.nav-link a:after {
+[class*=" icon-"]:before, .order-status .status:before, header.navigation ul li.nav-link a:after {
   font-family: 'Giftcards';
   display: inline-block;
   font-size: 1.5em;
@@ -991,8 +995,20 @@ body {
     display: table;
     clear: both; }
 
-div.omega {
-  margin-right: 0; }
+section {
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.1); }
+
+/* Fixed-Sticky CSS */
+.sticky-sidebar {
+  width: 245px; }
+
+.top {
+  top: 0; }
+
+.bottom {
+  bottom: 0; }
 
 @media screen and (min-width: 40em) {
   .vertical-divider {
@@ -1033,7 +1049,8 @@ div.omega {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
+    width: 23.2317613015%;
+    overflow: visible !important; }
     .secondary-content:last-child {
       margin-right: 0; } }
 @media screen and (min-width: 40em) {
@@ -1182,6 +1199,40 @@ div.omega {
 .expander.expanded .expander-toggle:before {
   content: '\25BC';
   margin-right: .95em; }
+
+.order-status {
+  border-top: 1px solid #DDD;
+  margin-top: 20px;
+  margin-bottom: 1.5em;
+  height: 30px;
+  text-align: center; }
+  .order-status .status {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.75em;
+    width: 5em;
+    line-height: 1;
+    vertical-align: top;
+    margin-top: -21px; }
+    .order-status .status:before {
+      display: block;
+      color: #DDD;
+      content: "U";
+      height: 40px;
+      line-height: 40px;
+      width: 1.5em;
+      margin: 0 auto;
+      background: white; }
+    .order-status .status.status-delivered:before {
+      content: "T";
+      font-size: 2.5em;
+      line-height: 1; }
+    .order-status .status.completed.status-purchased:before, .order-status .status.completed.status-delivered:before {
+      color: #4bbccb; }
+    .order-status .status.completed.status-shipped:before {
+      color: #fcc170; }
+    .order-status .status.completed.status-out:before {
+      color: #f2826c; }
 
 .pagination {
   padding: 0.375em 0.809em;
@@ -1642,57 +1693,8 @@ header.navigation {
   .social-bar iframe {
     vertical-align: middle; }
 
-.utility-nav {
-  text-align: center; }
-  @media screen and (min-width: 53.75em) {
-    .utility-nav {
-      display: block;
-      margin-top: 1em;
-      float: right;
-      font-weight: 800; } }
-  .utility-nav .utility-nav-link {
-    overflow: hidden;
-    z-index: 9999;
-    border-radius: 6px;
-    display: inline-block;
-    line-height: 1.2;
-    text-decoration: none;
-    padding: .3em;
-    width: 7em;
-    text-align: center;
-    color: #777; }
-    .utility-nav .utility-nav-link span, .utility-nav .utility-nav-link:before {
-      display: table-cell;
-      vertical-align: middle;
-      height: 3em; }
-      @media screen and (min-width: 53.75em) {
-        .utility-nav .utility-nav-link span, .utility-nav .utility-nav-link:before {
-          height: 2em; } }
-    .utility-nav .utility-nav-link:before {
-      color: #9ACD35;
-      padding-right: .5em;
-      display: none; }
-      @media screen and (min-width: 53.75em) {
-        .utility-nav .utility-nav-link:before {
-          display: table-cell; } }
-    .utility-nav .utility-nav-link:hover {
-      background: #f7f7f7; }
-    @media screen and (min-width: 53.75em) {
-      .utility-nav .utility-nav-link {
-        color: #0B9341;
-        width: 9em;
-        text-align: left; }
-        .utility-nav .utility-nav-link.learn-more, .utility-nav .utility-nav-link.category {
-          display: none; } }
-
 header.checkout-navigation {
   border-bottom: 1px solid #DDD; }
-  header.checkout-navigation .utility-nav-link a {
-    color: #DDD;
-    border-bottom: 3px transparent solid; }
-  header.checkout-navigation .utility-nav-link.active a {
-    color: #0B9341;
-    border-bottom: 3px #0B9341 solid; }
 
 .usermenu {
   background: #0B9341;
@@ -1741,6 +1743,62 @@ header.checkout-navigation {
       text-transform: uppercase;
       border-radius: 8px;
       padding: 0.5em 0.75em; }
+
+.utility-nav {
+  text-align: center; }
+  @media screen and (min-width: 53.75em) {
+    .utility-nav {
+      display: block;
+      margin-top: 1em;
+      float: right;
+      font-weight: 800; } }
+  .utility-nav .utility-nav-link {
+    overflow: hidden;
+    z-index: 9999;
+    border-radius: 6px;
+    display: inline-block;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: .3em;
+    width: 7em;
+    text-align: center;
+    color: #777; }
+    .utility-nav .utility-nav-link span, .utility-nav .utility-nav-link:before {
+      display: table-cell;
+      vertical-align: middle;
+      height: 3em; }
+      @media screen and (min-width: 53.75em) {
+        .utility-nav .utility-nav-link span, .utility-nav .utility-nav-link:before {
+          height: 2em; } }
+    .utility-nav .utility-nav-link:before {
+      color: #9ACD35;
+      padding-right: .5em;
+      display: none; }
+      @media screen and (min-width: 53.75em) {
+        .utility-nav .utility-nav-link:before {
+          display: table-cell; } }
+    .utility-nav .utility-nav-link:hover {
+      background: #f7f7f7; }
+    @media screen and (min-width: 53.75em) {
+      .utility-nav .utility-nav-link {
+        color: #0B9341;
+        width: 9em;
+        text-align: left; }
+        .utility-nav .utility-nav-link.learn-more, .utility-nav .utility-nav-link.category {
+          display: none; } }
+
+.utility-nav--steps .utility-nav-link {
+  color: #DDD;
+  border-bottom: 3px transparent solid;
+  border-radius: 0 !important; }
+  .utility-nav--steps .utility-nav-link:before {
+    color: #DDD;
+    padding-right: .25em; }
+.utility-nav--steps .utility-nav-link.active {
+  color: #0B9341;
+  border-bottom: 3px #0B9341 solid; }
+  .utility-nav--steps .utility-nav-link.active:before {
+    color: #9ACD35; }
 
 .footer {
   background: #0B9341;
@@ -1933,7 +1991,8 @@ header.checkout-navigation {
     line-height: .9;
     font-size: 3em;
     text-shadow: 0px 0px 10px #5c7b1f;
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    color: inherit; }
   .hero-text p {
     color: #444444;
     margin-bottom: 1.5em;
@@ -2307,7 +2366,7 @@ input.cc-number {
     padding: 0.25em 0.809em; }
     .sidebar .nav-link a:hover {
       color: #515151; }
-  .sidebar .nav-link.active a {
+  .sidebar .nav-link a.active {
     background: #9ACD35;
     color: white;
     font-weight: bold; }
@@ -2389,45 +2448,6 @@ input.cc-number {
     .order-tools .order-actions {
       float: right;
       text-align: right; } }
-  .order-tools .order-status {
-    border-top: 1px solid #DDD;
-    margin-top: 20px;
-    margin-bottom: 1.5em;
-    height: 30px;
-    text-align: center; }
-    .order-tools .order-status .status {
-      display: inline-block;
-      text-align: center;
-      font-size: 0.75em;
-      width: 5em;
-      line-height: 1;
-      vertical-align: top;
-      margin-top: -21px; }
-      .order-tools .order-status .status:before {
-        font-family: "Giftcards";
-        display: block;
-        font-size: 1.5em;
-        color: #DDD;
-        vertical-align: middle;
-        font-style: normal;
-        font-weight: normal !important;
-        -webkit-font-smoothing: antialiased;
-        content: "U";
-        height: 40px;
-        line-height: 40px;
-        width: 1.5em;
-        margin: 0 auto;
-        background: white; }
-      .order-tools .order-status .status.status-delivered:before {
-        content: "T";
-        font-size: 2.5em;
-        line-height: 1; }
-      .order-tools .order-status .status.completed.status-purchased:before, .order-tools .order-status .status.completed.status-delivered:before {
-        color: #4bbccb; }
-      .order-tools .order-status .status.completed.status-shipped:before {
-        color: #fcc170; }
-      .order-tools .order-status .status.completed.status-out:before {
-        color: #f2826c; }
 
 .order-details, .order-items {
   font-size: 0.8125em; }

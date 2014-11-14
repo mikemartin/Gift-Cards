@@ -1,14 +1,13 @@
 .sidebar {
   $sidebar-border-color: $base-border-color;
   $sidebar-background: lighten($sidebar-border-color, 10);
-
   @include clearfix;
+  
   border: 1px solid $sidebar-border-color;
   background: $sidebar-background;
   padding: $gutter / 2;
   border-radius: $base-border-radius;
   margin-bottom: 1em;
-  
   .sidebar-title {
     font-size: 1em;
     margin-bottom: 1.5em;
@@ -26,7 +25,7 @@
     }
   }
   
-  .nav-link.active a {
+  .nav-link a.active {
     background: $base-highlight-color;
     color: white;
     font-weight: bold;

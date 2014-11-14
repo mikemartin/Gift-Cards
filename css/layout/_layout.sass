@@ -17,10 +17,23 @@ body
 .row
   +outer-container
   
-div.omega
-  +omega
+section
+  padding-bottom: $base-spacing*2
+  margin-bottom: $base-spacing*2
+  border-bottom: 1px solid transparentize($base-font-color, .9)
   
+
+/* Fixed-Sticky CSS */
+
+.sticky-sidebar
+  width: 245px
   
+.top 
+  top: 0
+
+.bottom 
+  bottom: 0
+
 // Adds vertical divider to all columns  
   
 +media($medium-screen)

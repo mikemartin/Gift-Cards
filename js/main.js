@@ -76,6 +76,32 @@ $(function() {
   
   $('.datepicker').pickadate();
   
+  smoothScroll.init({
+      speed: 500,
+      easing: 'easeInOutCubic',
+      offset: 48,
+      updateURL: true
+  });
+  
+  // Highlight active letter in Word Menu
+  $('.style-guide')
+    .waypoint(function(direction) {
+      var $links = $('a[href="#' + this.id + '"]');
+      $links.toggleClass('active', direction === 'down');
+    }, {
+      offset: '0px'
+    })
+    .waypoint(function(direction) {
+      var $links = $('a[href="#' + this.id + '"]');
+      $links.toggleClass('active', direction === 'up');
+    }, {
+      offset: function() {
+        return -$(this).height();
+      }
+    });
+  
+  
+  
   return Expander.enhance();
 });
 

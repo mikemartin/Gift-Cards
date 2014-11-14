@@ -52,6 +52,7 @@ $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master
     font-size: $base-font-size * 3;
     text-shadow: 0px 0px 10px shade($base-highlight-color, 40);
     margin-bottom: .5em;
+    color: inherit;
   }
 
   p {

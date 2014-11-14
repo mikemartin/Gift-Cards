@@ -393,77 +393,8 @@ header.navigation {
   }
 }
 
-// Utility Nav
-.utility-nav {
-  text-align: center;
-  
-  @include media ($large-screen) {
-    display: block;
-    margin-top: 1em;
-    float: right;
-    font-weight: 800;
-  }
-  .utility-nav-link {
-    overflow: hidden;
-    z-index: 9999;
-    border-radius: $base-border-radius;
-    display: inline-block;
-    line-height: 1.2;
-    text-decoration: none;
-    padding: .3em;
-    width: 7em;
-    text-align: center;
-    color: $base-font-color;
 
-    span, &:before {
-      display: table-cell;
-      vertical-align: middle;
-      height: 3em;
-      @include media ($large-screen) {
-        height: 2em;
-      }
-    }
-    
-    &:before {
-      color: $base-highlight-color;
-      padding-right: .5em;
-      display: none;
-      @include media ($large-screen) {
-        display: table-cell;
-      }
-    }
-    
-    &:hover {
-      background: lighten($light-gray,10);
-    }
-    
-    @include media ($large-screen) {
-      color: $base-accent-color;
-      width: 9em;
-      text-align: left;
-      
-      &.learn-more, &.category {
-        display: none;
-      }
-    }
-    
-
-
-    
-  }
-}
 
 header.checkout-navigation {
   border-bottom: $base-border;
-  
-  .utility-nav-link a {
-    color: $base-border-color;
-    border-bottom: 3px transparent solid;
-  }
-  
-  .utility-nav-link.active a {
-    color: $base-accent-color;
-    border-bottom: 3px $base-accent-color solid;
-  }
-  
 }
