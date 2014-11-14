@@ -2,12 +2,12 @@
   @include clearfix;
   
   .card {
-    @include media(max-width $large-screen) {
+    @include media(max-width $medium-screen) {
       @include span-columns(6);
       @include omega(2n);
     }
 
-    @include media($large-screen) {
+    @include media($medium-screen) {
       @include span-columns(4);  
       @include omega(3n);
     }

@@ -39,7 +39,6 @@ header.navigation {
     
     img {
       max-height: 110px;
-      padding: .8em 0;
     }
   }
 
@@ -101,12 +100,11 @@ header.navigation {
 
   ul li.nav-link {
     background: $navigation-background;
-    display: block;
     line-height: $navigation-height;
     overflow: hidden;
-    text-align: center;
     width: 100%;
     z-index: 9999;
+    
 
     @include media ($horizontal-bar-mode) {
       background: transparent;
@@ -118,13 +116,18 @@ header.navigation {
     }
 
     a {
-      display: inline-block;
+      display: block;
+      border-top: $base-border;
       color: $base-font-color;
       line-height: $navigation-height;
+      padding: 0 1em;
+      
       @include media ($horizontal-bar-mode) {
         padding: .3em 1em;
         line-height: 1.2;
         height: $navigation-height;
+        border-top: none;
+        text-align: center;
         
         .nav-link-title {
           color: $navigation-color;
@@ -135,7 +138,20 @@ header.navigation {
       }
 
       &:hover {
+        background: transparentize($base-border-color,.7);
       }
+      
+      &:after {
+        @extend %icon;
+        content: "K";
+        float: right;
+        font-size: .7em;
+        color: $base-border-color;
+        @include media ($horizontal-bar-mode) { 
+         display: none;
+        }
+      }
+      
     }
   }
 
@@ -378,41 +394,62 @@ header.navigation {
 }
 
 // Utility Nav
-ul.utility-nav {
-  margin-top: 2.5em;
-  font-weight: 800;
-  float: right;
-  display: none;
+.utility-nav {
+  text-align: center;
+  
   @include media ($large-screen) {
     display: block;
+    margin-top: 1em;
+    float: right;
+    font-weight: 800;
   }
   .utility-nav-link {
-    display: block;
     overflow: hidden;
-    text-align: center;
-    width: 100%;
     z-index: 9999;
+    border-radius: $base-border-radius;
+    display: inline-block;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: .3em;
+    width: 7em;
+    text-align: center;
+    color: $base-font-color;
 
-    @include media ($large-screen) {
-      display: inline;
-      line-height: 1.2;
-      text-decoration: none;
-      width: auto;
-    }
-
-    a {
-      display: inline-block;
-      color: $base-accent-color;
-
+    span, &:before {
+      display: table-cell;
+      vertical-align: middle;
+      height: 3em;
       @include media ($large-screen) {
-        padding: .3em;
-        margin: 0 1em;
-        line-height: 1.2;
-      }
-
-      &:hover {
+        height: 2em;
       }
     }
+    
+    &:before {
+      color: $base-highlight-color;
+      padding-right: .5em;
+      display: none;
+      @include media ($large-screen) {
+        display: table-cell;
+      }
+    }
+    
+    &:hover {
+      background: lighten($light-gray,10);
+    }
+    
+    @include media ($large-screen) {
+      color: $base-accent-color;
+      width: 9em;
+      text-align: left;
+      
+      &.learn-more, &.category {
+        display: none;
+      }
+    }
+    
+
+
+    
   }
 }
 

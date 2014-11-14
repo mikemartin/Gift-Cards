@@ -10,9 +10,8 @@
     font-style: normal;
 }
 
-
 [class^="icon-"]:before,
-[class*=" icon-"]:before {
+[class*=" icon-"]:before, %icon {
   font-family: 'Giftcards';
   display: inline-block;
   font-size: 1.5em;
@@ -22,7 +21,6 @@
   font-style: normal;
   font-weight: normal !important;
   -webkit-font-smoothing: antialiased;
-  
 }
 
 
