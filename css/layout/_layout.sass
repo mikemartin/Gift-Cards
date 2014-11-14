@@ -24,10 +24,12 @@ section
   
 
 /* Fixed-Sticky CSS */
-
-.stuck
-  position: fixed
-  top: $base-spacing
++media($medium-screen)
+  .stuck
+    position: fixed
+    top: $base-spacing
+    &.sidebar
+      width: em(245px)
 
 // Adds vertical divider to all columns  
   

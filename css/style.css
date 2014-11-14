@@ -1120,10 +1120,12 @@ section {
   border-bottom: 1px solid rgba(119, 119, 119, 0.1); }
 
 /* Fixed-Sticky CSS */
-.stuck {
-  position: fixed;
-  top: 1.5em; }
-
+@media screen and (min-width: 40em) {
+  .stuck {
+    position: fixed;
+    top: 1.5em; }
+    .stuck.sidebar {
+      width: 15.3125em; } }
 @media screen and (min-width: 40em) {
   .vertical-divider {
     clear: both;
@@ -1913,7 +1915,7 @@ header.checkout-navigation {
     @media screen and (min-width: 53.75em) {
       .utility-nav .utility-nav-link {
         color: #0B9341;
-        width: 9em;
+        width: 9.5em;
         text-align: left; }
         .utility-nav .utility-nav-link.learn-more, .utility-nav .utility-nav-link.category {
           display: none; } }
@@ -2487,8 +2489,6 @@ input.cc-number {
     content: "";
     display: table;
     clear: both; }
-  .sidebar.stuck {
-    width: 15.3125em; }
   .sidebar .sidebar-title {
     font-size: 1em;
     margin-bottom: 1.5em;

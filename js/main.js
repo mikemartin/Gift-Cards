@@ -83,31 +83,54 @@ $(function() {
       updateURL: true
   });
   
-  // Highlight active letter in Word Menu
-  $('.style-guide section, .style-guide .style-type')
-    .waypoint(function(direction) {
-      var $links = $('a[href="#' + this.id + '"]');
-      $links.toggleClass('active', direction === 'down');
-      $links.parent().toggleClass('expanded', direction === 'down');
-      $links.siblings('.expander-content').toggle();
-    }, {
-      offset: '48px'
-    })
-    .waypoint(function(direction) {
-      var $links = $('a[href="#' + this.id + '"]');
-      $links.toggleClass('active', direction === 'up');
-      $links.parent().toggleClass('expanded', direction === 'up');
-      $links.siblings('.expander-content').toggle();
-    }, {
-      offset: function() {
-        return -$(this).height();
-      }
-    });
+  // Highlight active item in Style Guide menu
+  var setupStyleMenu = function() { 
+    $('.style-guide section, .style-guide .style-type')
+      .waypoint(function(direction) {
+        var $links = $('a[href="#' + this.id + '"]');
+        $links.toggleClass('active', direction === 'down');
+        $links.parent().toggleClass('expanded', direction === 'down');
+        $links.siblings('.expander-content').toggle();
+      }, {
+        offset: '48px'
+      })
+      .waypoint(function(direction) {
+        var $links = $('a[href="#' + this.id + '"]');
+        $links.toggleClass('active', direction === 'up');
+        $links.parent().toggleClass('expanded', direction === 'up');
+        $links.siblings('.expander-content').toggle();
+      }, {
+        offset: function() {
+          return -$(this).height();
+        }
+      });
+
+    $('#style-nav').waypoint('sticky');
+  };
   
-  $('#style-nav').waypoint('sticky');
+  var oldWindowWidth;
+
+  var checkWidth = function() {
+    if (!oldWindowWidth) return;
+    var windowWidth = $(window).width();
+    if (oldWindowWidth < 860 && windowWidth > 860) {
+      setupStyleMenu();
+    }
+    else if (oldWindowWidth > 860 && windowWidth < 860) {
+      $('#style-nav').waypoint('destroy');
+    }
+    oldWindowWidth = windowWidth;
+  };
+  
+  $(window).resize(checkWidth).load(function() {
+    var windowWidth = $(window).width();
+    if (windowWidth > 860) {
+      setupStyleMenu();
+    }
+    oldWindowWidth = windowWidth;
+  });
   
 
-  
   return Expander.enhance();
 });
 

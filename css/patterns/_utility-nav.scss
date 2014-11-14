@@ -45,7 +45,7 @@
     
     @include media ($large-screen) {
       color: $base-accent-color;
-      width: 9em;
+      width: 9.5em;
       text-align: left;
       
       &.learn-more, &.category {
