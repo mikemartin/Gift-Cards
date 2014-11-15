@@ -2,7 +2,7 @@
 // Base colors overrides
 //
 $blue: $base-accent-color;
-$blue-hover: lighten($light-gray,10);
+$blue-hover: tint($base-highlight-color,70);
 $blue-tag: $base-accent-color;
 $black: $dark-gray;
 

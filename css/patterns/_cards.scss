@@ -26,11 +26,12 @@
   $card-stats-color: lighten($base-accent-color, 10);
 
   @include transition (all 0.2s ease-in-out);
-  margin-bottom: 0;
+  margin-bottom: 1em;
   cursor: pointer;
   position: relative;
-  
-
+  @include media($medium-screen) {
+    margin-bottom: 0;
+  }
 
   .card-image {
     overflow: hidden;
@@ -83,6 +84,11 @@
     font-size: .9em;
     line-height: 1.5em;
     text-align: center;
+    display: none;
+    
+    @include media($medium-screen) {
+      display: block;
+    }
   }
 
 }

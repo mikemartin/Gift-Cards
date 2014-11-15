@@ -21,13 +21,12 @@
           <img src="/img/logo.png" alt="Logo Image">
         </a>
 
-        <div class="utility-nav">
+        <div class="utility-nav utility-nav--steps">
           <a href="/checkout" class="utility-nav-link icon-signin icon--large"><span>Sign In</span></a>
           <a href="/checkout/payment.html" class="utility-nav-link active icon-payment icon--large"><span>Payment</span></a>
           <a href="/checkout/place-order.html" class="utility-nav-link icon-order icon--large"><span>Place Order</span></a>
         </div>
 
-      </div>
   </header>
 </div>
   
@@ -72,16 +71,16 @@
         <fieldset>
           <legend>Add a Credit Card</legend>
           <label>Credit Card Number</label>
-          <input type="tel" data-stripe="number" x-autocompletetype="cc-number" autocompletetype="cc-number" class="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="Card Number" />
+          <input type="text" data-stripe="number" x-autocompletetype="cc-number" autocompletetype="cc-number" class="cc-number number" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="Card Number" maxlength="19" pattern="[0-9]*"/>
 
           <div class="field-half">
             <div class="field">
               <label>Expiry</label>
-              <input type="text" type="tel" size="7" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" class="cc-exp" placeholder="MM / YY" />
+              <input type="text" maxlength="7" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" class="cc-exp number" placeholder="MM / YY" pattern="[0-9]*" />
             </div>
             <div class="field">
               <label>Security Code</label>
-              <input data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc input-small" />
+              <input type="text" data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc input-small number" maxlength="4" pattern="[0-9]*"/>
               <div class="tooltip-item">
                 <a href="javascript:void(0)">What's this?</a>
                 <div class="tooltip">
@@ -109,11 +108,11 @@
             </div>
             <div class="field">
               <label>State</label>
-              <input type="text" name="billing_state"/>
+              <input type="text" class="alphanumeric" name="billing_state" maxlength="2"/>
             </div>
             <div class="field">
               <label>Zip Code</label>
-              <input type="text" name="billing_zip"/>
+              <input type="text" class="number" maxlength="5" name="billing_zip" pattern="[0-9]*"/>
             </div>
           </div>
           
@@ -137,11 +136,11 @@
             </div>
             <div class="field">
               <label>State</label>
-              <input type="text" name="shipping_state"/>
+              <input type="text" class="alphanumeric" maxlength="2" name="shipping_state"/>
             </div>
             <div class="field">
               <label>Zip Code</label>
-              <input type="text" name="shipping_zip"/>
+              <input type="text" class="number" maxlength="5" name="shipping_zip" pattern="[0-9]*"/>
             </div>
           </div>
         </fieldset>
@@ -175,7 +174,7 @@
 <script src='/js/plugins/smooth-scroll.min.js'></script>
 <script src='/js/plugins/waypoints.min.js'></script>
 <script src='/js/plugins/waypoints-sticky.min.js'></script>
-
+<script src='/js/plugins/jquery.autotab.min.js'></script>
 <script src="/js/main.js"></script>
 
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -188,8 +187,7 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=322477137904448&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-    <script src="//js.stripe.com/v2/"></script>
-  <script src="/js/plugins/jquery.payment.js"></script>
+    <script src="/js/plugins/jquery.payment.js"></script>
 
   <script>
     function toggleShippingAddressFields(display) {

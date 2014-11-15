@@ -21,13 +21,12 @@
           <img src="/img/logo.png" alt="Logo Image">
         </a>
 
-        <div class="utility-nav">
+        <div class="utility-nav utility-nav--steps">
           <a href="/checkout" class="utility-nav-link icon-signin icon--large"><span>Sign In</span></a>
           <a href="/checkout/payment.html" class="utility-nav-link active icon-payment icon--large"><span>Payment</span></a>
           <a href="/checkout/place-order.html" class="utility-nav-link icon-order icon--large"><span>Place Order</span></a>
         </div>
 
-      </div>
   </header>
 </div>
   
@@ -131,7 +130,7 @@
 <script src='/js/plugins/smooth-scroll.min.js'></script>
 <script src='/js/plugins/waypoints.min.js'></script>
 <script src='/js/plugins/waypoints-sticky.min.js'></script>
-
+<script src='/js/plugins/jquery.autotab.min.js'></script>
 <script src="/js/main.js"></script>
 
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -144,8 +143,7 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=322477137904448&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-  <script src="//js.stripe.com/v2/"></script>
-  <script src="/js/jquery.payment.js"></script>
+    <script src="/js/plugins/jquery.payment.js"></script>
 
   <script>
     function toggleShippingAddressFields(display) {
@@ -174,7 +172,6 @@
       });
       
     });
-  </script>
-  
+  </script>  
 </body>
 </html>

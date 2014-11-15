@@ -23,18 +23,19 @@
   -webkit-font-smoothing: antialiased;
 }
 
-
 button,
 input[type="submit"], .button {
-  &:before,
-  &:before {
+  &[class^="icon-"]:before, &[class*=" icon-"]:before {
     line-height: 0;
   }
 }
 
-.icon--large:before {
-  font-size: 2.5em;
-  line-height: 1;
+
+@include media($medium-screen) {
+  .icon--large:before {
+    font-size: 2.5em;
+    line-height: 1;
+  }
 }
 
 .icon-gift:before {
@@ -96,6 +97,7 @@ input[type="submit"], .button {
 
 .icon-order:before {
   content: "O";
+  margin-right: .2em;
 }
 
 .icon-payment:before {

@@ -2600,11 +2600,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/css\/plugins\/fixedsticky.css": {
+	"\/css\/plugins\/css\/classic.date.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/plugins\/fixedsticky.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/css\/classic.date.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3167,13 +3167,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/masterCard.png": {
+	"\/img\/mastercard.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 458,
-		"inputAbbreviatedPath": "\/img\/masterCard.png",
-		"outputAbbreviatedPath": "\/img\/masterCard.png",
+		"initialSize": 1582,
+		"inputAbbreviatedPath": "\/img\/mastercard.png",
+		"outputAbbreviatedPath": "\/img\/mastercard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3189,13 +3189,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/Visa.png": {
+	"\/img\/visa.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 179,
-		"inputAbbreviatedPath": "\/img\/Visa.png",
-		"outputAbbreviatedPath": "\/img\/Visa.png",
+		"initialSize": 1288,
+		"inputAbbreviatedPath": "\/img\/visa.png",
+		"outputAbbreviatedPath": "\/img\/visa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3248,6 +3248,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/plugins\/fixedsticky.js",
 		"outputAbbreviatedPath": "\/js\/plugins\/min\/fixedsticky-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/jquery.autotab.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/jquery.autotab.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/jquery.autotab.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

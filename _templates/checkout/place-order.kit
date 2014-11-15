@@ -101,37 +101,7 @@
   </main>
   
   <!-- @include "../partials/scripts" -->
-  <script src="//js.stripe.com/v2/"></script>
-  <script src="/js/jquery.payment.js"></script>
-
-  <script>
-    function toggleShippingAddressFields(display) {
-      if (display) {
-        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
-        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
-        $("[name='shipping_city']").val($("[name='billing_city']").val());
-        $("[name='shipping_state']").val($("[name='billing_state']").val());
-        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
-        $("[name='shipping_country']").val($("[name='billing_country']").val());
-        $("#shipping-address").hide();
-      } else {
-          $("#shipping-address").show();
-      }
-    }
-    
-    $(function() {
-      $('.cc-number').payment('formatCardNumber');
-      $('.cc-exp').payment('formatCardExpiry');
-      $('.cc-cvc').payment('formatCardCVC');
-
-      var $shippingCheckbox = $("#billing_is_shipping");
-      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
-      $shippingCheckbox.on('change', function() {      
-        toggleShippingAddressFields($(this).prop('checked')); 
-      });
-      
-    });
-  </script>
+  <!-- @include "../partials/scripts-payment" -->
   
 </body>
 </html>

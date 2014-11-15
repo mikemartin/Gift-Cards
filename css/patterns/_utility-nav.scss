@@ -1,77 +1,142 @@
 
-// Utility Nav
-.utility-nav {
-  text-align: center;
-  
-  @include media ($large-screen) {
-    display: block;
-    margin-top: 1em;
-    float: right;
-    font-weight: 800;
-  }
-  .utility-nav-link {
-    overflow: hidden;
-    z-index: 9999;
-    border-radius: $base-border-radius;
-    display: inline-block;
-    line-height: 1.2;
-    text-decoration: none;
-    padding: .3em;
-    width: 7em;
-    text-align: center;
-    color: $base-font-color;
 
-    span, &:before {
-      display: table-cell;
-      vertical-align: middle;
-      height: 3em;
-      @include media ($large-screen) {
-        height: 2em;
-      }
-    }
-    
+//// Utility Nav
+//.utility-nav {
+//  text-align: center;
+//  font-size: em(14px);
+//  @include media ($large-screen) {
+//    display: block;
+//    margin-top: 1.5em;
+//    float: right;
+//    font-weight: 800;
+//    font-size: 1em;
+//  }
+//  .utility-nav-link {
+//    overflow: hidden;
+//    z-index: 9999;
+//    border-radius: $base-border-radius;
+//    display: inline-block;
+//    line-height: 1.2;
+//    text-decoration: none;
+//    padding: .3em;
+//    width: 7em;
+//    text-align: center;
+//    color: $base-font-color;
+//
+//    span, &:before {
+//      display: table-cell;
+//      vertical-align: middle;
+//      height: 3em;
+//      @include media ($large-screen) {
+//        height: 2em;
+//      }
+//    }
+//    
+//    &:before {
+//      color: $base-highlight-color;
+//      padding-right: .5em;
+//      display: none;
+//      @include media ($large-screen) {
+//        display: table-cell;
+//      }
+//    }
+//    
+//    &:hover {
+//      background: lighten($light-gray,10);
+//    }
+//    
+//    @include media ($large-screen) {
+//      color: $base-accent-color;
+//      width: 9.5em;
+//      text-align: left;
+//      
+//      &.learn-more, &.category {
+//        display: none;
+//      }
+//    }
+//
+//  }
+//}
+
+.utility-nav {
+  @include media ($large-screen) {
+    float: right;
+    margin-top: 1.5em;
+  }
+  
+  .utility-nav-link {
+    color: $base-font-color;
+    border-bottom: 3px transparent solid;
+    border-radius: 0 !important;
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    padding: 0.25em .25em;
+    height: auto;
+    margin: 0;
+    font-size: em(14px);
+    line-height: 1.2;
     &:before {
       color: $base-highlight-color;
-      padding-right: .5em;
-      display: none;
-      @include media ($large-screen) {
-        display: table-cell;
-      }
     }
     
-    &:hover {
-      background: lighten($light-gray,10);
+    @include media (max-width $large-screen) {
+      &:before { display: none; }
     }
-    
     @include media ($large-screen) {
+      float: left;
+      width: auto;
+      padding: 0.5em 1em;
+      font-weight: 600;
       color: $base-accent-color;
-      width: 9.5em;
-      text-align: left;
+      font-size: em(16px);
+      &:before, span {
+        float: left; 
+        text-align: left;
+      }
       
-      &.learn-more, &.category {
+      &.category {
         display: none;
       }
     }
-
-  }
-}
-
-.utility-nav--steps {
-  .utility-nav-link {
-    color: $base-border-color;
-    border-bottom: 3px transparent solid;
-    border-radius: 0 !important;
-    &:before {
-      color: $base-border-color;
-      padding-right: .25em;
+    
+    &.active-nav-item {
+      background: transparentize($light-gray,.8);
     }
   }
 
   .utility-nav-link.active {
     color: $base-accent-color;
     border-bottom: 3px $base-accent-color solid;
+
     &:before {
       color: $base-highlight-color;
     }
   }
+  
+}
+
+
+.utility-nav--steps {
+  .utility-nav-link, .utility-nav-link:before {
+    color: $base-border-color;
+  }
+  
+  .utility-nav-link {
+    @include media (min-width 375px) {
+      text-align: center;
+    }
+    &:before, span {
+      float: none;
+      display: inline-block;
+    }
+    @include media($large-screen) {
+      width: auto;
+    }
+    @include media (max-width 375px) {
+      &:before { display: none; }
+    }
+  }
+  
+
 }

@@ -33,12 +33,15 @@ header.navigation {
     text-align: center;
     
     clear: both;
-    @include media($large-screen) {
-      float: left;  
+    img {
+      max-height: 60px;
     }
     
-    img {
-      max-height: 110px;
+    @include media($large-screen) {
+      float: left;  
+      img {
+        max-height: 100px;
+      }
     }
   }
 
@@ -410,4 +413,7 @@ header.navigation {
 
 header.checkout-navigation {
   border-bottom: $base-border;
+  @include media($large-screen) {
+    padding-bottom: $base-spacing;
+  }
 }

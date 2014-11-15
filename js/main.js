@@ -51,12 +51,14 @@ Expander = (function() {
 
 
 $(function() {
+  
+  // Mobile menu toggle
   var menu = $('#navigation-menu');
   var menuToggle = $('#js-mobile-menu');
-  var signUp = $('.sign-up');
 
   $(menuToggle).on('click', function(e) {
     e.preventDefault();
+    $(this).toggleClass("active-nav-item");
     menu.slideToggle(function(){
       if(menu.is(':hidden')) {
         menu.removeAttr('style');
@@ -64,7 +66,7 @@ $(function() {
     });
   });
 
-  // underline under the active nav item
+  // Underline under the active nav item
   $(".nav .nav-link").click(function() {
     $(".nav .nav-link").each(function() {
       $(this).removeClass("active-nav-item");
@@ -73,9 +75,8 @@ $(function() {
     $(".nav .more").removeClass("active-nav-item");
   });
   
-  
-  $('.datepicker').pickadate();
 
+  // Smooth scrolling for anchor links
   smoothScroll.init({
       speed: 500,
       easing: 'easeInOutCubic',
@@ -108,6 +109,8 @@ $(function() {
     $('#style-nav').waypoint('sticky');
   };
   
+
+  // Enable Waypoint on Desktop only
   var oldWindowWidth;
 
   var checkWidth = function() {
@@ -129,8 +132,25 @@ $(function() {
     }
     oldWindowWidth = windowWidth;
   });
-  
 
+  
+  // Initialize datepicker
+  $('.datepicker').pickadate();
+  
+  // Setup autotab and formating for form fields
+  var setupAutoTab = function() {
+    $.autotab({ tabOnSelect: true });
+    $('.number').autotab('filter', 'number');
+    $('.text').autotab('filter', 'text');
+    $('.alpha').autotab('filter', 'alpha');
+    $('.alphanumeric').autotab('filter', { format: 'alphanumeric', uppercase: true });
+  };
+  
+  setupAutoTab();
+  
+  // Initialize Expander function
   return Expander.enhance();
+  
+  
 });
 
