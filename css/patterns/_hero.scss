@@ -5,8 +5,6 @@ $hero-screen-height: 25em;
 $hero-background: darken(gray, 40);
 $hero-backside-background: darken($hero-background, 10);
 $hero-text-color: white;
-
-
 $hero-background-top: $base-highlight-color; 
 $hero-background-bottom: white;
 $gradient-angle: 10deg;
@@ -14,9 +12,12 @@ $hero-image: '../img/bokeh.jpg';
 $hero-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg';
 
 .hero {
-  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  background-color: mix($hero-background-top,$hero-background-bottom); //IE Fallback
+  @include background(linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  background-image: url($hero-image); 
+  background-position: top center;
   margin-bottom: $base-spacing;
-  background-size: cover;
+  //background-size: cover;
   width: 100%;
   border-bottom: $base-spacing/2 solid $base-highlight-color;
   overflow: hidden;

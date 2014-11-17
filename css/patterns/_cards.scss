@@ -1,5 +1,5 @@
 .cards {
-  @include clearfix;
+  @include outer-container;
   
   .card {
     @include media(max-width $medium-screen) {
@@ -40,7 +40,7 @@
       width: 100%;
       @include transition (all 0.2s ease-in-out);
       border-radius: $card-border-radius;
-      border: $card-border;
+      //border: $card-border;
       background-color: $card-background;
     }
   }

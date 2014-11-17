@@ -86,13 +86,13 @@ header.navigation {
     z-index: 9999;
 
     @include media ($horizontal-bar-mode) {
-      display: inline;
+      display: block;
       margin: 0;
       padding: 0;
       @include display(flex); 
       @include flex-direction(row);
-      
       min-height: $navigation-height;
+      background-color: lighten($navigation-background-top,10);
       @include background(linear-gradient($navigation-background-bottom, $navigation-background-top), no-repeat $navigation-background-top scroll);
       border: 1px solid darken($navigation-background, 10);
       border-radius: 6px;
@@ -111,7 +111,7 @@ header.navigation {
 
     @include media ($horizontal-bar-mode) {
       background: transparent;
-      display: inline;
+      display: inline-block;
       line-height: 1.2;
       text-decoration: none;
       width: auto;
@@ -140,7 +140,7 @@ header.navigation {
       padding: 0 1em;
       
       @include media ($horizontal-bar-mode) {
-        padding: .3em 1em;
+        padding: .3em 2.75em;
         line-height: 1.2;
         height: $navigation-height;
         border-top: none;
@@ -303,8 +303,8 @@ header.navigation {
       
       .social-bar {
         @include span-columns(6);
+        @include omega;
         text-align: right;
-        display: block;
       }
     }
   }
@@ -329,7 +329,6 @@ header.navigation {
     padding: .85em .6em; 
     width: 100%;
     margin: 0 auto;
-    //float: left;
     
     .search-and-submit {
       position: relative;
