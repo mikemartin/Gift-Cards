@@ -1,55 +1,3 @@
-var Expander;
-
-Expander = (function() {
-  Expander.selector = '.expander';
-  Expander.toggleSelector = '.expander-toggle';
-  Expander.contentSelector = '.expander-content';
-  Expander.enhancedClass = 'js-expander';
-  Expander.expandedClass = 'expanded';
-
-  Expander.enhance = function() {
-    var thisClass;
-    thisClass = this;
-    return $(this.selector).each(function() {
-      return new thisClass(this).enhance();
-    });
-  };
-
-  function Expander(element) {
-    this._element = $(element);
-    this._toggleElement = this._element.find(this.constructor.toggleSelector);
-    this._contentElement = this._element.find(this.constructor.contentSelector);
-  }
-
-  Expander.prototype.enhance = function() {
-    this._element.addClass(this.constructor.enhancedClass);
-    this._buildUI();
-    return this._bindEvents();
-  };
-
-  Expander.prototype._buildUI = function() {
-    return this._contentElement.hide();
-  };
-
-  Expander.prototype._bindEvents = function() {
-    return this._toggleElement.click((function(_this) {
-      return function() {
-        return _this._toggleContent();
-      };
-    })(this));
-  };
-
-  Expander.prototype._toggleContent = function() {
-    this._contentElement.toggle();
-    return this._element.toggleClass(this.constructor.expandedClass);
-  };
-
-  return Expander;
-})();
-
-
-
-
 $(function() {
   
   // Mobile menu toggle
@@ -75,6 +23,11 @@ $(function() {
     $(".nav .more").removeClass("active-nav-item");
   });
   
+  
+  // Expanders
+  $('#js-expander-trigger').click(function(){
+    $(this).toggleClass("expander-hidden");
+  });
 
   // Smooth scrolling for anchor links
   smoothScroll.init({
@@ -86,20 +39,42 @@ $(function() {
   
   // Highlight active item in Style Guide menu
   var setupStyleMenu = function() { 
-    $('.style-guide section, .style-guide .style-type')
+    $('.style-guide section')
       .waypoint(function(direction) {
         var $links = $('a[href="#' + this.id + '"]');
         $links.toggleClass('active', direction === 'down');
-        $links.parent().toggleClass('expanded', direction === 'down');
-        $links.siblings('.expander-content').toggle();
       }, {
         offset: '48px'
       })
       .waypoint(function(direction) {
         var $links = $('a[href="#' + this.id + '"]');
         $links.toggleClass('active', direction === 'up');
-        $links.parent().toggleClass('expanded', direction === 'up');
-        $links.siblings('.expander-content').toggle();
+      }, {
+        offset: function() {
+          return -$(this).height();
+        }
+      });
+
+    
+    $('.style-guide .style-type')
+      .waypoint(function(direction) {
+        var $links = $('a[href="#' + this.id + '"]');
+        if ($links.hasClass('expander-hidden')) {
+          $links.removeClass('expander-hidden');
+        } else {
+          $links.addClass('expander-hidden', direction === 'down');
+        }
+      }, {
+        offset: '48px'
+      })
+      .waypoint(function(direction) {
+        var $links = $('a[href="#' + this.id + '"]');
+      
+        if ($links.hasClass('expander-hidden')) {
+          $links.removeClass('expander-hidden');
+        } else {
+          $links.addClass('expander-hidden', direction === 'up');
+        }
       }, {
         offset: function() {
           return -$(this).height();
@@ -147,9 +122,7 @@ $(function() {
   };
   
   setupAutoTab();
-  
-  // Initialize Expander function
-  return Expander.enhance();
+
   
   
 });

@@ -54,12 +54,12 @@
 
 .sidebar.expander {
   @include media(max-width $large-screen) {
-    &:not(.expanded) .expander-toggle {
+    .expander-trigger.expander-hidden {
       margin-bottom: 0;
       border-bottom-color: transparent;
       padding-bottom: 0;
     }
-    .expander-toggle {
+    .expander-trigger {
       color: $base-link-color;
       &:hover {
         color: $hover-link-color;
@@ -72,7 +72,7 @@
       display: block !important;
     }
 
-    .expander-toggle {
+    .expander-trigger {
       color: inherit;
       pointer-events: none;
       &:before {

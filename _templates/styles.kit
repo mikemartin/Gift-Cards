@@ -10,7 +10,7 @@
     <div class="secondary-content">
       <div class="sidebar" id="style-nav">
         <div class="expander filter">
-          <a href="#base" class="expander-toggle">Base</a>
+          <a href="#base" class="expander-trigger expander-hidden">Base</a>
           <div class="expander-content">
             <ul>
               <li class="nav-link"><a data-scroll href="#colors">Colors</a></li>
@@ -19,9 +19,9 @@
             </ul>
           </div>
         </div>
-        
+      
         <div class="expander filter">
-          <a href="#components" class="expander-toggle">Components</a>
+          <a href="#components" class="expander-trigger expander-hidden">Components</a>
           <div class="expander-content">
             <ul>
               <li class="nav-link"><a data-scroll href="#button-group">Button Group</a></li>
@@ -37,7 +37,7 @@
         </div>
         
         <div class="expander filter">
-          <a href="#patterns" class="expander-toggle">Patterns</a>
+          <a href="#patterns" class="expander-trigger expander-hidden">Patterns</a>
           <div class="expander-content">
             <ul>
               <li class="nav-link"><a data-scroll href="#user-menu">User Menu</a></li>
@@ -153,12 +153,14 @@
         <section id="expander">
           <h3>Expander</h3>
           <p>Expand and collapse content.</p>
+          
           <div class="expander">
-            <a href="javascript:void(0)" class="expander-toggle">Expandable section</a>
+            <a href="javascript:void(0)" id="js-expander-trigger" class="expander-trigger expander-hidden">Expandable section</a>
             <div class="expander-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia fugiat facilis enim accusamus quisquam aut, repellendus incidunt quod optio facere labore illo numquam ipsum beatae vero debitis, fugit excepturi.</p>
             </div>
           </div>
+
         </section>
 
         <section id="flashes">
