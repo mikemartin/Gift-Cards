@@ -140,7 +140,7 @@ header.navigation {
       padding: 0 1em;
       
       @include media ($horizontal-bar-mode) {
-        padding: .3em 2.75em;
+        padding: .3em 2em;        
         line-height: 1.2;
         height: $navigation-height;
         border-top: none;

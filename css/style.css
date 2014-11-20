@@ -496,7 +496,7 @@ header.navigation ul li.nav-link.active a span { color: white; }
 header.navigation ul li.nav-link.active:hover a { background: #0dab4b; }
 header.navigation ul li.nav-link.active-nav-item a { background: rgba(221, 221, 221, 0.3); }
 header.navigation ul li.nav-link a { display: block; border-top: 1px solid #DDD; color: #777; line-height: 60px; padding: 0 1em; }
-@media screen and (min-width: 53.75em) { header.navigation ul li.nav-link a { padding: .3em 2.75em; line-height: 1.2; height: 60px; border-top: none; text-align: center; }
+@media screen and (min-width: 53.75em) { header.navigation ul li.nav-link a { padding: .3em 2em; line-height: 1.2; height: 60px; border-top: none; text-align: center; }
   header.navigation ul li.nav-link a .nav-link-title { color: #0B9341; font-weight: 600; font-size: 1.5em; display: block; } }
 header.navigation ul li.nav-link a:hover { background: rgba(221, 221, 221, 0.3); }
 header.navigation ul li.nav-link a:after { content: "K"; float: right; font-size: .7em; color: #DDD; }
