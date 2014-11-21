@@ -1,6 +1,13 @@
 // Payment Button Group
+
+.payment-types
+  input 
+    float: left
+    margin: .75em 1em
+    display: block
+
 .payment-item 
-  +outer-container
+  //  +outer-container
   padding: 0 .5em !important
   .col 
     line-height: 40px
@@ -15,14 +22,13 @@
 
   +media($large-screen)
     .col
-      +span-columns(3)
-      display: block
-    .col:first-child
-      +span-columns(6)
-    .col:last-child
-      text-align: right  
-      padding-right: 1em
-    
+      display: inline-block
+    .col-type
+      width: 50%
+    .col-name
+      width: 30%
+    .col-date
+      width: 10%
 
 
   

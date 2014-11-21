@@ -1,3 +1,5 @@
+
+
 .button-group {
   $button-group-background: $base-background-color;
   $button-group-color: lighten($base-font-color, 10);
@@ -18,8 +20,9 @@
     .button-group-item {
       background: $button-group-background;
       border-left: $button-group-border;
-      border-radius: 0;
       border-right: $button-group-border;
+      border-bottom: $button-group-inner-border;
+      border-radius: 0;
       color: $button-group-color;
       cursor: pointer;
       display: block;
@@ -60,7 +63,7 @@
 
     &:not(.button-group--vertical) label {
       float: left;
-
+      
       .button-group-item {
           border-bottom: $button-group-border;
           border-left: 0;
