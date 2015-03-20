@@ -2,501 +2,492 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
-	"\/New Folder With Items\/_templates\/account\/index.kit": {
+	"\/_templates\/account\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/account\/index.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/account\/index.html",
+		"inputAbbreviatedPath": "\/_templates\/account\/index.kit",
+		"outputAbbreviatedPath": "\/account\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/account\/orders\/index.kit": {
+	"\/_templates\/account\/orders\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/account\/orders\/index.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/account\/orders\/index.html",
+		"inputAbbreviatedPath": "\/_templates\/account\/orders\/index.kit",
+		"outputAbbreviatedPath": "\/account\/orders\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/account\/orders\/order-details.kit": {
+	"\/_templates\/account\/orders\/order-details.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/account\/orders\/order-details.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/account\/orders\/order-details.html",
+		"inputAbbreviatedPath": "\/_templates\/account\/orders\/order-details.kit",
+		"outputAbbreviatedPath": "\/account\/orders\/order-details.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/account\/payments.kit": {
+	"\/_templates\/account\/payments.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/account\/payments.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/account\/payments.html",
+		"inputAbbreviatedPath": "\/_templates\/account\/payments.kit",
+		"outputAbbreviatedPath": "\/account\/payments.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/account\/settings.kit": {
+	"\/_templates\/account\/settings.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/account\/settings.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/account\/settings.html",
+		"inputAbbreviatedPath": "\/_templates\/account\/settings.kit",
+		"outputAbbreviatedPath": "\/account\/settings.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/business.kit": {
+	"\/_templates\/business.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/business.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/business.html",
+		"inputAbbreviatedPath": "\/_templates\/business.kit",
+		"outputAbbreviatedPath": "\/business.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/cart.kit": {
+	"\/_templates\/cart.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/cart.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/cart.html",
+		"inputAbbreviatedPath": "\/_templates\/cart.kit",
+		"outputAbbreviatedPath": "\/cart.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/category\/index.kit": {
+	"\/_templates\/category\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/category\/index.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/category\/index.html",
+		"inputAbbreviatedPath": "\/_templates\/category\/index.kit",
+		"outputAbbreviatedPath": "\/category\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/category\/product.kit": {
+	"\/_templates\/category\/product.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/category\/product.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/category\/product.html",
+		"inputAbbreviatedPath": "\/_templates\/category\/product.kit",
+		"outputAbbreviatedPath": "\/category\/product.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/checkout\/index.kit": {
+	"\/_templates\/checkout\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/checkout\/index.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/checkout\/index.html",
+		"inputAbbreviatedPath": "\/_templates\/checkout\/index.kit",
+		"outputAbbreviatedPath": "\/checkout\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/checkout\/payment.kit": {
+	"\/_templates\/checkout\/payment.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/checkout\/payment.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/checkout\/payment.html",
+		"inputAbbreviatedPath": "\/_templates\/checkout\/payment.kit",
+		"outputAbbreviatedPath": "\/checkout\/payment.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/checkout\/place-order.kit": {
+	"\/_templates\/checkout\/place-order.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/checkout\/place-order.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/checkout\/place-order.html",
+		"inputAbbreviatedPath": "\/_templates\/checkout\/place-order.kit",
+		"outputAbbreviatedPath": "\/checkout\/place-order.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/contact-us.kit": {
+	"\/_templates\/contact-us.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/contact-us.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/contact-us.html",
+		"inputAbbreviatedPath": "\/_templates\/contact-us.kit",
+		"outputAbbreviatedPath": "\/contact-us.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/home.kit": {
+	"\/_templates\/home.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/home.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/home.html",
+		"inputAbbreviatedPath": "\/_templates\/home.kit",
+		"outputAbbreviatedPath": "\/home.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/index.kit": {
+	"\/_templates\/login.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/index.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/index.html",
+		"inputAbbreviatedPath": "\/_templates\/login.kit",
+		"outputAbbreviatedPath": "\/login.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/login.kit": {
+	"\/_templates\/partials\/_card.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_card.kit",
+		"outputAbbreviatedPath": "\/partials\/_card.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_cards.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_cards.kit",
+		"outputAbbreviatedPath": "\/partials\/_cards.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_cart-table.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_cart-table.kit",
+		"outputAbbreviatedPath": "\/partials\/_cart-table.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_checkout-navigation.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_checkout-navigation.kit",
+		"outputAbbreviatedPath": "\/partials\/_checkout-navigation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_companies.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_companies.kit",
+		"outputAbbreviatedPath": "\/partials\/_companies.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_filters.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_filters.kit",
+		"outputAbbreviatedPath": "\/partials\/_filters.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_footer.kit",
+		"outputAbbreviatedPath": "\/partials\/_footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_form-payment.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_form-payment.kit",
+		"outputAbbreviatedPath": "\/partials\/_form-payment.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_head.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_head.kit",
+		"outputAbbreviatedPath": "\/partials\/_head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_hero.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_hero.kit",
+		"outputAbbreviatedPath": "\/partials\/_hero.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_navigation.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_navigation.kit",
+		"outputAbbreviatedPath": "\/partials\/_navigation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_order-search.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_order-search.kit",
+		"outputAbbreviatedPath": "\/partials\/_order-search.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_order-status.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_order-status.kit",
+		"outputAbbreviatedPath": "\/partials\/_order-status.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_order.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_order.kit",
+		"outputAbbreviatedPath": "\/partials\/_order.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_pagination.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_pagination.kit",
+		"outputAbbreviatedPath": "\/partials\/_pagination.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_payment-types.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_payment-types.kit",
+		"outputAbbreviatedPath": "\/partials\/_payment-types.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_product.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_product.kit",
+		"outputAbbreviatedPath": "\/partials\/_product.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_scripts-payment.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_scripts-payment.kit",
+		"outputAbbreviatedPath": "\/partials\/_scripts-payment.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_scripts.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_scripts.kit",
+		"outputAbbreviatedPath": "\/partials\/_scripts.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_sidenav.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_sidenav.kit",
+		"outputAbbreviatedPath": "\/partials\/_sidenav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/partials\/_usermenu.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_templates\/partials\/_usermenu.kit",
+		"outputAbbreviatedPath": "\/partials\/_usermenu.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_templates\/privacy-policy.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/login.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/login.html",
+		"inputAbbreviatedPath": "\/_templates\/privacy-policy.kit",
+		"outputAbbreviatedPath": "\/privacy-policy.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/partials\/_card.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_card.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_card.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_cards.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_cards.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_cards.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_cart-table.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_cart-table.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_cart-table.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_checkout-navigation.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_checkout-navigation.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_checkout-navigation.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_companies.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_companies.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_companies.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_filters.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_filters.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_filters.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_footer.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_footer.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_footer.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_form-payment.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_form-payment.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_form-payment.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_head.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_head.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_head.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_hero.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_hero.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_hero.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_navigation.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_navigation.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_navigation.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_order-search.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_order-search.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_order-search.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_order-status.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_order-status.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_order-status.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_order.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_order.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_order.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_pagination.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_pagination.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_pagination.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_payment-types.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_payment-types.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_payment-types.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_product.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_product.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_product.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_scripts-payment.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_scripts-payment.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_scripts-payment.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_scripts.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_scripts.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_scripts.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_sidenav.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_sidenav.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_sidenav.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/partials\/_usermenu.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/partials\/_usermenu.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/partials\/_usermenu.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/_templates\/privacy-policy.kit": {
+	"\/_templates\/search-noresults.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/privacy-policy.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/privacy-policy.html",
+		"inputAbbreviatedPath": "\/_templates\/search-noresults.kit",
+		"outputAbbreviatedPath": "\/search-noresults.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/search-noresults.kit": {
+	"\/_templates\/search.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/search-noresults.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/search-noresults.html",
+		"inputAbbreviatedPath": "\/_templates\/search.kit",
+		"outputAbbreviatedPath": "\/search.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/search.kit": {
+	"\/_templates\/styles.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/search.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/search.html",
+		"inputAbbreviatedPath": "\/_templates\/styles.kit",
+		"outputAbbreviatedPath": "\/styles.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/_templates\/styles.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/_templates\/styles.kit",
-		"outputAbbreviatedPath": "\/New Folder With Items\/styles.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/account\/index.html": {
+	"\/account\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/account\/index.html",
+		"inputAbbreviatedPath": "\/account\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/account\/orders\/index.html": {
+	"\/account\/orders\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/account\/orders\/index.html",
+		"inputAbbreviatedPath": "\/account\/orders\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/account\/orders\/order-details.html": {
+	"\/account\/orders\/order-details.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/account\/orders\/order-details.html",
+		"inputAbbreviatedPath": "\/account\/orders\/order-details.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/account\/payments.html": {
+	"\/account\/payments.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/account\/payments.html",
+		"inputAbbreviatedPath": "\/account\/payments.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/account\/settings.html": {
+	"\/account\/settings.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/account\/settings.html",
+		"inputAbbreviatedPath": "\/account\/settings.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/business.html": {
+	"\/business.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/business.html",
+		"inputAbbreviatedPath": "\/business.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/cart.html": {
+	"\/cart.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/cart.html",
+		"inputAbbreviatedPath": "\/cart.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/category\/index.html": {
+	"\/category\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/category\/index.html",
+		"inputAbbreviatedPath": "\/category\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/category\/product.html": {
+	"\/category\/product.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/category\/product.html",
+		"inputAbbreviatedPath": "\/category\/product.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/checkout\/index.html": {
+	"\/checkout\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/checkout\/index.html",
+		"inputAbbreviatedPath": "\/checkout\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/checkout\/payment.html": {
+	"\/checkout\/payment.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/checkout\/payment.html",
+		"inputAbbreviatedPath": "\/checkout\/payment.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/checkout\/place-order.html": {
+	"\/checkout\/place-order.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/checkout\/place-order.html",
+		"inputAbbreviatedPath": "\/checkout\/place-order.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/contact-us.html": {
+	"\/contact-us.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/contact-us.html",
+		"inputAbbreviatedPath": "\/contact-us.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/css\/base\/_base.scss": {
+	"\/css\/base\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_base.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_base.css",
+		"inputAbbreviatedPath": "\/css\/base\/_base.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -504,15 +495,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_buttons.scss": {
+	"\/css\/base\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_buttons.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/css\/base\/_buttons.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -520,15 +511,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_flashes.scss": {
+	"\/css\/base\/_flashes.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_flashes.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_flashes.css",
+		"inputAbbreviatedPath": "\/css\/base\/_flashes.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_flashes.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -536,15 +527,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_forms.scss": {
+	"\/css\/base\/_forms.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_forms.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_forms.css",
+		"inputAbbreviatedPath": "\/css\/base\/_forms.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -552,15 +543,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_giftcard-icons.scss": {
+	"\/css\/base\/_giftcard-icons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_giftcard-icons.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_giftcard-icons.css",
+		"inputAbbreviatedPath": "\/css\/base\/_giftcard-icons.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_giftcard-icons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -568,15 +559,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_grid-settings.scss": {
+	"\/css\/base\/_grid-settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_grid-settings.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_grid-settings.css",
+		"inputAbbreviatedPath": "\/css\/base\/_grid-settings.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_grid-settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -584,15 +575,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_lists.scss": {
+	"\/css\/base\/_lists.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_lists.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_lists.css",
+		"inputAbbreviatedPath": "\/css\/base\/_lists.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_lists.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -600,15 +591,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_normalize.scss": {
+	"\/css\/base\/_normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_normalize.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_normalize.css",
+		"inputAbbreviatedPath": "\/css\/base\/_normalize.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -616,15 +607,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_swatches.scss": {
+	"\/css\/base\/_swatches.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_swatches.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_swatches.css",
+		"inputAbbreviatedPath": "\/css\/base\/_swatches.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_swatches.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -632,15 +623,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_tables.scss": {
+	"\/css\/base\/_tables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_tables.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_tables.css",
+		"inputAbbreviatedPath": "\/css\/base\/_tables.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_tables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -648,15 +639,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_typography.scss": {
+	"\/css\/base\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_typography.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_typography.css",
+		"inputAbbreviatedPath": "\/css\/base\/_typography.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -664,15 +655,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/_variables.scss": {
+	"\/css\/base\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/_variables.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_variables.css",
+		"inputAbbreviatedPath": "\/css\/base\/_variables.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -680,15 +671,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/_bourbon-deprecated-upcoming.scss": {
+	"\/css\/base\/bourbon\/_bourbon-deprecated-upcoming.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/_bourbon-deprecated-upcoming.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_bourbon-deprecated-upcoming.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/_bourbon-deprecated-upcoming.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_bourbon-deprecated-upcoming.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -696,15 +687,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/_bourbon.scss": {
+	"\/css\/base\/bourbon\/_bourbon.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/_bourbon.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_bourbon.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/_bourbon.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_bourbon.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -712,15 +703,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_button.scss": {
+	"\/css\/base\/bourbon\/addons\/_button.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_button.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_button.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_button.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_button.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -728,15 +719,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_clearfix.scss": {
+	"\/css\/base\/bourbon\/addons\/_clearfix.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_clearfix.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_clearfix.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_clearfix.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_clearfix.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -744,15 +735,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_directional-values.scss": {
+	"\/css\/base\/bourbon\/addons\/_directional-values.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_directional-values.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_directional-values.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_directional-values.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_directional-values.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -760,15 +751,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_ellipsis.scss": {
+	"\/css\/base\/bourbon\/addons\/_ellipsis.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_ellipsis.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_ellipsis.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_ellipsis.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_ellipsis.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -776,15 +767,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_font-family.scss": {
+	"\/css\/base\/bourbon\/addons\/_font-family.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_font-family.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_font-family.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_font-family.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_font-family.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -792,15 +783,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_hide-text.scss": {
+	"\/css\/base\/bourbon\/addons\/_hide-text.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_hide-text.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_hide-text.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_hide-text.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_hide-text.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -808,15 +799,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_html5-input-types.scss": {
+	"\/css\/base\/bourbon\/addons\/_html5-input-types.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_html5-input-types.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_html5-input-types.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_html5-input-types.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_html5-input-types.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -824,15 +815,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_position.scss": {
+	"\/css\/base\/bourbon\/addons\/_position.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_position.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_position.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_position.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_position.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -840,15 +831,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_prefixer.scss": {
+	"\/css\/base\/bourbon\/addons\/_prefixer.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_prefixer.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_prefixer.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_prefixer.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_prefixer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -856,15 +847,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_retina-image.scss": {
+	"\/css\/base\/bourbon\/addons\/_retina-image.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_retina-image.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_retina-image.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_retina-image.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_retina-image.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -872,15 +863,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_size.scss": {
+	"\/css\/base\/bourbon\/addons\/_size.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_size.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_size.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_size.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_size.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -888,15 +879,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_timing-functions.scss": {
+	"\/css\/base\/bourbon\/addons\/_timing-functions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_timing-functions.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_timing-functions.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_timing-functions.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_timing-functions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -904,15 +895,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_triangle.scss": {
+	"\/css\/base\/bourbon\/addons\/_triangle.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_triangle.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_triangle.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_triangle.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_triangle.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -920,15 +911,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/addons\/_word-wrap.scss": {
+	"\/css\/base\/bourbon\/addons\/_word-wrap.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/addons\/_word-wrap.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_word-wrap.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/addons\/_word-wrap.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_word-wrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -936,15 +927,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_animation.scss": {
+	"\/css\/base\/bourbon\/css3\/_animation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_animation.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_animation.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_animation.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_animation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -952,15 +943,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_appearance.scss": {
+	"\/css\/base\/bourbon\/css3\/_appearance.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_appearance.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_appearance.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_appearance.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_appearance.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -968,15 +959,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_backface-visibility.scss": {
+	"\/css\/base\/bourbon\/css3\/_backface-visibility.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_backface-visibility.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_backface-visibility.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_backface-visibility.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_backface-visibility.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -984,15 +975,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_background-image.scss": {
+	"\/css\/base\/bourbon\/css3\/_background-image.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_background-image.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_background-image.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_background-image.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_background-image.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1000,15 +991,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_background.scss": {
+	"\/css\/base\/bourbon\/css3\/_background.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_background.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_background.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_background.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_background.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1016,15 +1007,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_border-image.scss": {
+	"\/css\/base\/bourbon\/css3\/_border-image.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_border-image.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_border-image.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_border-image.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_border-image.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1032,15 +1023,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_border-radius.scss": {
+	"\/css\/base\/bourbon\/css3\/_border-radius.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_border-radius.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_border-radius.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_border-radius.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_border-radius.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1048,15 +1039,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_box-sizing.scss": {
+	"\/css\/base\/bourbon\/css3\/_box-sizing.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_box-sizing.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_box-sizing.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_box-sizing.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_box-sizing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1064,15 +1055,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_calc.scss": {
+	"\/css\/base\/bourbon\/css3\/_calc.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_calc.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_calc.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_calc.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_calc.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1080,15 +1071,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_columns.scss": {
+	"\/css\/base\/bourbon\/css3\/_columns.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_columns.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_columns.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_columns.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_columns.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1096,15 +1087,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_filter.scss": {
+	"\/css\/base\/bourbon\/css3\/_filter.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_filter.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_filter.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_filter.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_filter.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1112,15 +1103,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_flex-box.scss": {
+	"\/css\/base\/bourbon\/css3\/_flex-box.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_flex-box.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_flex-box.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_flex-box.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_flex-box.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1128,15 +1119,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_font-face.scss": {
+	"\/css\/base\/bourbon\/css3\/_font-face.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_font-face.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_font-face.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_font-face.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_font-face.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1144,15 +1135,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_font-feature-settings.scss": {
+	"\/css\/base\/bourbon\/css3\/_font-feature-settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_font-feature-settings.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_font-feature-settings.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_font-feature-settings.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_font-feature-settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1160,15 +1151,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_hidpi-media-query.scss": {
+	"\/css\/base\/bourbon\/css3\/_hidpi-media-query.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_hidpi-media-query.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_hidpi-media-query.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_hidpi-media-query.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_hidpi-media-query.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1176,15 +1167,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_hyphens.scss": {
+	"\/css\/base\/bourbon\/css3\/_hyphens.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_hyphens.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_hyphens.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_hyphens.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_hyphens.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1192,15 +1183,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_image-rendering.scss": {
+	"\/css\/base\/bourbon\/css3\/_image-rendering.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_image-rendering.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_image-rendering.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_image-rendering.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_image-rendering.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1208,15 +1199,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_keyframes.scss": {
+	"\/css\/base\/bourbon\/css3\/_keyframes.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_keyframes.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_keyframes.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_keyframes.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_keyframes.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1224,15 +1215,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_linear-gradient.scss": {
+	"\/css\/base\/bourbon\/css3\/_linear-gradient.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_linear-gradient.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_linear-gradient.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_linear-gradient.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_linear-gradient.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1240,15 +1231,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_perspective.scss": {
+	"\/css\/base\/bourbon\/css3\/_perspective.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_perspective.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_perspective.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_perspective.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_perspective.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1256,15 +1247,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_placeholder.scss": {
+	"\/css\/base\/bourbon\/css3\/_placeholder.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_placeholder.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_placeholder.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_placeholder.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_placeholder.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1272,15 +1263,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_radial-gradient.scss": {
+	"\/css\/base\/bourbon\/css3\/_radial-gradient.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_radial-gradient.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_radial-gradient.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_radial-gradient.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_radial-gradient.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1288,15 +1279,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_transform.scss": {
+	"\/css\/base\/bourbon\/css3\/_transform.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_transform.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_transform.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_transform.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_transform.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1304,15 +1295,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_transition.scss": {
+	"\/css\/base\/bourbon\/css3\/_transition.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_transition.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_transition.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_transition.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_transition.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1320,15 +1311,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/css3\/_user-select.scss": {
+	"\/css\/base\/bourbon\/css3\/_user-select.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css3\/_user-select.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_user-select.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/css3\/_user-select.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_user-select.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1336,15 +1327,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_assign.scss": {
+	"\/css\/base\/bourbon\/functions\/_assign.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_assign.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_assign.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_assign.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_assign.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1352,15 +1343,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_color-lightness.scss": {
+	"\/css\/base\/bourbon\/functions\/_color-lightness.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_color-lightness.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_color-lightness.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_color-lightness.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_color-lightness.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1368,15 +1359,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_flex-grid.scss": {
+	"\/css\/base\/bourbon\/functions\/_flex-grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_flex-grid.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_flex-grid.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_flex-grid.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_flex-grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1384,15 +1375,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_golden-ratio.scss": {
+	"\/css\/base\/bourbon\/functions\/_golden-ratio.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_golden-ratio.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_golden-ratio.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_golden-ratio.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_golden-ratio.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1400,15 +1391,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_grid-width.scss": {
+	"\/css\/base\/bourbon\/functions\/_grid-width.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_grid-width.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_grid-width.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_grid-width.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_grid-width.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1416,15 +1407,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_modular-scale.scss": {
+	"\/css\/base\/bourbon\/functions\/_modular-scale.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_modular-scale.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_modular-scale.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_modular-scale.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_modular-scale.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1432,15 +1423,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_px-to-em.scss": {
+	"\/css\/base\/bourbon\/functions\/_px-to-em.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_px-to-em.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_px-to-em.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_px-to-em.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_px-to-em.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1448,15 +1439,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_px-to-rem.scss": {
+	"\/css\/base\/bourbon\/functions\/_px-to-rem.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_px-to-rem.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_px-to-rem.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_px-to-rem.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_px-to-rem.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1464,15 +1455,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_strip-units.scss": {
+	"\/css\/base\/bourbon\/functions\/_strip-units.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_strip-units.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_strip-units.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_strip-units.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_strip-units.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1480,15 +1471,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_tint-shade.scss": {
+	"\/css\/base\/bourbon\/functions\/_tint-shade.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_tint-shade.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_tint-shade.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_tint-shade.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_tint-shade.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1496,15 +1487,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_transition-property-name.scss": {
+	"\/css\/base\/bourbon\/functions\/_transition-property-name.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_transition-property-name.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_transition-property-name.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_transition-property-name.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_transition-property-name.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1512,15 +1503,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/functions\/_unpack.scss": {
+	"\/css\/base\/bourbon\/functions\/_unpack.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/functions\/_unpack.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_unpack.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/functions\/_unpack.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_unpack.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1528,15 +1519,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_convert-units.scss": {
+	"\/css\/base\/bourbon\/helpers\/_convert-units.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_convert-units.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_convert-units.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_convert-units.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_convert-units.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1544,15 +1535,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_gradient-positions-parser.scss": {
+	"\/css\/base\/bourbon\/helpers\/_gradient-positions-parser.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_gradient-positions-parser.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_gradient-positions-parser.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_gradient-positions-parser.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_gradient-positions-parser.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1560,15 +1551,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_is-num.scss": {
+	"\/css\/base\/bourbon\/helpers\/_is-num.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_is-num.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_is-num.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_is-num.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_is-num.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1576,15 +1567,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_linear-angle-parser.scss": {
+	"\/css\/base\/bourbon\/helpers\/_linear-angle-parser.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_linear-angle-parser.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_linear-angle-parser.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_linear-angle-parser.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_linear-angle-parser.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1592,15 +1583,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_linear-gradient-parser.scss": {
+	"\/css\/base\/bourbon\/helpers\/_linear-gradient-parser.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_linear-gradient-parser.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_linear-gradient-parser.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_linear-gradient-parser.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_linear-gradient-parser.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1608,15 +1599,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_linear-positions-parser.scss": {
+	"\/css\/base\/bourbon\/helpers\/_linear-positions-parser.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_linear-positions-parser.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_linear-positions-parser.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_linear-positions-parser.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_linear-positions-parser.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1624,15 +1615,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_linear-side-corner-parser.scss": {
+	"\/css\/base\/bourbon\/helpers\/_linear-side-corner-parser.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_linear-side-corner-parser.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_linear-side-corner-parser.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_linear-side-corner-parser.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_linear-side-corner-parser.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1640,15 +1631,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_radial-arg-parser.scss": {
+	"\/css\/base\/bourbon\/helpers\/_radial-arg-parser.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_radial-arg-parser.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_radial-arg-parser.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_radial-arg-parser.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_radial-arg-parser.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1656,15 +1647,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_radial-gradient-parser.scss": {
+	"\/css\/base\/bourbon\/helpers\/_radial-gradient-parser.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_radial-gradient-parser.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_radial-gradient-parser.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_radial-gradient-parser.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_radial-gradient-parser.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1672,15 +1663,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_radial-positions-parser.scss": {
+	"\/css\/base\/bourbon\/helpers\/_radial-positions-parser.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_radial-positions-parser.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_radial-positions-parser.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_radial-positions-parser.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_radial-positions-parser.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1688,15 +1679,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_render-gradients.scss": {
+	"\/css\/base\/bourbon\/helpers\/_render-gradients.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_render-gradients.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_render-gradients.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_render-gradients.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_render-gradients.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1704,15 +1695,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_shape-size-stripper.scss": {
+	"\/css\/base\/bourbon\/helpers\/_shape-size-stripper.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_shape-size-stripper.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_shape-size-stripper.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_shape-size-stripper.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_shape-size-stripper.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1720,15 +1711,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/helpers\/_str-to-num.scss": {
+	"\/css\/base\/bourbon\/helpers\/_str-to-num.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/helpers\/_str-to-num.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_str-to-num.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/helpers\/_str-to-num.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_str-to-num.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1736,15 +1727,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/settings\/_asset-pipeline.scss": {
+	"\/css\/base\/bourbon\/settings\/_asset-pipeline.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/settings\/_asset-pipeline.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_asset-pipeline.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/settings\/_asset-pipeline.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_asset-pipeline.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1752,15 +1743,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/settings\/_prefixer.scss": {
+	"\/css\/base\/bourbon\/settings\/_prefixer.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/settings\/_prefixer.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_prefixer.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/settings\/_prefixer.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_prefixer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1768,15 +1759,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/bourbon\/settings\/_px-to-em.scss": {
+	"\/css\/base\/bourbon\/settings\/_px-to-em.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/settings\/_px-to-em.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/bourbon\/css\/_px-to-em.css",
+		"inputAbbreviatedPath": "\/css\/base\/bourbon\/settings\/_px-to-em.scss",
+		"outputAbbreviatedPath": "\/css\/base\/bourbon\/css\/_px-to-em.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1784,15 +1775,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/extends\/_button.scss": {
+	"\/css\/base\/extends\/_button.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/extends\/_button.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_button.css",
+		"inputAbbreviatedPath": "\/css\/base\/extends\/_button.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_button.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1800,15 +1791,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/extends\/_clearfix.scss": {
+	"\/css\/base\/extends\/_clearfix.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/extends\/_clearfix.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_clearfix.css",
+		"inputAbbreviatedPath": "\/css\/base\/extends\/_clearfix.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_clearfix.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1816,15 +1807,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/extends\/_errors.scss": {
+	"\/css\/base\/extends\/_errors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/extends\/_errors.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_errors.css",
+		"inputAbbreviatedPath": "\/css\/base\/extends\/_errors.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_errors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1832,15 +1823,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/extends\/_flashes.scss": {
+	"\/css\/base\/extends\/_flashes.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/extends\/_flashes.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_flashes.css",
+		"inputAbbreviatedPath": "\/css\/base\/extends\/_flashes.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_flashes.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1848,15 +1839,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/extends\/_hide-text.scss": {
+	"\/css\/base\/extends\/_hide-text.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/extends\/_hide-text.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_hide-text.css",
+		"inputAbbreviatedPath": "\/css\/base\/extends\/_hide-text.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_hide-text.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1864,15 +1855,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/_neat-helpers.scss": {
+	"\/css\/base\/neat\/_neat-helpers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/_neat-helpers.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_neat-helpers.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/_neat-helpers.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_neat-helpers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1880,15 +1871,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/_neat.scss": {
+	"\/css\/base\/neat\/_neat.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/_neat.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/css\/_neat.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/_neat.scss",
+		"outputAbbreviatedPath": "\/css\/base\/css\/_neat.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1896,15 +1887,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/functions\/_new-breakpoint.scss": {
+	"\/css\/base\/neat\/functions\/_new-breakpoint.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/functions\/_new-breakpoint.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_new-breakpoint.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/functions\/_new-breakpoint.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_new-breakpoint.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1912,15 +1903,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/functions\/_private.scss": {
+	"\/css\/base\/neat\/functions\/_private.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/functions\/_private.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_private.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/functions\/_private.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_private.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1928,15 +1919,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_box-sizing.scss": {
+	"\/css\/base\/neat\/grid\/_box-sizing.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_box-sizing.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_box-sizing.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_box-sizing.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_box-sizing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1944,15 +1935,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_direction-context.scss": {
+	"\/css\/base\/neat\/grid\/_direction-context.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_direction-context.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_direction-context.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_direction-context.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_direction-context.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1960,15 +1951,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_display-context.scss": {
+	"\/css\/base\/neat\/grid\/_display-context.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_display-context.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_display-context.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_display-context.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_display-context.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1976,15 +1967,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_fill-parent.scss": {
+	"\/css\/base\/neat\/grid\/_fill-parent.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_fill-parent.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_fill-parent.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_fill-parent.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_fill-parent.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1992,15 +1983,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_media.scss": {
+	"\/css\/base\/neat\/grid\/_media.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_media.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_media.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_media.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2008,15 +1999,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_omega.scss": {
+	"\/css\/base\/neat\/grid\/_omega.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_omega.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_omega.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_omega.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_omega.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2024,15 +2015,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_outer-container.scss": {
+	"\/css\/base\/neat\/grid\/_outer-container.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_outer-container.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_outer-container.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_outer-container.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_outer-container.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2040,15 +2031,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_pad.scss": {
+	"\/css\/base\/neat\/grid\/_pad.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_pad.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_pad.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_pad.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_pad.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2056,15 +2047,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_private.scss": {
+	"\/css\/base\/neat\/grid\/_private.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_private.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_private.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_private.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_private.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2072,15 +2063,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_row.scss": {
+	"\/css\/base\/neat\/grid\/_row.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_row.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_row.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_row.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_row.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2088,15 +2079,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_shift.scss": {
+	"\/css\/base\/neat\/grid\/_shift.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_shift.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_shift.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_shift.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_shift.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2104,15 +2095,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_span-columns.scss": {
+	"\/css\/base\/neat\/grid\/_span-columns.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_span-columns.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_span-columns.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_span-columns.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_span-columns.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2120,15 +2111,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_to-deprecate.scss": {
+	"\/css\/base\/neat\/grid\/_to-deprecate.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_to-deprecate.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_to-deprecate.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_to-deprecate.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_to-deprecate.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2136,15 +2127,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/grid\/_visual-grid.scss": {
+	"\/css\/base\/neat\/grid\/_visual-grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/grid\/_visual-grid.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_visual-grid.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/grid\/_visual-grid.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_visual-grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2152,15 +2143,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/settings\/_disable-warnings.scss": {
+	"\/css\/base\/neat\/settings\/_disable-warnings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/settings\/_disable-warnings.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_disable-warnings.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/settings\/_disable-warnings.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_disable-warnings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2168,15 +2159,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/settings\/_grid.scss": {
+	"\/css\/base\/neat\/settings\/_grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/settings\/_grid.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_grid.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/settings\/_grid.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2184,15 +2175,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/base\/neat\/settings\/_visual-grid.scss": {
+	"\/css\/base\/neat\/settings\/_visual-grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/settings\/_visual-grid.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/base\/neat\/css\/_visual-grid.css",
+		"inputAbbreviatedPath": "\/css\/base\/neat\/settings\/_visual-grid.scss",
+		"outputAbbreviatedPath": "\/css\/base\/neat\/css\/_visual-grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2200,15 +2191,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/components\/_button-group.scss": {
+	"\/css\/components\/_button-group.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/components\/_button-group.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_button-group.css",
+		"inputAbbreviatedPath": "\/css\/components\/_button-group.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_button-group.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2216,15 +2207,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/components\/_expander.scss": {
+	"\/css\/components\/_expander.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/components\/_expander.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_expander.css",
+		"inputAbbreviatedPath": "\/css\/components\/_expander.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_expander.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2232,15 +2223,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/components\/_links.sass": {
+	"\/css\/components\/_links.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/components\/_links.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_links.css",
+		"inputAbbreviatedPath": "\/css\/components\/_links.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_links.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2248,15 +2239,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/components\/_order-status.sass": {
+	"\/css\/components\/_order-status.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/components\/_order-status.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_order-status.css",
+		"inputAbbreviatedPath": "\/css\/components\/_order-status.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_order-status.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2264,15 +2255,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/components\/_pagination.scss": {
+	"\/css\/components\/_pagination.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/components\/_pagination.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_pagination.css",
+		"inputAbbreviatedPath": "\/css\/components\/_pagination.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_pagination.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2280,15 +2271,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/components\/_tooltip.scss": {
+	"\/css\/components\/_tooltip.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/components\/_tooltip.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_tooltip.css",
+		"inputAbbreviatedPath": "\/css\/components\/_tooltip.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_tooltip.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2296,15 +2287,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/layout\/_blocks.sass": {
+	"\/css\/layout\/_blocks.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/layout\/_blocks.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_blocks.css",
+		"inputAbbreviatedPath": "\/css\/layout\/_blocks.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_blocks.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2312,15 +2303,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/layout\/_layout.sass": {
+	"\/css\/layout\/_layout.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/layout\/_layout.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_layout.css",
+		"inputAbbreviatedPath": "\/css\/layout\/_layout.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2328,15 +2319,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/layout\/_media.sass": {
+	"\/css\/layout\/_media.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/layout\/_media.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_media.css",
+		"inputAbbreviatedPath": "\/css\/layout\/_media.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2344,15 +2335,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/layout\/_split-content.sass": {
+	"\/css\/layout\/_split-content.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/layout\/_split-content.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_split-content.css",
+		"inputAbbreviatedPath": "\/css\/layout\/_split-content.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_split-content.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2360,15 +2351,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/layout\/_two-column.sass": {
+	"\/css\/layout\/_two-column.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/layout\/_two-column.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_two-column.css",
+		"inputAbbreviatedPath": "\/css\/layout\/_two-column.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_two-column.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2376,15 +2367,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/patterns\/_cards.scss": {
+	"\/css\/patterns\/_cards.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_cards.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_cards.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_cards.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_cards.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2392,15 +2383,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/patterns\/_cart.sass": {
+	"\/css\/patterns\/_cart.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_cart.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_cart.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_cart.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_cart.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2408,15 +2399,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/patterns\/_companies.sass": {
+	"\/css\/patterns\/_companies.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_companies.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_companies.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_companies.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_companies.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2424,15 +2415,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/patterns\/_footer.scss": {
+	"\/css\/patterns\/_footer.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_footer.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_footer.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_footer.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2440,15 +2431,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/patterns\/_hero.scss": {
+	"\/css\/patterns\/_hero.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_hero.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_hero.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_hero.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_hero.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2456,15 +2447,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/patterns\/_navigation.scss": {
+	"\/css\/patterns\/_navigation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_navigation.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_navigation.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_navigation.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_navigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2472,15 +2463,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/patterns\/_order.sass": {
+	"\/css\/patterns\/_order.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_order.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_order.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_order.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_order.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2488,15 +2479,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/patterns\/_payment.sass": {
+	"\/css\/patterns\/_payment.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_payment.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_payment.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_payment.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_payment.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2504,15 +2495,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/patterns\/_product.sass": {
+	"\/css\/patterns\/_product.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_product.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_product.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_product.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_product.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2520,15 +2511,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/patterns\/_search-tools.scss": {
+	"\/css\/patterns\/_search-tools.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_search-tools.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_search-tools.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_search-tools.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_search-tools.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2536,15 +2527,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/patterns\/_sidebar.scss": {
+	"\/css\/patterns\/_sidebar.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_sidebar.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_sidebar.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_sidebar.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_sidebar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2552,15 +2543,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/patterns\/_table.scss": {
+	"\/css\/patterns\/_table.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_table.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_table.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_table.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_table.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2568,15 +2559,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/patterns\/_usermenu.sass": {
+	"\/css\/patterns\/_usermenu.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_usermenu.sass",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_usermenu.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_usermenu.sass",
+		"outputAbbreviatedPath": "\/css\/css\/_usermenu.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2584,15 +2575,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/css\/patterns\/_utility-nav.scss": {
+	"\/css\/patterns\/_utility-nav.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/patterns\/_utility-nav.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/css\/_utility-nav.css",
+		"inputAbbreviatedPath": "\/css\/patterns\/_utility-nav.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_utility-nav.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2600,24 +2591,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/css\/classic.date.css": {
+	"\/css\/plugins\/css\/classic.date.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/classic.date.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/css\/classic.date.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/classic.date.scss": {
+	"\/css\/plugins\/pickadate\/classic.date.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/classic.date.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/classic.date.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/classic.date.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/css\/classic.date.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2625,15 +2616,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/classic.scss": {
+	"\/css\/plugins\/pickadate\/classic.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/classic.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/classic.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/classic.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/css\/classic.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2641,15 +2632,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/classic.time.scss": {
+	"\/css\/plugins\/pickadate\/classic.time.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/classic.time.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/classic.time.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/classic.time.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/css\/classic.time.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2657,15 +2648,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/default.date.scss": {
+	"\/css\/plugins\/pickadate\/default.date.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/default.date.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/default.date.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/default.date.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/css\/default.date.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2673,15 +2664,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/default.scss": {
+	"\/css\/plugins\/pickadate\/default.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/default.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/default.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/default.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/css\/default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2689,15 +2680,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/default.time.scss": {
+	"\/css\/plugins\/pickadate\/default.time.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/default.time.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/default.time.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/default.time.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/css\/default.time.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2705,15 +2696,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_base.date.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_base.date.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_base.date.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_base.date.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_base.date.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_base.date.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2721,15 +2712,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_base.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_base.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_base.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_base.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2737,15 +2728,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_base.time.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_base.time.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_base.time.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_base.time.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_base.time.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_base.time.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2753,15 +2744,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_classic.date.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_classic.date.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_classic.date.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_classic.date.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_classic.date.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_classic.date.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2769,15 +2760,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_classic.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_classic.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_classic.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_classic.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_classic.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_classic.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2785,15 +2776,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_classic.time.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_classic.time.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_classic.time.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_classic.time.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_classic.time.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_classic.time.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2801,15 +2792,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_default.date.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_default.date.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_default.date.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_default.date.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_default.date.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_default.date.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2817,15 +2808,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_default.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_default.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_default.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_default.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_default.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2833,15 +2824,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_default.time.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_default.time.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_default.time.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_default.time.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_default.time.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_default.time.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2849,15 +2840,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_mixins.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_mixins.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_mixins.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_mixins.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2865,15 +2856,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_variables.scss": {
+	"\/css\/plugins\/pickadate\/partials\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/partials\/_variables.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/css\/_variables.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/partials\/_variables.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/pickadate\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2881,15 +2872,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/rtl.scss": {
+	"\/css\/plugins\/pickadate\/rtl.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/rtl.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/rtl.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/rtl.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/css\/rtl.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2897,15 +2888,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/plugins\/pickadate\/variables.scss": {
+	"\/css\/plugins\/pickadate\/variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/pickadate\/variables.scss",
-		"outputAbbreviatedPath": "\/New Folder With Items\/css\/plugins\/css\/variables.css",
+		"inputAbbreviatedPath": "\/css\/plugins\/pickadate\/variables.scss",
+		"outputAbbreviatedPath": "\/css\/plugins\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2913,23 +2904,23 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/New Folder With Items\/css\/style.css": {
+	"\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/style.css",
+		"inputAbbreviatedPath": "\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/css\/style.sass": {
+	"\/css\/style.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/css\/style.sass",
+		"inputAbbreviatedPath": "\/css\/style.sass",
 		"outputAbbreviatedPath": "\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
@@ -2938,483 +2929,474 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/New Folder With Items\/home.html": {
+	"\/home.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/home.html",
+		"inputAbbreviatedPath": "\/home.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/img\/amex.png": {
+	"\/img\/amex.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 245,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/amex.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/amex.png",
+		"inputAbbreviatedPath": "\/img\/amex.png",
+		"outputAbbreviatedPath": "\/img\/amex.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/bokeh.jpg": {
+	"\/img\/bokeh.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 53452,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/bokeh.jpg",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/bokeh.jpg",
+		"inputAbbreviatedPath": "\/img\/bokeh.jpg",
+		"outputAbbreviatedPath": "\/img\/bokeh.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/csc.png": {
+	"\/img\/csc.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4934,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/csc.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/csc.png",
+		"inputAbbreviatedPath": "\/img\/csc.png",
+		"outputAbbreviatedPath": "\/img\/csc.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/diners.png": {
+	"\/img\/diners.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3197,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/diners.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/diners.png",
+		"inputAbbreviatedPath": "\/img\/diners.png",
+		"outputAbbreviatedPath": "\/img\/diners.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/discover.png": {
+	"\/img\/discover.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 373,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/discover.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/discover.png",
+		"inputAbbreviatedPath": "\/img\/discover.png",
+		"outputAbbreviatedPath": "\/img\/discover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/flowers.png": {
+	"\/img\/flowers.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 291821,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/flowers.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/flowers.png",
+		"inputAbbreviatedPath": "\/img\/flowers.png",
+		"outputAbbreviatedPath": "\/img\/flowers.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/giftcard.png": {
+	"\/img\/giftcard.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4523,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/giftcard.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/giftcard.png",
+		"inputAbbreviatedPath": "\/img\/giftcard.png",
+		"outputAbbreviatedPath": "\/img\/giftcard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/hero-background.jpg": {
+	"\/img\/hero-background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 53452,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/hero-background.jpg",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/hero-background.jpg",
+		"inputAbbreviatedPath": "\/img\/hero-background.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-background.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/hero-graphic.jpg": {
+	"\/img\/hero-graphic.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 204181,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/hero-graphic.jpg",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/hero-graphic.jpg",
+		"inputAbbreviatedPath": "\/img\/hero-graphic.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-graphic.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/input-date.png": {
+	"\/img\/input-date.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1219,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/input-date.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/input-date.png",
+		"inputAbbreviatedPath": "\/img\/input-date.png",
+		"outputAbbreviatedPath": "\/img\/input-date.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/jcb.png": {
+	"\/img\/jcb.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3554,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/jcb.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/jcb.png",
+		"inputAbbreviatedPath": "\/img\/jcb.png",
+		"outputAbbreviatedPath": "\/img\/jcb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logo.png": {
+	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 42244,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logo.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logo.png",
+		"inputAbbreviatedPath": "\/img\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logos\/bigw.png": {
+	"\/img\/logos\/bigw.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3525,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/bigw.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/bigw.png",
+		"inputAbbreviatedPath": "\/img\/logos\/bigw.png",
+		"outputAbbreviatedPath": "\/img\/logos\/bigw.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logos\/bws.png": {
+	"\/img\/logos\/bws.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5883,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/bws.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/bws.png",
+		"inputAbbreviatedPath": "\/img\/logos\/bws.png",
+		"outputAbbreviatedPath": "\/img\/logos\/bws.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logos\/caltex.png": {
+	"\/img\/logos\/caltex.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5392,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/caltex.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/caltex.png",
+		"inputAbbreviatedPath": "\/img\/logos\/caltex.png",
+		"outputAbbreviatedPath": "\/img\/logos\/caltex.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logos\/cellarmasters.png": {
+	"\/img\/logos\/cellarmasters.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3866,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/cellarmasters.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/cellarmasters.png",
+		"inputAbbreviatedPath": "\/img\/logos\/cellarmasters.png",
+		"outputAbbreviatedPath": "\/img\/logos\/cellarmasters.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logos\/danmurphys.png": {
+	"\/img\/logos\/danmurphys.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4521,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/danmurphys.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/danmurphys.png",
+		"inputAbbreviatedPath": "\/img\/logos\/danmurphys.png",
+		"outputAbbreviatedPath": "\/img\/logos\/danmurphys.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logos\/masters.png": {
+	"\/img\/logos\/masters.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4762,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/masters.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/masters.png",
+		"inputAbbreviatedPath": "\/img\/logos\/masters.png",
+		"outputAbbreviatedPath": "\/img\/logos\/masters.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logos\/thomasdux.png": {
+	"\/img\/logos\/thomasdux.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5308,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/thomasdux.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/thomasdux.png",
+		"inputAbbreviatedPath": "\/img\/logos\/thomasdux.png",
+		"outputAbbreviatedPath": "\/img\/logos\/thomasdux.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/logos\/woolworths.png": {
+	"\/img\/logos\/woolworths.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8605,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/woolworths.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/logos\/woolworths.png",
+		"inputAbbreviatedPath": "\/img\/logos\/woolworths.png",
+		"outputAbbreviatedPath": "\/img\/logos\/woolworths.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/mastercard.png": {
+	"\/img\/mastercard.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1582,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/mastercard.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/mastercard.png",
+		"inputAbbreviatedPath": "\/img\/mastercard.png",
+		"outputAbbreviatedPath": "\/img\/mastercard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/select-arrow.png": {
+	"\/img\/select-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 482,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/select-arrow.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/select-arrow.png",
+		"inputAbbreviatedPath": "\/img\/select-arrow.png",
+		"outputAbbreviatedPath": "\/img\/select-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/img\/visa.png": {
+	"\/img\/visa.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1288,
-		"inputAbbreviatedPath": "\/New Folder With Items\/img\/visa.png",
-		"outputAbbreviatedPath": "\/New Folder With Items\/img\/visa.png",
+		"inputAbbreviatedPath": "\/img\/visa.png",
+		"outputAbbreviatedPath": "\/img\/visa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/New Folder With Items\/index.html": {
+	"\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/main.js",
+		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/bind-polyfill.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/bind-polyfill.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/bind-polyfill.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/fixedsticky.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/fixedsticky.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/fixedsticky-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/jquery.autotab.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/jquery.autotab.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/jquery.autotab.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/jquery.payment.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/jquery.payment.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/jquery.payment-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/modernizr.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/modernizr.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/modernizr.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/picker.date.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/picker.date.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/picker.date-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/picker.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/picker.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/picker-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/picker.legacy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/picker.legacy.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/picker.legacy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/respond.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/respond.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/selectivizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/selectivizr.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/selectivizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/smooth-scroll.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/smooth-scroll.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/smooth-scroll.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/waypoints-sticky.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/waypoints-sticky.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/waypoints-sticky.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/waypoints.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/waypoints.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/waypoints.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/login.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/index.html",
+		"inputAbbreviatedPath": "\/login.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/main.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/bind-polyfill.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/bind-polyfill.min.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/bind-polyfill.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/fixedsticky.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/fixedsticky.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/fixedsticky-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/jquery.autotab.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/jquery.autotab.min.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/jquery.autotab.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/jquery.payment.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/jquery.payment.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/jquery.payment-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/modernizr.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/modernizr.min.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/modernizr.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/picker.date.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/picker.date.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/picker.date-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/picker.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/picker.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/picker-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/picker.legacy.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/picker.legacy.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/picker.legacy-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/respond.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/respond.min.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/respond.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/selectivizr.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/selectivizr.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/selectivizr-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/smooth-scroll.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/smooth-scroll.min.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/smooth-scroll.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/waypoints-sticky.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/waypoints-sticky.min.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/waypoints-sticky.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/js\/plugins\/waypoints.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/waypoints.min.js",
-		"outputAbbreviatedPath": "\/New Folder With Items\/js\/plugins\/min\/waypoints.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/New Folder With Items\/login.html": {
+	"\/privacy-policy.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/login.html",
+		"inputAbbreviatedPath": "\/privacy-policy.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/privacy-policy.html": {
+	"\/search-noresults.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/privacy-policy.html",
+		"inputAbbreviatedPath": "\/search-noresults.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/search-noresults.html": {
+	"\/search.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/search-noresults.html",
+		"inputAbbreviatedPath": "\/search.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/New Folder With Items\/search.html": {
+	"\/styles.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/search.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/New Folder With Items\/styles.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/New Folder With Items\/styles.html",
+		"inputAbbreviatedPath": "\/styles.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
