@@ -1,0 +1,74 @@
+$step-link-color: mix($sage, $black,50%);
+
+.steps { 
+  
+  @include radial-gradient(lighten($sprout,10), $sage, $fallback: $sprout);
+  border-bottom: 2px solid $sage;
+  margin-bottom: 0;
+  padding: 2.5em 0;
+  width: 100%;
+  text-align: center;
+  
+  p a, h3 a { 
+    color: inherit; 
+    text-decoration: underline;
+  }
+
+  .step {
+    @include media($medium-screen) {
+      @include span-columns(4);  
+      @include omega(3n);
+    }
+  }
+}
+
+.step {
+  @include transition (all 0.2s ease-in-out);
+  margin-bottom: 1em;
+  position: relative;
+  
+  .step-card {
+    padding: 0 $base-spacing;  
+  }
+  
+  @include media($medium-screen) {
+    &:after {
+      content: '\0062';
+      font-family: $icon-font-family;
+      position: absolute;
+      right: -25px;
+      bottom: 25%;
+      font-size: 2em;
+      color: $step-link-color;
+    }
+    
+    &:last-child:after {
+        display: none;
+    }
+  }
+  
+  @include media($large-screen) {
+    &:after {
+      right: -40px;
+      font-size: 3em;
+    }
+  }
+  
+  
+
+  .step-header {
+    padding-bottom: $base-spacing/2;
+    text-align: center;
+    
+    h5 {
+      margin-bottom: $base-spacing/3;
+      text-transform: uppercase;
+      font-weight: normal;
+      
+      @include media(max-width $large-screen) {
+        strong { display: block; }
+      }
+    }
+  }
+
+}

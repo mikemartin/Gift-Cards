@@ -1,0 +1,43 @@
+.breadcrumb {  
+  $breadcrumb-height: $base-spacing * 1.5;
+  $breadcrumb-arrow-color: $base-border-color;
+  $breadcrumb-color: $base-accent-color;
+  $breadcrumb-color-hover: darken($base-accent-color,20);
+  $breadcrumb-color-active: $breadcrumb-color;
+
+  display: inline-block;
+  margin-bottom: $base-spacing;
+  text-align: left;
+
+  a {
+    color: $breadcrumb-color;
+    display: inline-block;
+    font-size: 0.8em;
+    line-height: $breadcrumb-height;
+    margin-right: -5px;
+    position: relative;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: $breadcrumb-color-hover;
+    }
+
+    &:after {
+      content: '\004A';
+      font-family: $icon-font-family;
+      font-size: .6em;
+      color: $breadcrumb-arrow-color;
+      padding: 0 .5em;
+    }
+
+    &:last-child:after {
+       display: none;
+    }
+
+    @include media($medium-screen) {
+      font-size: 1em;
+    }
+  }
+}
+

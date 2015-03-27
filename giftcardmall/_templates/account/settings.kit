@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <base href="../">
+  <!-- @include "../partials/head" -->
+</head>
+<body>
+  <!-- @include "../partials/navigation" -->
+
+  <main class="main-section">
+    <div class="wrapper">
+      <h1 class="page-title">Account Settings</h1>
+
+      <div class="secondary-content">
+        <div class="sidebar">
+          <ul>
+            <li class="nav-link "><a href="account">Home</a></li>
+            <li class="nav-link active"><a href="account/settings.html">Settings</a></li>
+            <li class="nav-link"><a href="account/orders">Order History</a></li>
+            <li class="nav-link"><a href="account/payments.html">Payments</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-content">      
+
+        <form>        
+          <fieldset>
+            <legend>Change Your Password</legend>
+            <div class="flash-success">
+              All good! Your information was updated successfully.
+            </div>
+
+            <!--<div class="flash-alert">
+              Are you sure you want to do that?
+            </div>-->
+
+            <label for="password">Old Password</label>
+            <input type="password" value="" name="password" id="password">
+            <p class="instructions">Minimum of 6 characters with at least one number</p>
+            <label for="password-confirm">Confirm Password</label>
+            <input type="password" value="" name="password-confirm" id="password-confirm"> 
+            <p><input type="submit" value="Update" data-wait="Please wait..."></p>
+          </fieldset>
+        </form>
+
+        <form>
+          <fieldset>
+            <legend>Your Details</legend>
+
+            <div class="flash-error">
+              Something terrible happened. Please check the required fields.
+            </div>
+
+            <div class="field-half">
+              <div class="field">
+                <label for="first-name">First Name</label>
+                <input type="text" value="" name="first-name" id="first-name" class="invalid">
+                <div class="invalid-error">First name is a required field.</div> 
+              </div>
+              <div class="field">
+                <label for="last-name">Last Name</label>
+                <input type="text" value="" name="last-name" id="last-name">
+              </div>
+            </div>
+            <label for="email">New Email</label>
+            <input type="email" value="" name="email" id="email">
+            <label for="email">Confirm New Email</label>
+            <input type="email" value="" name="email-confirm" id="email-confirm">
+            <label for="phone">Home Phone</label>
+            <input type="text" pattern="[0-9]*" value="" name="phone" id="phone" class="number" maxlength="10">
+            <label for="mobile">Mobile Phone</label>
+            <input type="text" pattern="[0-9]*" value="" name="mobile" id="mobile" class="number" maxlength="10"> 
+            <div class="field-half">
+              <div class="field">
+                <label for="work">Work Phone (optional)</label>
+                <input type="text" pattern="[0-9]*" value="" name="work" id="work" class="number" maxlength="10" >
+              </div>
+              <div class="field">
+                <label for="work-ext">Extension</label>
+                <input type="text" pattern="[0-9]*" value="" name="work-ext" id="work-ext" maxlength="5" class="input-small number">
+              </div>
+            </div>
+
+            <p><input type="submit" value="Update" data-wait="Please wait..."></p>
+
+          </fieldset>
+
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- @include "../partials/footer" -->
+</body>
+</html>

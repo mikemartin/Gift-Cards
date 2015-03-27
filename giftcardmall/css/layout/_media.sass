@@ -1,0 +1,84 @@
+.media 
+  $media-gutter: 1.4em
+  $media-image-padding: .7em
+  $media-image-width: 4em
+  $media-color: $base-font-color
+  $media-background: lighten($base-accent-color, 15)
+  $media-detail-color: transparentize($media-color, .5)
+  $media-image-vert-alignment: top
+
+  display: table
+  width: 100%
+  padding: 1em 0
+  border-bottom: 1px solid transparentize($media-color, .9)
+  
+  &:last-child
+    border-bottom: none
+      
+  +media($medium-screen)
+    .media-image,
+    .media-content 
+      display: table-cell
+      vertical-align: $media-image-vert-alignment
+  
+    .media-image
+      padding-right: $media-gutter
+      
+  .media-image   
+    > [class^="icon-"]:before
+      color: $base-highlight-color
+      margin-right: 0
+    > [class^="icon-"]:hover
+      &:before
+        color: darken($base-highlight-color,10)
+
+    img 
+      //width: $media-image-width
+      height: auto
+      border-radius: $base-border-radius
+      display: block
+      max-width: none
+      margin-bottom: 1em
+    
+    .media-reverse-order & 
+      padding-right: 0
+      padding-left: 10px
+    
+  .media-content 
+    width: 100%
+
+    h3 
+      font-size: 1em
+      margin-bottom: .25em
+      a
+        color: $base-font-color
+        &:hover
+          color: darken($base-font-color,10)
+  
+    p 
+      margin-bottom: .5em
+    
+    p.media-detail 
+      font-style: italic
+      font-size: .9em
+      color: $media-detail-color
+    
+
+
+.media-links .media
+  color: $base-font-color
+  +media($medium-screen)
+    padding: 1em
+  .media-image, .media-content 
+    display: table-cell
+    vertical-align: top
+
+  .media-image
+    padding-right: 1.4em
+  &:hover
+    background: darken($base-background-color,1)
+      
+
+
+
+

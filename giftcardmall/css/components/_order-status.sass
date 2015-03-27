@@ -1,0 +1,41 @@
+.order-status
+  border-top: 1px solid $base-border-color
+  margin-top: 20px
+  margin-bottom: $base-spacing
+  height: 30px
+  text-align: center
+
+  .status
+    display: inline-block
+    text-align: center
+    font-size: em(12)
+    width: 5em
+    line-height: 1
+    vertical-align: top
+    margin-top: -21px
+
+    &:before
+      @extend %icon
+      display: block
+      color: $light-gray
+      content: "U"
+      height: 40px
+      line-height: 40px
+      width: 1.5em
+      margin: 0 auto
+      background: $base-background-color
+
+    &.status-delivered:before
+      content: "T"
+      font-size: 30px
+      line-height: 1
+
+    &.completed
+      &.status-purchased:before, &.status-delivered:before
+        color: $notice-color
+
+      &.status-shipped:before
+        color: $alert-color
+
+      &.status-out:before
+        color: $error-color

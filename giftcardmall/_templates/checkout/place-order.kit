@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <base href="../">
+  <!-- @include "../partials/head" -->
+</head>
+<body>
+  <!-- @include "../partials/checkout-navigation" -->
+
+  
+  <main class="main-section section--subtle">
+    <div class="wrapper-large vertical-divider">
+     <div class="main-content column">
+       <h3>Review Your Order</h3>
+        <p>By placing your order, you agree to the <a href="javascript:void(0);">cardholder terms and conditions</a></p>
+       <div class="order-details">
+          <div class="split-content">
+            <h4 class="order-details-title">Shipping Information</h4>
+            <p>Email Delivery</p>
+          </div>
+          <div class="split-content">
+            <h4 class="order-details-title">Payment Type</h4>
+            <div class="order-payment-card">
+              <img src="/img/visa.png"/> Ending 1234
+              
+              <form class="form-confirm">
+                <label>Confirm Security Code</label>
+                <input data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc input-small" />
+                <div class="tooltip-item">
+                  <a href="javascript:void(0)">What's this?</a>
+                  <div class="tooltip">
+                    <h3>What is a Security Code?</h3>
+                    <p>A <strong>3 or 4 digit code</strong> on the back or front of your credit card.</p>
+                    <img src="/img/csc.png"/>
+                  </div>
+                </div>
+              </form>
+              
+              
+            </div>
+            <div class="order-payment-address">
+              Brian Winfield<br/>
+            10339 Burnt Mill Ln.<br/>
+            Frisco, TX 75035<br/>
+              (212)234-2344 Ext 1234
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="order-items">
+           <div class="media">
+              <div class="media-image">
+                <img src="/img/giftcard.png"/>
+              </div>
+              <div class="media-content">
+                <p>Price: $195<br/>
+                Card Value: $100.00<br/>
+                Quantity: 501
+                <br/>Item Subtotal: $1011.99</p>
+                <p>AVB12343<br/>
+        Recipient Name: David<br/>
+        Card Message: Good Job<br/>
+        Greeting Card Message: This is a test of the greeting card message that is very long</p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-image">
+                <img src="/img/giftcard.png"/>
+              </div>
+              <div class="media-content">
+                <p>Price: $195<br/>
+                Card Value: $100.00<br/>
+                Quantity: 501
+                <br/>Item Subtotal: $1011.99</p>
+                <p>AVB12343<br/>
+        Recipient Name: David<br/>
+        Card Message: Good Job<br/>
+        Greeting Card Message: This is a test of the greeting card message that is very long</p>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+
+      <div class="secondary-content column">
+        <div class="checkout-order">
+          <div class="order-continue">
+            <a href="#" class="button order-button">Place Order</a>
+          </div>
+
+          <div class="order-tape">
+            <p>Subtotal: $258.50</p>
+            <p>Shipping: $250.00</p>
+
+            <p class="order-tape-total">Order Total: $522.34</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <!-- @include "../partials/scripts" -->
+  <!-- @include "../partials/scripts-payment" -->
+  
+</body>
+</html>

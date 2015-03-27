@@ -1,0 +1,74 @@
+$swatch-border-color: $medium-gray;
+$swatch-border: 1px solid $swatch-border-color;
+$swatch-background: lighten($light-gray, 10);
+$swatch-gutter: .4em;
+$swatch-width: 18em;
+$swatch-color: transparentize($base-font-color, .3);
+$swatch-top-colors: 
+  $base-accent-color, 
+  $base-highlight-color, 
+  $base-button-color, 
+  $base-font-color,
+  $base-border-color;
+
+
+
+.swatches {
+  @include clearfix;
+  @include display(flex);
+  @include justify-content(center);
+  @include align-items(stretch);
+  text-align: center;
+}
+
+.swatch {
+  @include transition (all 0.2s ease-in-out);
+  @include flex(1 .5);
+  @include align-self(stretch);
+  box-shadow: inset 0 0 1px $swatch-border-color, 0 2px 4px darken($base-background-color, 10);
+  border-radius: $base-border-radius;
+  margin: $swatch-gutter;
+  padding: 1em 1em 1.5em 1em;
+  background: $swatch-background;
+
+  @include media($medium-screen) {
+    padding: 2em 2em 3em 2em;
+  }
+  @for $i from 1 to 6 { 
+// assign colors from $swatch-top-colors list
+    &:nth-child(#{$i}) {
+      $color-from-list: nth($swatch-top-colors, $i);
+      border-top: 6px solid shade($color-from-list,10);
+      background: $color-from-list;
+      &:hover {
+        background-color: transparentize($color-from-list, .1);
+      }
+    }
+  }
+}
+
+.swatch img {
+  display: block;
+  opacity: .4;
+  height: 3em;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.swatch .flex-title {
+  color: $swatch-color;
+  font-family: $serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+
+.swatch p {
+  margin: auto;
+  line-height: 1.5em;
+  color: transparentize($swatch-color, .1);
+}
+
+.swatch-big {
+  @include flex(1 1 40em);
+}

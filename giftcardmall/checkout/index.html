@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <base href="../">
+      <meta charset="UTF-8">
+    <title>Gift Card Mall</title>
+	<meta name="Author" content=""/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src='js/plugins/modernizr.min.js'></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script src='js/plugins/selectivizr.js'></script>
+    <![endif]-->
+    
+
+
+
+
+</head>
+<body>
+  
+  <header class="navigation">
+    <div class="row">
+      <div class="navigation-wrapper">
+        <a href="/" class="logo">
+          <img src="img/logo.png" alt="Logo Image">
+        </a>
+        <div class="utility-nav utility-nav--steps">
+          <a href="checkout" class="utility-nav-link icon-signin icon--large"><span>Sign In</span></a>
+          <a href="checkout/payment.html" class="utility-nav-link active icon-payment icon--large"><span>Payment</span></a>
+          <a href="checkout/place-order.html" class="utility-nav-link icon-order icon--large"><span>Place Order</span></a>
+        </div>
+    </div>
+
+  </header>
+
+  <main class="main-section section--subtle">
+    <div class="wrapper-large vertical-divider">
+      <div class="column split-content">
+
+        <form class="form-login">
+          <fieldset>
+            <h4 class="form-title">Returning Customer</h4>
+            <label for="email">Email Address</label>
+            <input type="email" value="" name="email" id="email" placeholder="Email">
+            <label for="password">Password</label>
+            <input type="password" value="" name="password" id="password" placeholder="Password">      
+            <input type="submit" value="Sign In" data-wait="Please wait...">
+            </fieldset>
+        </form>
+
+
+        <form class="form-password">
+          <fieldset>
+            <h6>Forgot Your Password?</h6>
+            <label for="email">Email Address</label>
+            <input type="email" value="" name="email" id="email" placeholder="Email">
+            <input type="submit" value="Send Password" data-wait="Please wait...">
+            </fieldset>
+        </form>
+
+      </div>
+      <div class="column split-content">
+        <h4 class="form-title">New Customer</h4>
+        <div class="new-customer">
+          <h6>Save Time Now</h6>
+          <p>Check out now without creating an account. You can register for faster checkout later.</p>
+          <a href="/checkout/payment.html" class="button">Continue as Guest</a>
+        </div>
+        <div class="new-customer">
+          <h6>Save Time Later</h6>
+          <p>Create a Woolworths account for fast checkout. Manager your order history and access saved card designs.</p>
+          <a href="/checkout/payment.html" class="button">Create Account</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  
+<script src='js/plugins/respond.min.js'></script>
+<script src="js/plugins/picker.js"></script>
+<script src="js/plugins/picker.date.js"></script>
+<script src='js/plugins/smooth-scroll.min.js'></script>
+<script src='js/plugins/waypoints.min.js'></script>
+<script src='js/plugins/waypoints-sticky.min.js'></script>
+<script src='js/plugins/jquery.autotab.min.js'></script>
+<script src='js/plugins/slick.min.js'></script>
+<script src="js/main.js"></script>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=322477137904448&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+    <script src="js/plugins/jquery.payment.js"></script>
+
+  <script>
+    function toggleShippingAddressFields(display) {
+      if (display) {
+        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
+        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
+        $("[name='shipping_city']").val($("[name='billing_city']").val());
+        $("[name='shipping_state']").val($("[name='billing_state']").val());
+        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
+        $("[name='shipping_country']").val($("[name='billing_country']").val());
+        $("#shipping-address").hide();
+      } else {
+          $("#shipping-address").show();
+      }
+    }
+    
+    $(function() {
+      $('.cc-number').payment('formatCardNumber');
+      $('.cc-exp').payment('formatCardExpiry');
+      $('.cc-cvc').payment('formatCardCVC');
+
+      var $shippingCheckbox = $("#billing_is_shipping");
+      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
+      $shippingCheckbox.on('change', function() {      
+        toggleShippingAddressFields($(this).prop('checked')); 
+      });
+      
+    });
+  </script>  
+</body>
+</html>

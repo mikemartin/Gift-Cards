@@ -1,0 +1,77 @@
+$tab-border: 1px solid $base-border-color;
+$tab-content-background: $base-background-color;
+$tab-active-background: $tab-content-background;
+$tab-inactive-color: $light-gray;
+$tab-inactive-hover-color: $base-accent-color;
+$tab-mode: $medium-screen;
+
+.accordion {
+  @include clearfix;
+  line-height: 1.5;
+  margin-bottom: $base-spacing;
+  padding: 0;
+  border-radius: $base-border-radius;
+  border: $tab-border;
+
+  .tab-header-and-content {
+    list-style: none;
+
+    &:first-child .tab-link {
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+      border-top: 0;
+    }
+
+    &:last-child .tab-link {
+      border-bottom-left-radius: $base-border-radius;
+      border-bottom-right-radius: $base-border-radius;
+    }
+  }
+
+  .tab-link {
+    background-color: $tab-inactive-color;
+    border-top: $tab-border;
+    color: $dark-gray;
+    display: block;
+    font-weight: bold;
+    padding: $base-spacing/2 $gutter/2;
+    text-decoration: none;
+    position: relative;
+    &:after {
+      @extend %icon;
+      content: "G";
+      font-size: .8em;
+      @include position(absolute, auto .5em auto auto);
+      color: $dark-gray;
+      @include transition(all .1s ease-in-out);
+      @include transform(rotate(90deg));
+    }
+    
+    &:hover {
+      color: $base-link-color;
+      
+      &:after {
+        @include transform(rotate(0deg));
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.is-active {
+      background-color: $tab-active-background;
+      
+      &:after {
+        @include transform(rotate(0deg));
+      }
+    }
+  }
+
+  .tab-content {
+    background: $tab-content-background;
+    display: none;
+    padding: $base-spacing/2 $gutter;
+    width: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+// Payment Button Group
+
+.payment-types
+  input 
+    float: left
+    margin: .75em 1em
+    display: block
+
+.payment-item 
+  //  +outer-container
+  padding: 0 .5em !important
+  .col 
+    line-height: 40px
+    font-size: .8em
+    display: none
+    img 
+      vertical-align: middle
+      margin-right: 1em
+      width: 40px
+  .col-type
+    display: block
+
+  +media($large-screen)
+    .col
+      display: inline-block
+    .col-type
+      width: 50%
+    .col-name
+      width: 30%
+    .col-date
+      width: 10%
+
+
+  
+// Disabled button style
+input[type="submit"]:disabled 
+  color: rgba(255,255,255,.75)
+  &:hover, &:focus, &:active 
+    color: rgba(255,255,255,.75)
+  
+// Creditcard icons
+input.cc-number 
+  background-position: right 10px center
+  background-repeat: no-repeat
+  &.visa 
+    background-image: url(../img/visa.png)
+  &.discover
+    background-image: url(../img/discover.png)
+  &.mastercard 
+    background-image: url(../img/mastercard.png)
+  &.amex 
+    background-image: url(../img/amex.png)
+
+

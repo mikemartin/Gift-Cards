@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <!-- @include "partials/head" -->
+</head>
+<body>
+  <!-- @include "partials/navigation" -->
+
+  <main class="main-section">
+    <div class="wrapper">
+      <div class="secondary-content">
+          <!-- @include "partials/sidenav" -->
+      </div>
+      <div class="main-content">
+        <h1 class="page-title">Contact Us</h1>
+        <p>We're here to help. Please call us at 1-866-XXX-XXXX or fill out the form below.</p>
+
+        <div class="flash-success">
+          <span>Thank you! We'll get back to your shortly!</span>
+        </div>
+
+        <form>
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" />
+          <label for="name">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" />
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="What can we help you with?"></textarea>
+          <p><input type="submit" value="Send" data-wait="Please wait..."></p>
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- @include "partials/footer" -->
+</body>
+</html>

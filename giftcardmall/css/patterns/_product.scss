@@ -1,0 +1,88 @@
+.product-page {
+  background: $light-gray; 
+}
+
+.product {
+  @include outer-container;
+  margin-bottom: $base-spacing;
+} 
+  
+// Product Type  
+.product-type {
+  margin: 0 20px;
+  
+  .card {
+    margin: 5px;
+    border-radius: 4px;
+    background: transparent;
+    padding: 3px;
+    opacity: .8;
+  }
+  
+  .slick-center .card {
+    background: $base-accent-color;
+    opacity: 1;
+  }
+}
+
+// Product Details
+.product-details {
+  font-size: .8em;
+}
+  
+.product-custom, .product-image {
+  padding-bottom: $base-spacing*2;
+}
+
+@include media($medium-screen) {
+  .product-custom .field-half .field {
+    float: none;
+  }
+  .datepicker {
+    max-width: 16em;
+  } 
+  
+  .product-type {
+    max-width: em(400px);
+  }
+}
+
+// 2-up layout
+@include media(min-width $medium-screen max-width $large-screen) {
+  .product-image {
+    @include span-columns(5);
+  }
+  .product-custom {
+    @include span-columns(6);
+    @include shift(1);
+    @include omega();
+    
+    
+  }
+  .product-recommended {
+    @include span-columns(12);
+  }
+}
+
+// 3-up layout
+@include media($large-screen) {
+  .product-image {
+    @include span-columns(4);
+  }
+  .product-custom {
+    @include span-columns(6);
+  }
+  .product-recommended {
+    @include span-columns(2);
+  }
+  
+  .product .cards--featured .card {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+
+  

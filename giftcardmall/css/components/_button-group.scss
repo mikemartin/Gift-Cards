@@ -1,0 +1,93 @@
+
+
+.button-group {
+  $button-group-background: $base-background-color;
+  $button-group-color: lighten($base-font-color, 10);
+  $button-group-border: 1px solid silver;
+  $button-group-inner-border: 1px solid lighten(silver, 18);
+  $button-group-background-checked: $base-accent-color;
+  $button-group-color-checked: white;
+  $button-group-border-checked: darken($button-group-background-checked, 15);
+  margin-bottom: 1em;
+  @include clearfix;
+
+  input {
+    display: none;
+  }
+  
+  label {
+    margin-bottom: 0;
+    .button-group-item {
+      background: $button-group-background;
+      border-left: $button-group-border;
+      border-right: $button-group-border;
+      border-bottom: $button-group-inner-border;
+      border-radius: 0;
+      color: $button-group-color;
+      cursor: pointer;
+      display: block;
+      font-size: $base-font-size;
+      font-weight: normal;
+      line-height: 1;
+      padding: .75em 1em;
+      width: 100%;
+      
+      &:hover {
+        background-color: darken($button-group-background, 3);
+      }
+    }
+
+    &:first-child .button-group-item {
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+      border-top: $button-group-border;
+    }
+
+    &:last-child .button-group-item {
+      border-bottom-left-radius: $base-border-radius;
+      border-bottom-right-radius: $base-border-radius;
+      border-bottom: $button-group-border;
+
+    }
+
+    input:checked + .button-group-item {
+      background: $button-group-background-checked;
+      border: 1px solid $button-group-border-checked;
+      box-shadow: inset 0 1px 2px darken($button-group-background-checked, 10);
+      color: $button-group-color-checked;
+    }
+  }
+  
+
+  @include media($large-screen) {
+
+    &:not(.button-group--vertical) label {
+      float: left;
+      
+      .button-group-item {
+          border-bottom: $button-group-border;
+          border-left: 0;
+          border-right: $button-group-inner-border;
+          border-top: $button-group-border;
+          width: auto;
+          display: inline-block;
+      }
+
+      &:first-child .button-group-item {
+          border-bottom-left-radius: $base-border-radius;
+          border-left: $button-group-border;
+          border-top-left-radius: $base-border-radius;
+          border-top-right-radius: 0;
+      }
+
+      &:last-child .button-group-item {
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: $base-border-radius;
+          border-right: $button-group-border;
+          border-top-right-radius: $base-border-radius;
+      }
+    }
+  }
+  
+}
+

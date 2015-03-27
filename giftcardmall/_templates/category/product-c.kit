@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <base href="../">
+  <!-- @include "../partials/head" -->
+</head>
+<body>
+  <!-- @include "../partials/navigation" -->
+
+  <main class="section--subtle">
+    <div class="wrapper">
+      <div class="breadcrumb">
+        <a href="javascript:void(0)">Categories</a>
+        <a href="javascript:void(0)">Restaurants</a>
+        <a href="javascript:void(0)">Applebees</a>
+      </div>
+
+      <form class="product">
+        <h1 class="page-title product-title">Applebee's Gift Card</h1>
+        <div class="product-image">
+          <div class="card">
+            <div class="card-image">
+                <img src="img/giftcard.png"/>
+            </div>
+            <div class="card-copy">
+              <small>SKU: 0123456789 | Fee: $0.00<br/>
+              Fee includes card, custom greeting card &amp; standard shipping.</small>
+            </div>
+          </div>
+
+           <ul class="product-details accordion">
+            <li class="tab-header-and-content">
+              <a href="javascript:void(0)" class="tab-link">Description</a>
+              <div class="tab-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem.</p>
+              </div>
+            </li>
+            <li class="tab-header-and-content">
+              <a href="javascript:void(0)" class="tab-link">Disclaimers</a>
+              <div class="tab-content">
+                <p>Ut laoreet augue et neque pretium non sagittis nibh pulvinar. Etiam ornare tincidunt orci quis ultrices. Pellentesque ac sapien ac purus gravida ullamcorper. Duis rhoncus sodales lacus, vitae adipiscing tellus pharetra sed. Praesent bibendum lacus quis metus condimentum ac accumsan orci vulputate.</p>
+              </div>
+            </li>
+            <li class="tab-header-and-content">
+              <a href="javascript:void(0)" class="tab-link">Terms &amp; Conditions</a>
+              <div class="tab-content">
+                <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus dui urna.</p>
+              </div>
+            </li>
+          </ul>
+        </div>  
+
+        <div class="product-custom">
+          <fieldset>
+            <div class="field--small">
+              <label for="gift-amount">Card Amount:</label>
+              <input type="text" pattern="[0-9]*" value="" name="gift-amount" class="product-amount number">
+            </div>
+            
+            <label for="gift-from">From:</label>
+            <input type="text" value="" name="gift-from">
+
+            <label for="gift-message">Card Message:</label>
+            <select name="gift-message">
+              <option value="1">No Message</option>
+              <option value="2">Thank You</option>
+              <option value="3">Great job!</option>
+              <option value="4">Congratulations</option>
+            </select>
+            
+            <div class="field--small">
+              <label for="gift-quantity">Quantity:</label>
+              <select name="gift-quantity" class="product-quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            
+            <div class="field">
+              <p class="instructions"><a href="#">+ Customize multiple cards</a></p>
+            </div>
+            <div class="field">
+              <button type="submit">Select Greet Card</button>
+            </div>
+          </fieldset>
+
+        </div>
+        <div class="product-recommended">
+          <label>You Might Also Like</label>
+          <div class="cards--featured">
+            <div class="card">
+              <div class="card-image">
+                  <a href="category/product.html">
+                    <img src="img/giftcard.png"/>
+                  </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                  <a href="category/product.html">
+                    <img src="img/giftcard.png"/>
+                  </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                  <a href="category/product.html">
+                    <img src="img/giftcard.png"/>
+                  </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                  <a href="category/product.html">
+                    <img src="img/giftcard.png"/>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- @include "../partials/footer" -->
+</body>
+</html>

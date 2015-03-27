@@ -1,0 +1,32 @@
+.scroll-on-page {
+
+  display: inline-block;
+
+  .scroll-links {
+    margin-bottom: $base-spacing*2;
+  }
+  
+  .scroll-on-page-link {
+    border-bottom: 1px solid darken($base-background-color,10);
+    display: block;
+    margin-right: $base-spacing;
+    outline: none;
+    padding: ($base-spacing / 2) 0;
+  }
+
+  article {
+    h5 {
+      margin: 0 0 0.5em 0;
+    }
+    
+    section {
+      padding: 0;
+    }
+
+    section p:last-of-type {
+      margin-bottom: 2em; 
+    }
+
+  }
+}
+

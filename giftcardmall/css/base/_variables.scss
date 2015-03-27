@@ -1,0 +1,79 @@
+// Typography
+$sans-serif: 'Open Sans', $helvetica;
+$serif: 'news-gothic-std', $helvetica;
+$base-font-family: $sans-serif;
+$header-font-family: $base-font-family;
+$icon-font-family: 'Giftcards';
+
+// Font Sizes
+$base-font-size: 1em;
+$h1-font-size: $base-font-size * 2.25;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.5;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+
+// Line height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+// Other Sizes
+$base-border-radius: 0;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+// Colors
+$light-gray: #f6f6f6;
+$medium-gray: darken(white,10);
+$dark-gray: #747474;
+$black: #252625;
+
+$ship-cove: #6c8aba;
+$tree-poppy: #f69323;
+$sprout: #b9d2a4;
+$sage: #97ad88;
+
+$light-red: #f2826c;
+$light-yellow: #fcc170;
+$light-green: #9ACD35;
+$light-blue: #4bbccb;
+
+// UI Colors
+$base-background-color: white;
+$base-accent-color: $ship-cove;
+$base-highlight-color: $tree-poppy;
+$base-button-color: $tree-poppy;
+$base-font-color: $black;
+$base-border-color: #b5b5b4;
+
+// Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+$hover-button-color: lighten($base-button-color, 10);
+
+// Flash Colors
+$alert-color: $light-yellow;
+$error-color: $light-red;
+$notice-color: $light-blue;
+$success-color: $light-green;
+
+// Border
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-border-color: $base-border-color;
+$form-border-color-hover: darken($base-border-color, 10);
+$form-border-color-focus: $base-accent-color;
+$form-border-radius: $base-border-radius;
+$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-font-size: $base-font-size;
+$form-font-family: $base-font-family;
+
+// Slick Carousel
+$slick-font-family: $icon-font-family;
+$slick-prev-character: '\004B' ;
+$slick-next-character: '\004A';
+$slick-loader-path: "../img/";
+$slick-arrow-color: $dark-gray;

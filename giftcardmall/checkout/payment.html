@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <base href="../">
+      <meta charset="UTF-8">
+    <title>Gift Card Mall</title>
+	<meta name="Author" content=""/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src='js/plugins/modernizr.min.js'></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script src='js/plugins/selectivizr.js'></script>
+    <![endif]-->
+    
+
+
+
+
+</head>
+<body>
+  
+  <header class="navigation">
+    <div class="row">
+      <div class="navigation-wrapper">
+        <a href="/" class="logo">
+          <img src="img/logo.png" alt="Logo Image">
+        </a>
+        <div class="utility-nav utility-nav--steps">
+          <a href="checkout" class="utility-nav-link icon-signin icon--large"><span>Sign In</span></a>
+          <a href="checkout/payment.html" class="utility-nav-link active icon-payment icon--large"><span>Payment</span></a>
+          <a href="checkout/place-order.html" class="utility-nav-link icon-order icon--large"><span>Place Order</span></a>
+        </div>
+    </div>
+
+  </header>
+
+  <main class="main-section section--subtle">
+    <div class="wrapper-large vertical-divider">
+      <div class="main-content column">
+        <form class="form-narrow">
+        <fieldset>
+          <legend>Select a Payment</legend>
+          <div class="button-group button-group--vertical payment-types">
+  <label>
+    <input type="radio" name="button-group" value="item" checked>
+    <span class="button-group-item payment-item">
+      <div class="col col-type">
+        <img src="img/visa.png"/> Visa ending 0734
+      </div>
+      <div class="col col-name">Brian Winfield</div>
+      <div class="col col-date">01/2018</div>                      
+    </span>
+  </label>
+  <label>
+    <input type="radio" name="button-group" value="other-item">
+    <span class="button-group-item payment-item">
+      <div class="col col-type">
+        <img src="img/mastercard.png"/> Mastercard ending 0734
+      </div>
+      <div class="col col-name">Brian Winfield</div>
+      <div class="col col-date">01/2018</div>                      
+    </span>
+  </label>
+  <label>
+    <input type="radio" name="button-group" value="third">
+    <span class="button-group-item payment-item">
+      <div class="col col-type">
+        <img src="img/amex.png"/> American Express ending 0734
+      </div>
+      <div class="col col-name">Brian Winfield</div>
+      <div class="col col-date">01/2018</div>                      
+    </span>
+  </label>
+</div>
+        </fieldset>
+        <fieldset>
+          <legend>Add a Credit Card</legend>
+          <label>Credit Card Number</label>
+          <input type="text" data-stripe="number" x-autocompletetype="cc-number" autocompletetype="cc-number" class="cc-number number" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="Card Number" maxlength="19" pattern="[0-9]*"/>
+
+          <div class="field-half">
+            <div class="field">
+              <label>Expiry</label>
+              <input type="text" maxlength="7" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" class="cc-exp number" placeholder="MM / YY" pattern="[0-9]*" />
+            </div>
+            <div class="field">
+              <label>Security Code</label>
+              <input type="text" data-stripe="cvc" type="text" autocompletetype="off" autocorrect="off" spellcheck="off" autocapitalize="off" placeholder="CSC" class="cc-cvc input-small number" maxlength="4" pattern="[0-9]*"/>
+              <div class="tooltip-item">
+                <a href="javascript:void(0)">What's this?</a>
+                <div class="tooltip">
+                  <h3>What is a Security Code?</h3>
+                  <p>A <strong>3 or 4 digit code</strong> on the back or front of your credit card.</p>
+                  <img src="/img/csc.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Billing address</legend>
+          <label>Name on Card</label>
+          <input type="text" name="first_name"/>
+          <label>Address Line 1</label>
+          <input type="text" name="billing_address_1"/>
+          <label>Address Line 2</label>
+          <input type="text" name="billing_address_2"/>
+
+          <div class="field-third">
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="billing_city"/>
+            </div>
+            <div class="field">
+              <label>State</label>
+              <input type="text" class="alphanumeric" name="billing_state" maxlength="2"/>
+            </div>
+            <div class="field">
+              <label>Zip Code</label>
+              <input type="text" class="number" maxlength="5" name="billing_zip" pattern="[0-9]*"/>
+            </div>
+          </div>
+          
+          <label>
+            <input type="checkbox" id="billing_is_shipping" checked="checked"/>
+            Ship items to billing address
+          </label>
+        </fieldset>
+        
+        
+        <fieldset id="shipping-address">
+          <legend>Shipping address</legend>
+          <label>Address Line 1</label>
+          <input type="text" name="shipping_address_1"/>
+          <label>Address Line 2</label>
+          <input type="text" name="shipping_address_2"/>
+          <div class="field-third">
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="shipping_city"/>
+            </div>
+            <div class="field">
+              <label>State</label>
+              <input type="text" class="alphanumeric" maxlength="2" name="shipping_state"/>
+            </div>
+            <div class="field">
+              <label>Zip Code</label>
+              <input type="text" class="number" maxlength="5" name="shipping_zip" pattern="[0-9]*"/>
+            </div>
+          </div>
+        </fieldset>
+        
+        
+        <input type="submit" value="Add New Card" data-wait="Please wait...">
+      </form>      </div>
+      <div class="secondary-content column">
+        <div class="checkout-order">
+          <div class="order-continue">
+            <a href="checkout/place-order.html" class="button order-button">Continue</a>
+            <p>You can review this order before it's final.</p>
+          </div>
+
+          <div class="order-tape">
+            <h4 class="order-tape-title">Order Total</h4>
+            <p>Subtotal: $258.50</p>
+            <p>Shipping: $250.00</p>
+
+            <p class="order-tape-total">Order Total: $522.34</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  
+  
+<script src='js/plugins/respond.min.js'></script>
+<script src="js/plugins/picker.js"></script>
+<script src="js/plugins/picker.date.js"></script>
+<script src='js/plugins/smooth-scroll.min.js'></script>
+<script src='js/plugins/waypoints.min.js'></script>
+<script src='js/plugins/waypoints-sticky.min.js'></script>
+<script src='js/plugins/jquery.autotab.min.js'></script>
+<script src='js/plugins/slick.min.js'></script>
+<script src="js/main.js"></script>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=322477137904448&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+    <script src="js/plugins/jquery.payment.js"></script>
+
+  <script>
+    function toggleShippingAddressFields(display) {
+      if (display) {
+        $("[name='shipping_address_1']").val($("[name='billing_address_1']").val());
+        $("[name='shipping_address_2']").val($("[name='billing_address_2']").val());
+        $("[name='shipping_city']").val($("[name='billing_city']").val());
+        $("[name='shipping_state']").val($("[name='billing_state']").val());
+        $("[name='shipping_zip']").val($("[name='billing_zip']").val());
+        $("[name='shipping_country']").val($("[name='billing_country']").val());
+        $("#shipping-address").hide();
+      } else {
+          $("#shipping-address").show();
+      }
+    }
+    
+    $(function() {
+      $('.cc-number').payment('formatCardNumber');
+      $('.cc-exp').payment('formatCardExpiry');
+      $('.cc-cvc').payment('formatCardCVC');
+
+      var $shippingCheckbox = $("#billing_is_shipping");
+      toggleShippingAddressFields($shippingCheckbox.prop('checked'));
+      $shippingCheckbox.on('change', function() {      
+        toggleShippingAddressFields($(this).prop('checked')); 
+      });
+      
+    });
+  </script>
+  
+</body>
+</html>

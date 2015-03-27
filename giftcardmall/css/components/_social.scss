@@ -1,0 +1,32 @@
+$social: (
+  twitter,
+  google-plus,
+  facebook,
+  pinterest,
+  instagram,
+  linkedin,
+  youtube,
+  mail
+);
+
+.social-icon {
+  @include size(32px 31px);
+  @include hide-text();
+  background-size: 32px 31px;
+  opacity: 1;
+  display: inline-block;
+  margin-right: .25em;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+@each $channel in $social {
+  .social--#{$channel} {
+    @extend .social-icon;
+    background-image: url('../img/social/#{$channel}.png')
+  }
+}
+
+

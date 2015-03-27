@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  -webkit-backface-visibility: hidden;
+}
+
+.main-section {
+  padding: $base-spacing/2 0;
+  
+  @include media($medium-screen) {
+    padding: $base-spacing 0;
+  } 
+}
+
+// Wrapper classes
+.wrapper {
+  @include outer-container;
+  @include pad(1em);
+}
+
+.wrapper-small {
+  @include outer-container(25em);
+  @include pad(1em);
+}
+
+.wrapper-medium {
+  @include outer-container($medium-screen);
+  @include pad(1em);
+}
+  
+.wrapper-large {
+  @include outer-container($large-screen);
+  @include pad(1em);    
+}
+        
+// Row
+.row {
+  @include outer-container;
+}
+
+  
+/* Fixed-Sticky CSS */
+@include media($medium-screen) {
+  .stuck {
+    position: fixed;
+    top: $base-spacing;
+    &.sidebar {
+      width: em(245px);
+    }
+  }
+}
+
+// Adds vertical divider to all columns  
+@include media($medium-screen) {
+  .vertical-divider {
+    clear: both;
+    position: relative;
+    margin-bottom: $base-spacing;
+
+    &:after {
+      clear: both;
+      content: " ";
+      display: block;
+      height: 0;
+      visibility: hidden;
+    }
+
+    .column:not(:first-child):after {
+      background: $base-border-color;
+      @include position(0 null 0 null);
+      content: " ";
+      margin-left: -$gutter;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .column.split-content {
+      @include pad(0 default);
+    }
+  }
+}
+
+
+
+
+

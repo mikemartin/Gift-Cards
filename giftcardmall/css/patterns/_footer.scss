@@ -1,0 +1,99 @@
+.footer {
+
+  $footer-background: $black;
+  $footer-color: white;
+  $footer-link-color: transparentize($footer-color, 0.2);
+  $footer-disclaimer-color: transparentize($footer-color, 0.4);
+
+  background: $footer-background;
+  padding: ($base-spacing * 2) $gutter;
+  width: 100%;
+
+  .footer-logo {
+    margin-bottom: 2em;
+    text-align: center;
+
+    img {
+      height: 3em;
+    }
+  } 
+
+  .footer-links {
+    @include clearfix;
+    margin: $base-spacing 0;
+
+    ul {
+      margin-bottom: $base-spacing;
+
+      @include media($medium-screen) {
+        @include span-columns(4 of 16);
+        @include omega(4n);
+        @include clearfix;
+      }
+    }
+
+    li {
+      text-align: left;
+    }
+
+    li a {
+      color: $footer-link-color;
+
+      &:focus,
+      &:hover {
+        color: transparentize($footer-color, 0);
+      }
+    }
+
+    li h3 {
+      color: $footer-color;
+      font-size: 1em;
+      font-weight: 800;
+      margin-bottom: 0.4em;
+    }  
+  }
+  
+  .footer-help {
+    margin-bottom: $base-spacing; 
+  }
+  
+  @include media($medium-screen) {
+    .footer-help { 
+      @include span-columns(9); 
+      p { margin-bottom: 0; }
+    }
+    .footer-social { 
+      @include span-columns(3);
+      text-align: right;
+    }
+    
+    .footer-companies-label {
+      @include span-columns(3);
+    }
+    
+    .footer-companies {
+      @include span-columns(9);
+    }
+    
+    .footer-copyright { 
+      @include span-columns(8); 
+    }
+    
+    .footer-seals {
+      @include span-columns(4);
+      text-align: right;
+    }
+  }
+  
+  hr {
+    border: 1px solid transparentize($footer-disclaimer-color, 0.3);
+    margin: $base-spacing 0;
+  }
+
+  p {
+    color: $footer-disclaimer-color;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    //margin: auto;
+  }
+}

@@ -1,0 +1,48 @@
+.newsletter {
+  padding: 2.5em 0;
+  position: relative;
+  background: $base-accent-color;
+
+  h1, label { color: white; }
+
+  .newsletter-header {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    
+    h1 { 
+      text-transform: uppercase;
+    }
+    
+    @include media($large-screen) {
+      @include span-columns(4);
+      @include shift(1);
+      
+      h1 {
+        font-size: 3em; 
+        line-height: 1;
+      }
+    }
+  }
+
+
+  .newsletter-form {
+    
+    @include media($large-screen) {
+      @include span-columns(7);
+
+      .field {
+        font-size: 1.5em; 
+        label { font-size: 1em }
+        .button { padding: em(11.5px); }
+      }
+
+      label {
+        font-size: $h4-font-size; 
+        line-height: 1;
+        margin-bottom: .75em;
+      }
+    }
+  }
+
+}

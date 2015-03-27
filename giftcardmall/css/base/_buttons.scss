@@ -1,0 +1,22 @@
+button,
+input[type="submit"], .button {
+  @extend %button;
+  @include appearance(none);
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button--expand {
+  width: 100%;
+  text-align: center;
+}
+
+.button--large {
+  @extend .button;
+  @include media($medium-screen) {
+    font-size: 1.5em; 
+  } 
+}

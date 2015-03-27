@@ -1,0 +1,20 @@
+@include media (max-width $medium-screen) {
+  %small-hide,
+  .small-hide{
+      display: none !important;
+  }  
+}
+
+@include media ($medium-screen) {
+  %medium-hide,
+  .medium-hide{
+      display: none !important;
+  }  
+}
+
+@include media ($large-screen) {
+  %large-hide,
+  .large-hide{
+      display: none !important;
+  }
+}

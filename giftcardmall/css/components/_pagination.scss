@@ -1,0 +1,144 @@
+
+.pagination {
+  $pagination-border-color: $base-border-color;
+  $pagination-border: 1px solid $pagination-border-color;
+  $pagination-background: $light-gray;
+  $pagination-hover-background: white;
+  $pagination-color: $base-font-color;
+  $pagination-height: 40px;
+  $pagination-padding: 1em;
+  margin: 1em 0;
+  font-size: .8em;
+  line-height: 1.6em;
+  text-align: center;
+  @include clearfix;
+  
+  .pagination-wrapper {
+    background: $pagination-background;
+    border: $pagination-border;
+    @include clearfix;
+    margin-bottom: .5em;
+    
+    a {
+      color: $pagination-color; 
+    }
+  }
+  
+  .pagination-pages, .pagination-count, .pagination-perpage {
+    display: inline-block;
+    
+    float: left;
+  }
+
+  @include media($large-screen) {
+    margin: 2em 0;
+    
+    .pagination-pages {
+      float: right;
+    }
+  }
+  
+  .pagination-count {
+    margin-right: 1.5em;
+    line-height: $pagination-height;
+    padding: 0 ($pagination-padding * 2.5) 0 $pagination-padding;
+  }
+  
+  .pagination-perpage {
+    display: none;
+    @include media($large-screen) {
+      display: block;
+    }
+  }
+
+  .pagination-sort {
+    float: right; 
+    .dropdown-button {
+      border: 0;
+      background: $light-gray;
+    }
+    
+    .dropdown-menu {
+      width: 150px;
+    }
+  }
+  
+  .pagination-atoz {
+    margin: 1em 0;
+    
+    ul.pagination-list {
+      line-height: $base-line-height;
+    }
+    a { 
+      color: $base-accent-color; 
+    } 
+    @include media($large-screen) {
+      font-size: 1.25em;
+    }
+  }
+ 
+  ul.pagination-list {
+    display: inline;
+    text-align: center;
+    padding: 0 ($pagination-padding * 2.5) 0 $pagination-padding;
+    line-height: $pagination-height;
+    
+    ul, li {
+      display: inline;
+      line-height: $base-line-height;
+    }
+
+    ul li {
+      display: none;
+      
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5) {
+        display: inline;
+      }
+
+      @include media($large-screen) {
+        display: inline;
+      }
+    }
+
+    
+    li a {
+      @include transition (all 0.2s ease-in-out);
+      display: inline-block;
+      background: transparent;
+      border: $pagination-border;
+      border-color: transparent;
+      border-radius: 0.8em;
+      text-align: center;
+      width: 1.6em; 
+
+      &:hover,
+      &:focus {
+        background: $pagination-hover-background;
+        color: $base-link-color;
+      }
+
+      &:active {
+        background: $pagination-background;
+      }
+    }
+    
+    li[class^="page-"] a {
+      border: $pagination-border;
+    }
+    
+    li.active a {
+      font-weight: bold;
+    }
+  }
+  
+  [class^="icon-"]:before,
+  [class*=" icon-"]:before {
+    margin: 0;
+    font-size: .5em;
+    vertical-align: baseline;
+  }
+}

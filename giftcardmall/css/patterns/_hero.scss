@@ -1,0 +1,120 @@
+$hero-height: em(420px);
+$hero-padding-vertical: 5em;
+$hero-padding-horizontal: .4em;
+$hero-image-width: 30em;
+$hero-screen-height: 25em;
+$hero-background: darken(gray, 40);
+$hero-backside-background: darken($hero-background, 10);
+$hero-text-color: white;
+$hero-background-top: $base-highlight-color; 
+$hero-background-bottom: white;
+$gradient-angle: 10deg;
+$hero-image: '../img/banners/smiling-shopper.jpg';
+
+.hero {
+  background-color: $black;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  .hero-wrapper {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
+    overflow: hidden;
+    //min-height: $hero-height;
+    @include media($large-screen) {
+      //min-height: $hero-height;
+    }
+  }
+  
+  .hero-background {
+    @include position(absolute, 0 0 0 0);
+    background-image: url($hero-image); 
+    background-position: top center;
+    background-size: cover;
+    
+    @include media($large-screen) {
+      background-position: top center;
+      background-size: cover;
+    }
+  }
+}
+
+.hero--2 {
+  background-image: url('../img/banners/girls-walking.jpg'); 
+}
+
+.hero--3 {
+  background-image: url('../img/banners/boy-with-dog.jpg'); 
+}
+
+.hero--business {
+  .hero-background {
+    background-image: url('../img/banners/handshake.jpg');
+    opacity: .5;
+  }
+}
+
+
+.hero-text {
+  color: $hero-text-color;
+  font-size: em(12);
+  text-align: center;
+  padding: $hero-height/3 0;
+  @include media($large-screen) {
+    padding: $hero-height/4 0;
+    font-size: 1em;
+  }
+  
+  h1 {
+    line-height: 1;    
+    font-size: $base-font-size * 3;
+  }
+  
+  h1, h2, h3, h4 {
+    color: inherit;
+    margin-bottom: 1rem;
+    text-shadow: 0px 0px 10px shade($base-font-color, 40);
+  }
+
+  p {
+    color: inherit;
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.3;
+  }
+}
+
+.hero-text--left {
+  @extend .hero-text;
+  max-width: 80%;
+  text-align: left;
+  @include media($large-screen) {
+    max-width: 50%;
+    float: left;
+  }
+}
+
+.hero-carousel {
+  .slick-prev,
+  .slick-next {
+    height: 50px;
+    width: 50px;
+    background: transparentize($black, .4);
+    margin-top: -40px;
+    
+    &:focus {
+      background: transparentize($black, .4);
+    }
+    &:hover {
+      background: transparentize($black, .1);
+    }
+  }
+  
+  .slick-prev { left: 0px; }
+  
+  .slick-next { right: 0px; }
+}

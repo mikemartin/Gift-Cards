@@ -1,0 +1,56 @@
+    
+// Sections
+section, .section {
+  padding: $base-spacing 0;
+  margin-bottom: $base-spacing;
+  
+  @include media($medium-screen) {
+    padding: $base-spacing*2 0;
+    margin-bottom: $base-spacing*2;
+  }
+}
+
+.section--centering {
+  text-align: center; 
+}
+
+.section-header {
+  margin-bottom: $base-spacing;
+}
+
+.section-footer {
+  margin-top: $base-spacing;
+}
+
+
+
+  
+
+// Section colors 
+
+.section--accent, 
+.section--highlight, 
+.section--subtle { 
+  margin-bottom: 0; 
+}
+
+.section--accent { background: $base-accent-color; }
+.section--highlight { background: $base-highlight-color; }
+.section--subtle, 
+.section--subtle .title-line h2 { 
+  background: $light-gray; 
+}
+
+.section--accent, 
+.section--highlight {
+  * { color: white; }
+  
+  a:not(.button) {
+    font-weight: bold; 
+    text-decoration: underline;
+    &:hover { color: transparentize(white,.2); }
+  }
+}
+
+
+  

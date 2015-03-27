@@ -1,0 +1,85 @@
+$flash-red: tint($error-color,70);
+$flash-yellow: tint($alert-color,70);
+$flash-green: tint($success-color,70);
+$flash-blue: tint($notice-color,70);
+
+%flash-base {
+  display: block;
+  font-weight: normal;
+  margin-bottom: $base-spacing / 2;
+  padding: $base-spacing / 2;
+}
+
+$flashes: (alert: $flash-yellow, error: $flash-red, notice: $flash-blue, success: $flash-green);
+
+@each $flash, $color in $flashes {
+  .flash-#{$flash} {
+    @extend %flash-base;
+    background: $color;
+    color: darken($color, 60);
+    
+    a {
+      color: darken($color, 70);
+      border-bottom: 1px solid transparentize(darken($color, 70), .7);
+
+      &:hover {
+        color: darken($color, 90);
+      }
+    }
+    
+    &:before {
+      font-family: 'Giftcards';
+      display: inline-block;
+      font-size: 1em;
+      color: inherit;
+      vertical-align: middle;
+      margin-right: .3em;
+      font-style: normal;
+      font-weight: normal !important;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+}
+
+
+.flash-alert:before {
+  content: "Y";
+}
+
+.flash-error:before {
+  content: "W";
+}
+
+.flash-notice:before {
+  content: "X";
+}
+
+.flash-success:before {
+  content: "V";
+}
+
+
+// Promo Flash
+.promo {
+  @extend %flash-base;
+  margin-bottom: 0;
+  background: $base-accent-color;
+  text-align: center;
+  color: white;
+  
+  a { color: inherit; }
+  
+  p { 
+    margin: 0;
+    font-size: .9em;
+  }
+  
+  @include media($large-screen) {
+    padding: $base-spacing;
+    p {
+      font-size: $h1-font-size;
+      line-height: 1;
+    }
+  }
+}
+

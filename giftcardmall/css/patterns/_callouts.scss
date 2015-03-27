@@ -1,0 +1,69 @@
+.callouts {  
+  margin-bottom: 1em;
+  padding: 2.5em 0;
+  width: 100%;
+  text-align: center;
+  
+  .callout {
+    @include media(min-width $medium-screen max-width $large-screen) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+
+    @include media($large-screen) {
+      @include span-columns(4);  
+      @include omega(3n);
+    }
+  }
+}
+
+.callout {
+  @include transition (all 0.2s ease-in-out);
+  margin-bottom: 1em;
+  position: relative;
+  @include media($medium-screen) {
+    margin-bottom: 0;
+  }
+
+  .callout-image {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    .callout-image-hover {
+      @include position(absolute,0 0 0 0);
+      @include transition (all 0.2s ease-in-out);
+      @include transform(translate(0, 100%));
+      background: transparentize($base-accent-color,.5);
+      padding-top: 25%;
+      
+      @include media($large-screen) {
+        padding-top: 20%;
+      }
+    }
+    
+    &:hover .callout-image-hover {
+      @include transform(translate(0, 0));
+    }
+    
+    img { display: block; }
+    
+    .button {
+      background: transparent; 
+      border: 2px solid white;
+      @include media($large-screen) {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+
+  .callout-text {
+    padding: $base-spacing/2 $gutter/2;
+    text-align: center;
+    
+    h3 {
+      margin-bottom: $base-spacing/3;
+    }
+  }
+
+}

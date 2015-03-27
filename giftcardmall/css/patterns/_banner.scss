@@ -1,0 +1,50 @@
+.banner {
+  padding: 2.5em 0;
+  position: relative;
+  background: white;
+  display: table;
+  margin: 0 auto;
+  
+  .banner-image {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: $base-spacing;
+    @include media($large-screen) {
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+      padding: 0 $gutter;
+    }
+  }
+
+
+  .banner-text {
+    
+    @include media($large-screen) {
+      padding: 0 $gutter;
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+    }
+    
+    h1 {
+      line-height: 1;
+      text-transform: uppercase;
+      margin-bottom: .25em;
+      
+      @include media($large-screen) {
+        font-size: 3em; 
+      }
+    }
+    
+    .button {
+      margin-top: 1em; 
+      @include media($large-screen) {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+}

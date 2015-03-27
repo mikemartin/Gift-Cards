@@ -1,0 +1,43 @@
+$badge-font-size: .75em;
+
+@mixin badge($color: $base-highlight-color) {  
+  background-color: $color;
+  border-radius: 4px;
+  color: darken($color, 60%);
+  display: inline-block;
+  font-size: $badge-font-size;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.4em .6em;
+  
+}
+
+.badge {
+  @include badge;
+  color: white;
+}
+
+.badge-alert {
+  @include badge($alert-color);
+}
+
+.badge-error {
+  @include badge($error-color);
+}
+
+.badge-notice {
+  @include badge($notice-color);
+}
+
+.badge-success {
+  @include badge($success-color);
+}
+
+.cart-badge {
+  @include badge;
+  background-color: white;
+  color: $base-highlight-color;
+  border: 2px solid $base-accent-color;
+  border-radius: $badge-font-size * 5;
+  font-size: 1em;
+}
