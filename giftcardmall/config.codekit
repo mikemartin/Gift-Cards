@@ -3396,17 +3396,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/banners\/handshake.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 134510,
-		"inputAbbreviatedPath": "\/img\/banners\/handshake.jpg",
-		"outputAbbreviatedPath": "\/img\/banners\/handshake.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/banners\/smiling-shopper.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
